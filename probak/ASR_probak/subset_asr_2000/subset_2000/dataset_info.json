@@ -1,0 +1,102 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "common_voice_es_16_1_accent",
+  "dataset_size": 8924152543,
+  "description": "",
+  "download_size": 8755162997,
+  "features": {
+    "client_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "path": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "audio": {
+      "sampling_rate": 48000,
+      "_type": "Audio"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "up_votes": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "down_votes": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "age": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gender": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "accent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "locale": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "segment": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "variant": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 17679315540,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 8807924058,
+      "num_examples": 236042,
+      "shard_lengths": [
+        11441,
+        11641,
+        11540,
+        11940,
+        12040,
+        12440,
+        12740,
+        13540,
+        15180,
+        14340,
+        15140,
+        15780,
+        17340,
+        16180,
+        11540,
+        12640,
+        12840,
+        7740
+      ],
+      "dataset_name": "common_voice_es_16_1_accent"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 116228485,
+      "num_examples": 2752,
+      "dataset_name": "common_voice_es_16_1_accent"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,13 @@
+
+CPU RESULTS
+
+Model: phi3:mini
+
+Samples: 1000
+
+Format valid: 275/1000 (27.50%)
+Rules valid: 258/1000 (25.80%)
+Exact match: 145/1000 (14.50%)
+
+Avg latency: 6.2666s
+Throughput: 0.16 samples/sec

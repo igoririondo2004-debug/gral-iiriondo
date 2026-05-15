@@ -1,0 +1,12 @@
+
+===============================
+WAV2VEC2 LARGE XLSR SPANISH
+===============================
+
+Samples: 2000
+
+WER mean: 0.2091
+CER mean: 0.0475
+RTF mean: 0.0023
+
+Avg latency: 0.0106s

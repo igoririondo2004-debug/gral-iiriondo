@@ -1,0 +1,12 @@
+
+===============================
+WHISPER SMALL (OPTIMIZED)
+===============================
+
+Samples: 2000
+
+WER mean: 0.1873
+CER mean: 0.0617
+RTF mean: 0.0327
+
+Avg latency: 0.1621s

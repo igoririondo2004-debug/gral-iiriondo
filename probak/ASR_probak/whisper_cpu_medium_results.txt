@@ -1,0 +1,12 @@
+
+===============================
+WHISPER MEDIUM (CPU ONLY)
+===============================
+
+Samples: 2000
+
+WER mean: 0.1414
+CER mean: 0.0471
+RTF mean: 0.7177
+
+Avg latency: 3.4835s

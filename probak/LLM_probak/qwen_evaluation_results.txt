@@ -1,0 +1,10 @@
+==================== RESULTS ====================
+Total samples: 1000
+
+Format valid: 997/1000 (99.70%)
+Rules valid: 810/1000 (81.00%)
+Exact match: 584/1000 (58.40%)
+
+Avg latency per sample: 0.0160 s
+Throughput: 62.49 samples/sec
+================================================

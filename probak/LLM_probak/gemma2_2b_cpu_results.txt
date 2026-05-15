@@ -1,0 +1,13 @@
+
+CPU RESULTS
+
+MODEL: gemma2:2b
+
+Samples: 1000
+
+Format valid: 1000/1000
+Rules valid: 753/1000
+Exact match: 512/1000
+
+Avg latency: 1.1481s
+Throughput: 0.87 samples/sec

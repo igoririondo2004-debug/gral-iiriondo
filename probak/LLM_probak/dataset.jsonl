@@ -1,0 +1,1000 @@
+{"input": "Quiero que camina a dormitorio", "expected": {"goal": "dormitorio", "via": []}}
+{"input": "Quiero que desplázate a oficina pasando por armario", "expected": {"goal": "oficina", "via": ["armario"]}}
+{"input": "Quiero que avanza a oficina pasando por sofá", "expected": {"goal": "oficina", "via": ["sofá"]}}
+{"input": "Quiero que camina a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "A librería, camina pasando por ventana", "expected": {"goal": "librería", "via": ["ventana"]}}
+{"input": "Quiero que anda a comedor pasando por pasillo", "expected": {"goal": "comedor", "via": ["pasillo"]}}
+{"input": "muévete a pasillo pasando por puerta y ventana", "expected": {"goal": "pasillo", "via": ["puerta", "ventana"]}}
+{"input": "Para llegar a oficina, ve", "expected": {"goal": "oficina", "via": []}}
+{"input": "Vale, anda a puerta, pero asegúrate de pasar por ventana antes", "expected": {"goal": "puerta", "via": ["ventana"]}}
+{"input": "Tienes que dirígete hacia lavadero; antes pasa por armario", "expected": {"goal": "lavadero", "via": ["armario"]}}
+{"input": "A comedor, desplázate pasando por cama y oficina", "expected": {"goal": "comedor", "via": ["cama", "oficina"]}}
+{"input": "Tienes que dirígete hacia pasillo; antes pasa por ventana y librería", "expected": {"goal": "pasillo", "via": ["ventana", "librería"]}}
+{"input": "Vale, dirígete a trastero, pero pasando antes por silla y baño", "expected": {"goal": "trastero", "via": ["silla", "baño"]}}
+{"input": "camina a persona pasando por baño", "expected": {"goal": "persona", "via": ["baño"]}}
+{"input": "Para llegar a cama, desplázate pasando por pared y dormitorio", "expected": {"goal": "cama", "via": ["pared", "dormitorio"]}}
+{"input": "Quiero que muévete a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "A dormitorio, muévete pasando por armario", "expected": {"goal": "dormitorio", "via": ["armario"]}}
+{"input": "Vale, desplázate a despacho, pero asegúrate de pasar por baño antes", "expected": {"goal": "despacho", "via": ["baño"]}}
+{"input": "Quiero que avanza a salida pasando por salón", "expected": {"goal": "salida", "via": ["salón"]}}
+{"input": "Quiero que muévete a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Tienes que ve hacia pasillo; antes pasa por comedor y cama", "expected": {"goal": "pasillo", "via": ["comedor", "cama"]}}
+{"input": "A salón, desplázate pasando por ascensor", "expected": {"goal": "salón", "via": ["ascensor"]}}
+{"input": "Tienes que camina hacia ventana; antes pasa por puerta y salida", "expected": {"goal": "ventana", "via": ["puerta", "salida"]}}
+{"input": "ve a sala vía comedor y lavadero", "expected": {"goal": "sala", "via": ["comedor", "lavadero"]}}
+{"input": "A trastero, camina pasando por escritorio", "expected": {"goal": "trastero", "via": ["escritorio"]}}
+{"input": "Quiero que camina a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Quiero que desplázate a baño", "expected": {"goal": "baño", "via": []}}
+{"input": "avanza a escaleras", "expected": {"goal": "escaleras", "via": []}}
+{"input": "A escaleras, anda pasando por ascensor", "expected": {"goal": "escaleras", "via": ["ascensor"]}}
+{"input": "Para llegar a pasillo, navega", "expected": {"goal": "pasillo", "via": []}}
+{"input": "Para llegar a sala, camina", "expected": {"goal": "sala", "via": []}}
+{"input": "avanza a puerta vía escaleras", "expected": {"goal": "puerta", "via": ["escaleras"]}}
+{"input": "Para llegar a escritorio, anda pasando por estudio", "expected": {"goal": "escritorio", "via": ["estudio"]}}
+{"input": "Vale, desplázate a oficina, pero asegúrate de pasar por mesa antes", "expected": {"goal": "oficina", "via": ["mesa"]}}
+{"input": "Quiero que avanza a oficina", "expected": {"goal": "oficina", "via": []}}
+{"input": "anda a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "A pared, desplázate pasando por trastero", "expected": {"goal": "pared", "via": ["trastero"]}}
+{"input": "desplázate a sofá vía oficina", "expected": {"goal": "sofá", "via": ["oficina"]}}
+{"input": "Quiero que dirígete a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "ve a comedor vía estantería y columna", "expected": {"goal": "comedor", "via": ["estantería", "columna"]}}
+{"input": "Tienes que anda hacia ascensor; antes pasa por comedor y cama", "expected": {"goal": "ascensor", "via": ["comedor", "cama"]}}
+{"input": "Para llegar a pared, desplázate", "expected": {"goal": "pared", "via": []}}
+{"input": "A armario, navega pasando por mesa", "expected": {"goal": "armario", "via": ["mesa"]}}
+{"input": "Para llegar a puerta, ve pasando por escaleras y salida", "expected": {"goal": "puerta", "via": ["escaleras", "salida"]}}
+{"input": "Para llegar a ascensor, avanza pasando por despacho", "expected": {"goal": "ascensor", "via": ["despacho"]}}
+{"input": "Vale, navega a dormitorio, pero asegúrate de pasar por oficina antes", "expected": {"goal": "dormitorio", "via": ["oficina"]}}
+{"input": "Tienes que avanza hacia mesa; antes pasa por estudio", "expected": {"goal": "mesa", "via": ["estudio"]}}
+{"input": "Quiero que desplázate a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "anda a lavadero vía garaje y baño", "expected": {"goal": "lavadero", "via": ["garaje", "baño"]}}
+{"input": "Tienes que muévete hacia escaleras; antes pasa por sala", "expected": {"goal": "escaleras", "via": ["sala"]}}
+{"input": "A cocina, navega pasando por pared", "expected": {"goal": "cocina", "via": ["pared"]}}
+{"input": "anda a sofá", "expected": {"goal": "sofá", "via": []}}
+{"input": "Tienes que avanza hacia salida; antes pasa por armario", "expected": {"goal": "salida", "via": ["armario"]}}
+{"input": "Vale, dirígete a mesa, pero asegúrate de pasar por garaje antes", "expected": {"goal": "mesa", "via": ["garaje"]}}
+{"input": "avanza a sofá", "expected": {"goal": "sofá", "via": []}}
+{"input": "Tienes que navega hacia cama; antes pasa por librería", "expected": {"goal": "cama", "via": ["librería"]}}
+{"input": "navega a pasillo vía garaje y ascensor", "expected": {"goal": "pasillo", "via": ["garaje", "ascensor"]}}
+{"input": "camina a cama vía silla", "expected": {"goal": "cama", "via": ["silla"]}}
+{"input": "desplázate a cocina vía sofá", "expected": {"goal": "cocina", "via": ["sofá"]}}
+{"input": "anda a oficina pasando por trastero", "expected": {"goal": "oficina", "via": ["trastero"]}}
+{"input": "navega a cocina", "expected": {"goal": "cocina", "via": []}}
+{"input": "Quiero que dirígete a escaleras pasando por pared y oficina", "expected": {"goal": "escaleras", "via": ["pared", "oficina"]}}
+{"input": "avanza a cocina vía librería", "expected": {"goal": "cocina", "via": ["librería"]}}
+{"input": "Vale, muévete a oficina, pero asegúrate de pasar por comedor antes", "expected": {"goal": "oficina", "via": ["comedor"]}}
+{"input": "Vale, desplázate a lavadero, pero asegúrate de pasar por puerta antes", "expected": {"goal": "lavadero", "via": ["puerta"]}}
+{"input": "Para llegar a sala, muévete pasando por comedor", "expected": {"goal": "sala", "via": ["comedor"]}}
+{"input": "Vale, anda a pasillo, pero asegúrate de pasar por habitación antes", "expected": {"goal": "pasillo", "via": ["habitación"]}}
+{"input": "Quiero que desplázate a lavadero pasando por mostrador", "expected": {"goal": "lavadero", "via": ["mostrador"]}}
+{"input": "Para llegar a cocina, muévete pasando por pared y estudio", "expected": {"goal": "cocina", "via": ["pared", "estudio"]}}
+{"input": "dirígete a pared", "expected": {"goal": "pared", "via": []}}
+{"input": "Para llegar a silla, avanza pasando por oficina", "expected": {"goal": "silla", "via": ["oficina"]}}
+{"input": "Para llegar a oficina, avanza", "expected": {"goal": "oficina", "via": []}}
+{"input": "Para llegar a garaje, dirígete", "expected": {"goal": "garaje", "via": []}}
+{"input": "Para llegar a armario, anda pasando por librería", "expected": {"goal": "armario", "via": ["librería"]}}
+{"input": "Tienes que desplázate hacia cama; antes pasa por sala", "expected": {"goal": "cama", "via": ["sala"]}}
+{"input": "Tienes que avanza hacia ventana; antes pasa por sofá", "expected": {"goal": "ventana", "via": ["sofá"]}}
+{"input": "Tienes que dirígete hacia sala; antes pasa por salón y baño", "expected": {"goal": "sala", "via": ["salón", "baño"]}}
+{"input": "Para llegar a comedor, ve", "expected": {"goal": "comedor", "via": []}}
+{"input": "Para llegar a estantería, camina pasando por estudio", "expected": {"goal": "estantería", "via": ["estudio"]}}
+{"input": "Vale, ve a dormitorio, pero asegúrate de pasar por armario antes", "expected": {"goal": "dormitorio", "via": ["armario"]}}
+{"input": "Quiero que navega a estudio pasando por estantería y habitación", "expected": {"goal": "estudio", "via": ["estantería", "habitación"]}}
+{"input": "A pared, desplázate pasando por mostrador", "expected": {"goal": "pared", "via": ["mostrador"]}}
+{"input": "Para llegar a persona, avanza", "expected": {"goal": "persona", "via": []}}
+{"input": "muévete a despacho pasando por estudio y estantería", "expected": {"goal": "despacho", "via": ["estudio", "estantería"]}}
+{"input": "anda a ascensor vía habitación", "expected": {"goal": "ascensor", "via": ["habitación"]}}
+{"input": "camina a dormitorio pasando por pared", "expected": {"goal": "dormitorio", "via": ["pared"]}}
+{"input": "Quiero que dirígete a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "Vale, avanza a ventana, pero asegúrate de pasar por mostrador antes", "expected": {"goal": "ventana", "via": ["mostrador"]}}
+{"input": "Tienes que navega hacia baño; antes pasa por persona y dormitorio", "expected": {"goal": "baño", "via": ["persona", "dormitorio"]}}
+{"input": "Quiero que muévete a dormitorio", "expected": {"goal": "dormitorio", "via": []}}
+{"input": "muévete a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "Vale, avanza a cocina, pero pasando antes por escritorio y silla", "expected": {"goal": "cocina", "via": ["escritorio", "silla"]}}
+{"input": "avanza a lavadero vía escaleras", "expected": {"goal": "lavadero", "via": ["escaleras"]}}
+{"input": "Vale, anda a estantería, pero pasando antes por garaje y columna", "expected": {"goal": "estantería", "via": ["garaje", "columna"]}}
+{"input": "Quiero que anda a puerta pasando por oficina", "expected": {"goal": "puerta", "via": ["oficina"]}}
+{"input": "Para llegar a ventana, ve", "expected": {"goal": "ventana", "via": []}}
+{"input": "Quiero que ve a silla pasando por columna", "expected": {"goal": "silla", "via": ["columna"]}}
+{"input": "desplázate a salida", "expected": {"goal": "salida", "via": []}}
+{"input": "Quiero que camina a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "Quiero que avanza a garaje pasando por comedor y columna", "expected": {"goal": "garaje", "via": ["comedor", "columna"]}}
+{"input": "muévete a comedor pasando por baño y puerta", "expected": {"goal": "comedor", "via": ["baño", "puerta"]}}
+{"input": "Vale, muévete a baño, pero asegúrate de pasar por comedor antes", "expected": {"goal": "baño", "via": ["comedor"]}}
+{"input": "Tienes que avanza hacia armario; antes pasa por librería y sala", "expected": {"goal": "armario", "via": ["librería", "sala"]}}
+{"input": "A dormitorio, muévete pasando por habitación", "expected": {"goal": "dormitorio", "via": ["habitación"]}}
+{"input": "desplázate a ascensor vía puerta", "expected": {"goal": "ascensor", "via": ["puerta"]}}
+{"input": "Vale, anda a comedor, pero asegúrate de pasar por lavadero antes", "expected": {"goal": "comedor", "via": ["lavadero"]}}
+{"input": "Para llegar a librería, desplázate pasando por mostrador", "expected": {"goal": "librería", "via": ["mostrador"]}}
+{"input": "avanza a escaleras vía garaje y librería", "expected": {"goal": "escaleras", "via": ["garaje", "librería"]}}
+{"input": "Quiero que desplázate a escritorio", "expected": {"goal": "escritorio", "via": []}}
+{"input": "anda a estantería vía cocina y ascensor", "expected": {"goal": "estantería", "via": ["cocina", "ascensor"]}}
+{"input": "Quiero que desplázate a lavadero pasando por ascensor y ventana", "expected": {"goal": "lavadero", "via": ["ascensor", "ventana"]}}
+{"input": "Vale, avanza a oficina, pero asegúrate de pasar por silla antes", "expected": {"goal": "oficina", "via": ["silla"]}}
+{"input": "avanza a cocina vía mesa y habitación", "expected": {"goal": "cocina", "via": ["mesa", "habitación"]}}
+{"input": "Vale, anda a cama, pero asegúrate de pasar por oficina antes", "expected": {"goal": "cama", "via": ["oficina"]}}
+{"input": "anda a sofá pasando por ventana y comedor", "expected": {"goal": "sofá", "via": ["ventana", "comedor"]}}
+{"input": "anda a ventana pasando por armario y dormitorio", "expected": {"goal": "ventana", "via": ["armario", "dormitorio"]}}
+{"input": "Para llegar a garaje, camina pasando por escaleras", "expected": {"goal": "garaje", "via": ["escaleras"]}}
+{"input": "anda a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "avanza a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "Tienes que avanza hacia lavadero; antes pasa por puerta", "expected": {"goal": "lavadero", "via": ["puerta"]}}
+{"input": "Vale, avanza a lavadero, pero asegúrate de pasar por librería antes", "expected": {"goal": "lavadero", "via": ["librería"]}}
+{"input": "Para llegar a armario, camina pasando por cama", "expected": {"goal": "armario", "via": ["cama"]}}
+{"input": "Para llegar a armario, camina", "expected": {"goal": "armario", "via": []}}
+{"input": "Para llegar a oficina, muévete", "expected": {"goal": "oficina", "via": []}}
+{"input": "A salida, ve pasando por mostrador", "expected": {"goal": "salida", "via": ["mostrador"]}}
+{"input": "Tienes que anda hacia pasillo; antes pasa por silla y dormitorio", "expected": {"goal": "pasillo", "via": ["silla", "dormitorio"]}}
+{"input": "Quiero que navega a persona pasando por columna", "expected": {"goal": "persona", "via": ["columna"]}}
+{"input": "Tienes que avanza hacia cama; antes pasa por librería", "expected": {"goal": "cama", "via": ["librería"]}}
+{"input": "Para llegar a pared, dirígete pasando por armario", "expected": {"goal": "pared", "via": ["armario"]}}
+{"input": "Tienes que avanza hacia pared; antes pasa por habitación", "expected": {"goal": "pared", "via": ["habitación"]}}
+{"input": "Tienes que camina hacia lavadero; antes pasa por dormitorio y baño", "expected": {"goal": "lavadero", "via": ["dormitorio", "baño"]}}
+{"input": "Quiero que dirígete a pared", "expected": {"goal": "pared", "via": []}}
+{"input": "Vale, anda a silla, pero pasando antes por mostrador y oficina", "expected": {"goal": "silla", "via": ["mostrador", "oficina"]}}
+{"input": "Para llegar a armario, anda pasando por baño y oficina", "expected": {"goal": "armario", "via": ["baño", "oficina"]}}
+{"input": "dirígete a armario vía puerta", "expected": {"goal": "armario", "via": ["puerta"]}}
+{"input": "Tienes que desplázate hacia estudio; antes pasa por silla", "expected": {"goal": "estudio", "via": ["silla"]}}
+{"input": "Quiero que ve a ascensor", "expected": {"goal": "ascensor", "via": []}}
+{"input": "dirígete a sofá vía salón", "expected": {"goal": "sofá", "via": ["salón"]}}
+{"input": "Vale, navega a silla, pero asegúrate de pasar por lavadero antes", "expected": {"goal": "silla", "via": ["lavadero"]}}
+{"input": "A comedor, desplázate pasando por librería", "expected": {"goal": "comedor", "via": ["librería"]}}
+{"input": "Para llegar a mostrador, camina pasando por despacho", "expected": {"goal": "mostrador", "via": ["despacho"]}}
+{"input": "Para llegar a ascensor, camina", "expected": {"goal": "ascensor", "via": []}}
+{"input": "Para llegar a ascensor, camina pasando por puerta y escaleras", "expected": {"goal": "ascensor", "via": ["puerta", "escaleras"]}}
+{"input": "Quiero que desplázate a ascensor pasando por estantería y librería", "expected": {"goal": "ascensor", "via": ["estantería", "librería"]}}
+{"input": "desplázate a mostrador pasando por silla y pasillo", "expected": {"goal": "mostrador", "via": ["silla", "pasillo"]}}
+{"input": "Tienes que ve hacia escaleras; antes pasa por trastero", "expected": {"goal": "escaleras", "via": ["trastero"]}}
+{"input": "avanza a escaleras", "expected": {"goal": "escaleras", "via": []}}
+{"input": "Para llegar a estudio, ve", "expected": {"goal": "estudio", "via": []}}
+{"input": "Para llegar a persona, ve pasando por cama", "expected": {"goal": "persona", "via": ["cama"]}}
+{"input": "Tienes que dirígete hacia silla; antes pasa por garaje", "expected": {"goal": "silla", "via": ["garaje"]}}
+{"input": "Para llegar a mesa, anda", "expected": {"goal": "mesa", "via": []}}
+{"input": "Para llegar a mostrador, camina pasando por mesa", "expected": {"goal": "mostrador", "via": ["mesa"]}}
+{"input": "Quiero que navega a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "anda a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "Para llegar a escaleras, desplázate pasando por habitación", "expected": {"goal": "escaleras", "via": ["habitación"]}}
+{"input": "A sofá, desplázate pasando por garaje", "expected": {"goal": "sofá", "via": ["garaje"]}}
+{"input": "Vale, avanza a lavadero, pero pasando antes por persona y librería", "expected": {"goal": "lavadero", "via": ["persona", "librería"]}}
+{"input": "A escaleras, desplázate pasando por comedor", "expected": {"goal": "escaleras", "via": ["comedor"]}}
+{"input": "desplázate a armario vía salón", "expected": {"goal": "armario", "via": ["salón"]}}
+{"input": "muévete a salida vía comedor", "expected": {"goal": "salida", "via": ["comedor"]}}
+{"input": "Tienes que camina hacia comedor; antes pasa por trastero", "expected": {"goal": "comedor", "via": ["trastero"]}}
+{"input": "Quiero que muévete a escaleras", "expected": {"goal": "escaleras", "via": []}}
+{"input": "Para llegar a columna, avanza", "expected": {"goal": "columna", "via": []}}
+{"input": "A sala, anda pasando por ventana", "expected": {"goal": "sala", "via": ["ventana"]}}
+{"input": "Por favor, ve a persona pasando por comedor y librería", "expected": {"goal": "persona", "via": ["comedor", "librería"]}}
+{"input": "Para llegar a sala, anda pasando por columna y escaleras", "expected": {"goal": "sala", "via": ["columna", "escaleras"]}}
+{"input": "dirígete a habitación pasando por estudio y salón", "expected": {"goal": "habitación", "via": ["estudio", "salón"]}}
+{"input": "anda a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Para llegar a comedor, camina pasando por cama", "expected": {"goal": "comedor", "via": ["cama"]}}
+{"input": "Quiero que anda a sofá pasando por pasillo", "expected": {"goal": "sofá", "via": ["pasillo"]}}
+{"input": "camina a oficina pasando por comedor y columna", "expected": {"goal": "oficina", "via": ["comedor", "columna"]}}
+{"input": "Vale, navega a lavadero, pero asegúrate de pasar por sala antes", "expected": {"goal": "lavadero", "via": ["sala"]}}
+{"input": "anda a salida pasando por garaje", "expected": {"goal": "salida", "via": ["garaje"]}}
+{"input": "Para llegar a mostrador, muévete", "expected": {"goal": "mostrador", "via": []}}
+{"input": "dirígete a sofá vía ascensor", "expected": {"goal": "sofá", "via": ["ascensor"]}}
+{"input": "Para llegar a escritorio, camina pasando por pasillo y persona", "expected": {"goal": "escritorio", "via": ["pasillo", "persona"]}}
+{"input": "ve a oficina", "expected": {"goal": "oficina", "via": []}}
+{"input": "Vale, muévete a persona, pero asegúrate de pasar por pasillo antes", "expected": {"goal": "persona", "via": ["pasillo"]}}
+{"input": "Para llegar a estantería, avanza pasando por persona", "expected": {"goal": "estantería", "via": ["persona"]}}
+{"input": "A dormitorio, ve pasando por armario y salón", "expected": {"goal": "dormitorio", "via": ["armario", "salón"]}}
+{"input": "Por favor, desplázate a mesa pasando por estudio y lavadero", "expected": {"goal": "mesa", "via": ["estudio", "lavadero"]}}
+{"input": "A habitación, desplázate pasando por escaleras", "expected": {"goal": "habitación", "via": ["escaleras"]}}
+{"input": "A pasillo, desplázate pasando por oficina y columna", "expected": {"goal": "pasillo", "via": ["oficina", "columna"]}}
+{"input": "navega a sofá vía pared", "expected": {"goal": "sofá", "via": ["pared"]}}
+{"input": "Tienes que anda hacia escaleras; antes pasa por persona y salón", "expected": {"goal": "escaleras", "via": ["persona", "salón"]}}
+{"input": "Para llegar a escritorio, avanza pasando por trastero", "expected": {"goal": "escritorio", "via": ["trastero"]}}
+{"input": "avanza a columna vía dormitorio y estantería", "expected": {"goal": "columna", "via": ["dormitorio", "estantería"]}}
+{"input": "camina a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "Quiero que anda a garaje pasando por librería y ventana", "expected": {"goal": "garaje", "via": ["librería", "ventana"]}}
+{"input": "muévete a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "Para llegar a columna, dirígete", "expected": {"goal": "columna", "via": []}}
+{"input": "avanza a lavadero vía librería", "expected": {"goal": "lavadero", "via": ["librería"]}}
+{"input": "dirígete a pared", "expected": {"goal": "pared", "via": []}}
+{"input": "muévete a cocina vía columna", "expected": {"goal": "cocina", "via": ["columna"]}}
+{"input": "avanza a estudio pasando por pasillo", "expected": {"goal": "estudio", "via": ["pasillo"]}}
+{"input": "Para llegar a dormitorio, desplázate pasando por salón y oficina", "expected": {"goal": "dormitorio", "via": ["salón", "oficina"]}}
+{"input": "Quiero que anda a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Por favor, camina a baño pasando por mostrador y pared", "expected": {"goal": "baño", "via": ["mostrador", "pared"]}}
+{"input": "A persona, camina pasando por puerta", "expected": {"goal": "persona", "via": ["puerta"]}}
+{"input": "Quiero que camina a escritorio pasando por puerta", "expected": {"goal": "escritorio", "via": ["puerta"]}}
+{"input": "Para llegar a estudio, avanza", "expected": {"goal": "estudio", "via": []}}
+{"input": "anda a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "dirígete a escritorio pasando por puerta", "expected": {"goal": "escritorio", "via": ["puerta"]}}
+{"input": "Quiero que ve a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "avanza a salón", "expected": {"goal": "salón", "via": []}}
+{"input": "Tienes que ve hacia escritorio; antes pasa por persona", "expected": {"goal": "escritorio", "via": ["persona"]}}
+{"input": "muévete a salón", "expected": {"goal": "salón", "via": []}}
+{"input": "camina a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "Vale, dirígete a puerta, pero pasando antes por baño y comedor", "expected": {"goal": "puerta", "via": ["baño", "comedor"]}}
+{"input": "Para llegar a mostrador, avanza pasando por mesa y pasillo", "expected": {"goal": "mostrador", "via": ["mesa", "pasillo"]}}
+{"input": "dirígete a habitación pasando por armario", "expected": {"goal": "habitación", "via": ["armario"]}}
+{"input": "Para llegar a estudio, navega pasando por armario", "expected": {"goal": "estudio", "via": ["armario"]}}
+{"input": "dirígete a ascensor pasando por silla y baño", "expected": {"goal": "ascensor", "via": ["silla", "baño"]}}
+{"input": "Para llegar a silla, desplázate pasando por sala", "expected": {"goal": "silla", "via": ["sala"]}}
+{"input": "ve a librería pasando por ventana", "expected": {"goal": "librería", "via": ["ventana"]}}
+{"input": "Quiero que anda a baño", "expected": {"goal": "baño", "via": []}}
+{"input": "Para llegar a mostrador, dirígete pasando por trastero", "expected": {"goal": "mostrador", "via": ["trastero"]}}
+{"input": "Vale, anda a armario, pero pasando antes por cocina y ventana", "expected": {"goal": "armario", "via": ["cocina", "ventana"]}}
+{"input": "avanza a escritorio pasando por pasillo", "expected": {"goal": "escritorio", "via": ["pasillo"]}}
+{"input": "Quiero que muévete a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "Para llegar a habitación, camina pasando por silla", "expected": {"goal": "habitación", "via": ["silla"]}}
+{"input": "ve a cocina vía escaleras", "expected": {"goal": "cocina", "via": ["escaleras"]}}
+{"input": "Vale, muévete a estantería, pero asegúrate de pasar por persona antes", "expected": {"goal": "estantería", "via": ["persona"]}}
+{"input": "Para llegar a armario, avanza", "expected": {"goal": "armario", "via": []}}
+{"input": "Para llegar a librería, anda pasando por despacho", "expected": {"goal": "librería", "via": ["despacho"]}}
+{"input": "dirígete a salón pasando por sofá", "expected": {"goal": "salón", "via": ["sofá"]}}
+{"input": "Vale, muévete a trastero, pero asegúrate de pasar por sala antes", "expected": {"goal": "trastero", "via": ["sala"]}}
+{"input": "Vale, desplázate a despacho, pero pasando antes por ventana y baño", "expected": {"goal": "despacho", "via": ["ventana", "baño"]}}
+{"input": "camina a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "Vale, ve a despacho, pero asegúrate de pasar por trastero antes", "expected": {"goal": "despacho", "via": ["trastero"]}}
+{"input": "Quiero que dirígete a ascensor pasando por garaje", "expected": {"goal": "ascensor", "via": ["garaje"]}}
+{"input": "Vale, avanza a sala, pero asegúrate de pasar por salida antes", "expected": {"goal": "sala", "via": ["salida"]}}
+{"input": "Quiero que muévete a mesa pasando por ascensor", "expected": {"goal": "mesa", "via": ["ascensor"]}}
+{"input": "avanza a puerta pasando por pared", "expected": {"goal": "puerta", "via": ["pared"]}}
+{"input": "avanza a dormitorio", "expected": {"goal": "dormitorio", "via": []}}
+{"input": "Para llegar a habitación, avanza", "expected": {"goal": "habitación", "via": []}}
+{"input": "Para llegar a sofá, ve pasando por salida", "expected": {"goal": "sofá", "via": ["salida"]}}
+{"input": "Quiero que camina a librería pasando por ascensor", "expected": {"goal": "librería", "via": ["ascensor"]}}
+{"input": "anda a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "Quiero que muévete a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "Para llegar a habitación, anda", "expected": {"goal": "habitación", "via": []}}
+{"input": "dirígete a sofá pasando por columna y persona", "expected": {"goal": "sofá", "via": ["columna", "persona"]}}
+{"input": "Para llegar a persona, ve pasando por librería", "expected": {"goal": "persona", "via": ["librería"]}}
+{"input": "Quiero que dirígete a ascensor", "expected": {"goal": "ascensor", "via": []}}
+{"input": "A salida, dirígete pasando por silla y salón", "expected": {"goal": "salida", "via": ["silla", "salón"]}}
+{"input": "anda a comedor vía silla", "expected": {"goal": "comedor", "via": ["silla"]}}
+{"input": "A sala, desplázate pasando por sofá", "expected": {"goal": "sala", "via": ["sofá"]}}
+{"input": "Quiero que camina a escaleras pasando por salón y dormitorio", "expected": {"goal": "escaleras", "via": ["salón", "dormitorio"]}}
+{"input": "camina a salón pasando por mesa y estudio", "expected": {"goal": "salón", "via": ["mesa", "estudio"]}}
+{"input": "A silla, desplázate pasando por salida", "expected": {"goal": "silla", "via": ["salida"]}}
+{"input": "Para llegar a ascensor, dirígete pasando por lavadero y cama", "expected": {"goal": "ascensor", "via": ["lavadero", "cama"]}}
+{"input": "Quiero que camina a escritorio pasando por trastero y baño", "expected": {"goal": "escritorio", "via": ["trastero", "baño"]}}
+{"input": "dirígete a cocina pasando por baño", "expected": {"goal": "cocina", "via": ["baño"]}}
+{"input": "Vale, desplázate a trastero, pero asegúrate de pasar por escaleras antes", "expected": {"goal": "trastero", "via": ["escaleras"]}}
+{"input": "Quiero que camina a persona pasando por despacho y oficina", "expected": {"goal": "persona", "via": ["despacho", "oficina"]}}
+{"input": "Tienes que avanza hacia cocina; antes pasa por comedor", "expected": {"goal": "cocina", "via": ["comedor"]}}
+{"input": "Para llegar a garaje, navega", "expected": {"goal": "garaje", "via": []}}
+{"input": "Para llegar a sofá, avanza pasando por lavadero", "expected": {"goal": "sofá", "via": ["lavadero"]}}
+{"input": "Para llegar a puerta, dirígete", "expected": {"goal": "puerta", "via": []}}
+{"input": "ve a pasillo pasando por sofá", "expected": {"goal": "pasillo", "via": ["sofá"]}}
+{"input": "Tienes que camina hacia baño; antes pasa por sala", "expected": {"goal": "baño", "via": ["sala"]}}
+{"input": "ve a baño pasando por ascensor y trastero", "expected": {"goal": "baño", "via": ["ascensor", "trastero"]}}
+{"input": "A lavadero, avanza pasando por cama y pared", "expected": {"goal": "lavadero", "via": ["cama", "pared"]}}
+{"input": "Quiero que anda a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Quiero que muévete a ventana pasando por estudio", "expected": {"goal": "ventana", "via": ["estudio"]}}
+{"input": "Para llegar a columna, avanza pasando por silla", "expected": {"goal": "columna", "via": ["silla"]}}
+{"input": "Para llegar a ventana, muévete pasando por despacho", "expected": {"goal": "ventana", "via": ["despacho"]}}
+{"input": "Para llegar a garaje, camina pasando por sala", "expected": {"goal": "garaje", "via": ["sala"]}}
+{"input": "Vale, dirígete a despacho, pero asegúrate de pasar por trastero antes", "expected": {"goal": "despacho", "via": ["trastero"]}}
+{"input": "Por favor, muévete a mostrador pasando por oficina y dormitorio", "expected": {"goal": "mostrador", "via": ["oficina", "dormitorio"]}}
+{"input": "avanza a librería vía despacho", "expected": {"goal": "librería", "via": ["despacho"]}}
+{"input": "A columna, navega pasando por persona y pasillo", "expected": {"goal": "columna", "via": ["persona", "pasillo"]}}
+{"input": "Vale, camina a estudio, pero asegúrate de pasar por silla antes", "expected": {"goal": "estudio", "via": ["silla"]}}
+{"input": "Para llegar a escaleras, camina pasando por estantería", "expected": {"goal": "escaleras", "via": ["estantería"]}}
+{"input": "Para llegar a armario, desplázate pasando por escaleras y columna", "expected": {"goal": "armario", "via": ["escaleras", "columna"]}}
+{"input": "Quiero que muévete a habitación pasando por salón", "expected": {"goal": "habitación", "via": ["salón"]}}
+{"input": "Por favor, avanza a mostrador pasando por trastero y pared", "expected": {"goal": "mostrador", "via": ["trastero", "pared"]}}
+{"input": "A sala, muévete pasando por habitación", "expected": {"goal": "sala", "via": ["habitación"]}}
+{"input": "Quiero que ve a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Por favor, avanza a oficina pasando por cama y estantería", "expected": {"goal": "oficina", "via": ["cama", "estantería"]}}
+{"input": "Para llegar a pasillo, avanza pasando por salida y oficina", "expected": {"goal": "pasillo", "via": ["salida", "oficina"]}}
+{"input": "A estudio, navega pasando por escaleras", "expected": {"goal": "estudio", "via": ["escaleras"]}}
+{"input": "avanza a comedor", "expected": {"goal": "comedor", "via": []}}
+{"input": "avanza a escaleras pasando por comedor", "expected": {"goal": "escaleras", "via": ["comedor"]}}
+{"input": "Quiero que dirígete a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "Tienes que anda hacia cocina; antes pasa por mesa", "expected": {"goal": "cocina", "via": ["mesa"]}}
+{"input": "Quiero que anda a pared pasando por estantería", "expected": {"goal": "pared", "via": ["estantería"]}}
+{"input": "Tienes que desplázate hacia persona; antes pasa por estudio", "expected": {"goal": "persona", "via": ["estudio"]}}
+{"input": "Quiero que ve a garaje pasando por silla", "expected": {"goal": "garaje", "via": ["silla"]}}
+{"input": "muévete a oficina vía columna", "expected": {"goal": "oficina", "via": ["columna"]}}
+{"input": "Para llegar a oficina, ve", "expected": {"goal": "oficina", "via": []}}
+{"input": "Tienes que camina hacia pasillo; antes pasa por ascensor", "expected": {"goal": "pasillo", "via": ["ascensor"]}}
+{"input": "Para llegar a estudio, avanza pasando por librería", "expected": {"goal": "estudio", "via": ["librería"]}}
+{"input": "avanza a persona vía librería", "expected": {"goal": "persona", "via": ["librería"]}}
+{"input": "dirígete a oficina vía lavadero y trastero", "expected": {"goal": "oficina", "via": ["lavadero", "trastero"]}}
+{"input": "Quiero que desplázate a pasillo pasando por salida", "expected": {"goal": "pasillo", "via": ["salida"]}}
+{"input": "Tienes que desplázate hacia librería; antes pasa por oficina", "expected": {"goal": "librería", "via": ["oficina"]}}
+{"input": "Para llegar a cocina, navega pasando por puerta", "expected": {"goal": "cocina", "via": ["puerta"]}}
+{"input": "avanza a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Para llegar a garaje, avanza", "expected": {"goal": "garaje", "via": []}}
+{"input": "dirígete a persona pasando por cocina", "expected": {"goal": "persona", "via": ["cocina"]}}
+{"input": "Para llegar a estudio, desplázate pasando por trastero y mesa", "expected": {"goal": "estudio", "via": ["trastero", "mesa"]}}
+{"input": "Quiero que desplázate a armario pasando por cocina y silla", "expected": {"goal": "armario", "via": ["cocina", "silla"]}}
+{"input": "Por favor, muévete a ventana pasando por comedor y salón", "expected": {"goal": "ventana", "via": ["comedor", "salón"]}}
+{"input": "Tienes que dirígete hacia mostrador; antes pasa por puerta", "expected": {"goal": "mostrador", "via": ["puerta"]}}
+{"input": "Para llegar a habitación, ve pasando por salón y escritorio", "expected": {"goal": "habitación", "via": ["salón", "escritorio"]}}
+{"input": "Para llegar a cocina, camina pasando por pared", "expected": {"goal": "cocina", "via": ["pared"]}}
+{"input": "Para llegar a cocina, desplázate pasando por ascensor y escritorio", "expected": {"goal": "cocina", "via": ["ascensor", "escritorio"]}}
+{"input": "A silla, dirígete pasando por oficina", "expected": {"goal": "silla", "via": ["oficina"]}}
+{"input": "camina a sofá pasando por librería y mesa", "expected": {"goal": "sofá", "via": ["librería", "mesa"]}}
+{"input": "A mesa, anda pasando por garaje y oficina", "expected": {"goal": "mesa", "via": ["garaje", "oficina"]}}
+{"input": "desplázate a pared pasando por salón", "expected": {"goal": "pared", "via": ["salón"]}}
+{"input": "Quiero que navega a salida pasando por oficina y puerta", "expected": {"goal": "salida", "via": ["oficina", "puerta"]}}
+{"input": "Para llegar a cama, desplázate pasando por oficina y comedor", "expected": {"goal": "cama", "via": ["oficina", "comedor"]}}
+{"input": "avanza a trastero pasando por cocina y sofá", "expected": {"goal": "trastero", "via": ["cocina", "sofá"]}}
+{"input": "A cama, navega pasando por salón y lavadero", "expected": {"goal": "cama", "via": ["salón", "lavadero"]}}
+{"input": "Quiero que muévete a mostrador pasando por comedor", "expected": {"goal": "mostrador", "via": ["comedor"]}}
+{"input": "Por favor, anda a estudio pasando por cama y ventana", "expected": {"goal": "estudio", "via": ["cama", "ventana"]}}
+{"input": "Tienes que camina hacia columna; antes pasa por pared y silla", "expected": {"goal": "columna", "via": ["pared", "silla"]}}
+{"input": "Para llegar a pared, ve", "expected": {"goal": "pared", "via": []}}
+{"input": "navega a pared vía despacho y dormitorio", "expected": {"goal": "pared", "via": ["despacho", "dormitorio"]}}
+{"input": "desplázate a mesa vía trastero", "expected": {"goal": "mesa", "via": ["trastero"]}}
+{"input": "Quiero que camina a pasillo pasando por lavadero", "expected": {"goal": "pasillo", "via": ["lavadero"]}}
+{"input": "desplázate a sofá vía habitación y salón", "expected": {"goal": "sofá", "via": ["habitación", "salón"]}}
+{"input": "Para llegar a comedor, muévete", "expected": {"goal": "comedor", "via": []}}
+{"input": "navega a librería", "expected": {"goal": "librería", "via": []}}
+{"input": "Por favor, navega a ascensor pasando por sala y salida", "expected": {"goal": "ascensor", "via": ["sala", "salida"]}}
+{"input": "Quiero que anda a despacho pasando por salón", "expected": {"goal": "despacho", "via": ["salón"]}}
+{"input": "Para llegar a escaleras, camina pasando por sofá", "expected": {"goal": "escaleras", "via": ["sofá"]}}
+{"input": "Quiero que desplázate a armario", "expected": {"goal": "armario", "via": []}}
+{"input": "A librería, navega pasando por pasillo", "expected": {"goal": "librería", "via": ["pasillo"]}}
+{"input": "Para llegar a sala, desplázate", "expected": {"goal": "sala", "via": []}}
+{"input": "Quiero que muévete a lavadero pasando por escaleras", "expected": {"goal": "lavadero", "via": ["escaleras"]}}
+{"input": "Por favor, desplázate a cocina pasando por escritorio y ventana", "expected": {"goal": "cocina", "via": ["escritorio", "ventana"]}}
+{"input": "Tienes que muévete hacia ascensor; antes pasa por despacho", "expected": {"goal": "ascensor", "via": ["despacho"]}}
+{"input": "Vale, ve a persona, pero asegúrate de pasar por garaje antes", "expected": {"goal": "persona", "via": ["garaje"]}}
+{"input": "camina a pasillo", "expected": {"goal": "pasillo", "via": []}}
+{"input": "muévete a escaleras vía escritorio", "expected": {"goal": "escaleras", "via": ["escritorio"]}}
+{"input": "camina a despacho vía silla y columna", "expected": {"goal": "despacho", "via": ["silla", "columna"]}}
+{"input": "muévete a pasillo vía estantería", "expected": {"goal": "pasillo", "via": ["estantería"]}}
+{"input": "Vale, dirígete a librería, pero pasando antes por mesa y escritorio", "expected": {"goal": "librería", "via": ["mesa", "escritorio"]}}
+{"input": "Para llegar a estantería, camina pasando por estudio", "expected": {"goal": "estantería", "via": ["estudio"]}}
+{"input": "anda a escaleras", "expected": {"goal": "escaleras", "via": []}}
+{"input": "A lavadero, navega pasando por despacho", "expected": {"goal": "lavadero", "via": ["despacho"]}}
+{"input": "Para llegar a pared, muévete pasando por habitación y sofá", "expected": {"goal": "pared", "via": ["habitación", "sofá"]}}
+{"input": "Tienes que anda hacia librería; antes pasa por cama", "expected": {"goal": "librería", "via": ["cama"]}}
+{"input": "Tienes que dirígete hacia salida; antes pasa por mesa y garaje", "expected": {"goal": "salida", "via": ["mesa", "garaje"]}}
+{"input": "Tienes que ve hacia baño; antes pasa por lavadero", "expected": {"goal": "baño", "via": ["lavadero"]}}
+{"input": "camina a estantería vía cocina y escritorio", "expected": {"goal": "estantería", "via": ["cocina", "escritorio"]}}
+{"input": "dirígete a sofá", "expected": {"goal": "sofá", "via": []}}
+{"input": "Quiero que navega a persona pasando por mostrador y librería", "expected": {"goal": "persona", "via": ["mostrador", "librería"]}}
+{"input": "Para llegar a lavadero, ve pasando por trastero", "expected": {"goal": "lavadero", "via": ["trastero"]}}
+{"input": "camina a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "Tienes que anda hacia salón; antes pasa por mesa", "expected": {"goal": "salón", "via": ["mesa"]}}
+{"input": "Para llegar a sala, camina pasando por ventana", "expected": {"goal": "sala", "via": ["ventana"]}}
+{"input": "A salón, dirígete pasando por pared", "expected": {"goal": "salón", "via": ["pared"]}}
+{"input": "Para llegar a ascensor, avanza pasando por despacho", "expected": {"goal": "ascensor", "via": ["despacho"]}}
+{"input": "muévete a pared", "expected": {"goal": "pared", "via": []}}
+{"input": "Quiero que anda a persona pasando por sofá y cama", "expected": {"goal": "persona", "via": ["sofá", "cama"]}}
+{"input": "avanza a silla pasando por estantería", "expected": {"goal": "silla", "via": ["estantería"]}}
+{"input": "ve a salida pasando por oficina", "expected": {"goal": "salida", "via": ["oficina"]}}
+{"input": "Tienes que dirígete hacia trastero; antes pasa por cocina", "expected": {"goal": "trastero", "via": ["cocina"]}}
+{"input": "Quiero que ve a mostrador pasando por salida", "expected": {"goal": "mostrador", "via": ["salida"]}}
+{"input": "avanza a lavadero pasando por baño", "expected": {"goal": "lavadero", "via": ["baño"]}}
+{"input": "ve a sala vía pasillo", "expected": {"goal": "sala", "via": ["pasillo"]}}
+{"input": "anda a puerta pasando por salón y dormitorio", "expected": {"goal": "puerta", "via": ["salón", "dormitorio"]}}
+{"input": "Tienes que anda hacia mostrador; antes pasa por cocina y estudio", "expected": {"goal": "mostrador", "via": ["cocina", "estudio"]}}
+{"input": "Quiero que desplázate a ventana pasando por estudio y persona", "expected": {"goal": "ventana", "via": ["estudio", "persona"]}}
+{"input": "Para llegar a oficina, muévete pasando por salón", "expected": {"goal": "oficina", "via": ["salón"]}}
+{"input": "Quiero que desplázate a comedor pasando por ascensor", "expected": {"goal": "comedor", "via": ["ascensor"]}}
+{"input": "Quiero que ve a persona pasando por pasillo", "expected": {"goal": "persona", "via": ["pasillo"]}}
+{"input": "Para llegar a mostrador, dirígete", "expected": {"goal": "mostrador", "via": []}}
+{"input": "A dormitorio, camina pasando por librería", "expected": {"goal": "dormitorio", "via": ["librería"]}}
+{"input": "Tienes que dirígete hacia puerta; antes pasa por mostrador", "expected": {"goal": "puerta", "via": ["mostrador"]}}
+{"input": "Tienes que muévete hacia cocina; antes pasa por sala", "expected": {"goal": "cocina", "via": ["sala"]}}
+{"input": "Quiero que dirígete a cama pasando por trastero", "expected": {"goal": "cama", "via": ["trastero"]}}
+{"input": "Quiero que ve a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "navega a sofá vía mostrador", "expected": {"goal": "sofá", "via": ["mostrador"]}}
+{"input": "Vale, avanza a habitación, pero asegúrate de pasar por pasillo antes", "expected": {"goal": "habitación", "via": ["pasillo"]}}
+{"input": "A baño, dirígete pasando por dormitorio", "expected": {"goal": "baño", "via": ["dormitorio"]}}
+{"input": "camina a escaleras", "expected": {"goal": "escaleras", "via": []}}
+{"input": "Para llegar a sala, dirígete", "expected": {"goal": "sala", "via": []}}
+{"input": "Vale, desplázate a estantería, pero pasando antes por estudio y comedor", "expected": {"goal": "estantería", "via": ["estudio", "comedor"]}}
+{"input": "Quiero que camina a dormitorio", "expected": {"goal": "dormitorio", "via": []}}
+{"input": "Para llegar a silla, navega pasando por sofá", "expected": {"goal": "silla", "via": ["sofá"]}}
+{"input": "Para llegar a estantería, muévete pasando por escritorio", "expected": {"goal": "estantería", "via": ["escritorio"]}}
+{"input": "A ventana, desplázate pasando por pared", "expected": {"goal": "ventana", "via": ["pared"]}}
+{"input": "Tienes que desplázate hacia ventana; antes pasa por pared", "expected": {"goal": "ventana", "via": ["pared"]}}
+{"input": "Por favor, muévete a sofá pasando por habitación y escaleras", "expected": {"goal": "sofá", "via": ["habitación", "escaleras"]}}
+{"input": "Por favor, anda a puerta pasando por lavadero y persona", "expected": {"goal": "puerta", "via": ["lavadero", "persona"]}}
+{"input": "Quiero que avanza a armario", "expected": {"goal": "armario", "via": []}}
+{"input": "Para llegar a escritorio, ve pasando por silla", "expected": {"goal": "escritorio", "via": ["silla"]}}
+{"input": "avanza a despacho vía pasillo y armario", "expected": {"goal": "despacho", "via": ["pasillo", "armario"]}}
+{"input": "Para llegar a mesa, muévete pasando por mostrador", "expected": {"goal": "mesa", "via": ["mostrador"]}}
+{"input": "anda a cocina pasando por cama y pared", "expected": {"goal": "cocina", "via": ["cama", "pared"]}}
+{"input": "Para llegar a columna, avanza", "expected": {"goal": "columna", "via": []}}
+{"input": "Vale, camina a cocina, pero asegúrate de pasar por pared antes", "expected": {"goal": "cocina", "via": ["pared"]}}
+{"input": "Para llegar a pasillo, muévete pasando por mostrador", "expected": {"goal": "pasillo", "via": ["mostrador"]}}
+{"input": "avanza a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "dirígete a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "Vale, anda a persona, pero asegúrate de pasar por ventana antes", "expected": {"goal": "persona", "via": ["ventana"]}}
+{"input": "A puerta, camina pasando por trastero", "expected": {"goal": "puerta", "via": ["trastero"]}}
+{"input": "Quiero que navega a despacho", "expected": {"goal": "despacho", "via": []}}
+{"input": "A dormitorio, camina pasando por armario", "expected": {"goal": "dormitorio", "via": ["armario"]}}
+{"input": "dirígete a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "Tienes que muévete hacia oficina; antes pasa por silla", "expected": {"goal": "oficina", "via": ["silla"]}}
+{"input": "A cocina, dirígete pasando por garaje y salón", "expected": {"goal": "cocina", "via": ["garaje", "salón"]}}
+{"input": "dirígete a baño vía librería", "expected": {"goal": "baño", "via": ["librería"]}}
+{"input": "Quiero que navega a mesa pasando por armario", "expected": {"goal": "mesa", "via": ["armario"]}}
+{"input": "Vale, navega a pared, pero asegúrate de pasar por habitación antes", "expected": {"goal": "pared", "via": ["habitación"]}}
+{"input": "desplázate a lavadero vía columna", "expected": {"goal": "lavadero", "via": ["columna"]}}
+{"input": "muévete a salón vía salida", "expected": {"goal": "salón", "via": ["salida"]}}
+{"input": "Vale, muévete a columna, pero asegúrate de pasar por estudio antes", "expected": {"goal": "columna", "via": ["estudio"]}}
+{"input": "desplázate a escaleras pasando por garaje y pared", "expected": {"goal": "escaleras", "via": ["garaje", "pared"]}}
+{"input": "Quiero que avanza a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "Para llegar a lavadero, avanza pasando por sala", "expected": {"goal": "lavadero", "via": ["sala"]}}
+{"input": "Tienes que ve hacia dormitorio; antes pasa por pasillo", "expected": {"goal": "dormitorio", "via": ["pasillo"]}}
+{"input": "Vale, navega a estudio, pero asegúrate de pasar por escritorio antes", "expected": {"goal": "estudio", "via": ["escritorio"]}}
+{"input": "navega a oficina pasando por baño", "expected": {"goal": "oficina", "via": ["baño"]}}
+{"input": "dirígete a cocina vía oficina", "expected": {"goal": "cocina", "via": ["oficina"]}}
+{"input": "Quiero que desplázate a sofá pasando por pared", "expected": {"goal": "sofá", "via": ["pared"]}}
+{"input": "Para llegar a lavadero, anda", "expected": {"goal": "lavadero", "via": []}}
+{"input": "A librería, muévete pasando por trastero", "expected": {"goal": "librería", "via": ["trastero"]}}
+{"input": "ve a persona pasando por estudio", "expected": {"goal": "persona", "via": ["estudio"]}}
+{"input": "Quiero que camina a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "Quiero que dirígete a puerta pasando por estantería", "expected": {"goal": "puerta", "via": ["estantería"]}}
+{"input": "Quiero que ve a escritorio pasando por mostrador", "expected": {"goal": "escritorio", "via": ["mostrador"]}}
+{"input": "A comedor, anda pasando por escritorio y mostrador", "expected": {"goal": "comedor", "via": ["escritorio", "mostrador"]}}
+{"input": "dirígete a mesa pasando por cama y estantería", "expected": {"goal": "mesa", "via": ["cama", "estantería"]}}
+{"input": "Para llegar a comedor, camina", "expected": {"goal": "comedor", "via": []}}
+{"input": "Para llegar a baño, navega", "expected": {"goal": "baño", "via": []}}
+{"input": "desplázate a columna vía sofá y cama", "expected": {"goal": "columna", "via": ["sofá", "cama"]}}
+{"input": "Quiero que camina a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "avanza a armario", "expected": {"goal": "armario", "via": []}}
+{"input": "Vale, navega a oficina, pero asegúrate de pasar por sofá antes", "expected": {"goal": "oficina", "via": ["sofá"]}}
+{"input": "navega a librería vía estantería", "expected": {"goal": "librería", "via": ["estantería"]}}
+{"input": "Tienes que anda hacia comedor; antes pasa por habitación", "expected": {"goal": "comedor", "via": ["habitación"]}}
+{"input": "Tienes que desplázate hacia estantería; antes pasa por sala y librería", "expected": {"goal": "estantería", "via": ["sala", "librería"]}}
+{"input": "Quiero que dirígete a dormitorio", "expected": {"goal": "dormitorio", "via": []}}
+{"input": "A salida, anda pasando por pasillo", "expected": {"goal": "salida", "via": ["pasillo"]}}
+{"input": "A trastero, navega pasando por escaleras", "expected": {"goal": "trastero", "via": ["escaleras"]}}
+{"input": "Quiero que navega a garaje pasando por comedor y cama", "expected": {"goal": "garaje", "via": ["comedor", "cama"]}}
+{"input": "Quiero que anda a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "Quiero que navega a ventana pasando por librería y oficina", "expected": {"goal": "ventana", "via": ["librería", "oficina"]}}
+{"input": "Para llegar a estantería, muévete", "expected": {"goal": "estantería", "via": []}}
+{"input": "Para llegar a armario, navega", "expected": {"goal": "armario", "via": []}}
+{"input": "Para llegar a pasillo, dirígete pasando por garaje y puerta", "expected": {"goal": "pasillo", "via": ["garaje", "puerta"]}}
+{"input": "avanza a sala pasando por comedor", "expected": {"goal": "sala", "via": ["comedor"]}}
+{"input": "A cocina, camina pasando por estudio", "expected": {"goal": "cocina", "via": ["estudio"]}}
+{"input": "Quiero que avanza a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Tienes que dirígete hacia columna; antes pasa por trastero", "expected": {"goal": "columna", "via": ["trastero"]}}
+{"input": "desplázate a mostrador pasando por sofá y salida", "expected": {"goal": "mostrador", "via": ["sofá", "salida"]}}
+{"input": "Tienes que anda hacia mesa; antes pasa por habitación", "expected": {"goal": "mesa", "via": ["habitación"]}}
+{"input": "anda a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Por favor, camina a pared pasando por garaje y silla", "expected": {"goal": "pared", "via": ["garaje", "silla"]}}
+{"input": "A persona, muévete pasando por trastero", "expected": {"goal": "persona", "via": ["trastero"]}}
+{"input": "Quiero que camina a salón pasando por comedor", "expected": {"goal": "salón", "via": ["comedor"]}}
+{"input": "avanza a pared vía cama y escaleras", "expected": {"goal": "pared", "via": ["cama", "escaleras"]}}
+{"input": "Quiero que dirígete a armario pasando por dormitorio", "expected": {"goal": "armario", "via": ["dormitorio"]}}
+{"input": "A comedor, avanza pasando por despacho", "expected": {"goal": "comedor", "via": ["despacho"]}}
+{"input": "avanza a columna vía despacho", "expected": {"goal": "columna", "via": ["despacho"]}}
+{"input": "desplázate a librería pasando por sala", "expected": {"goal": "librería", "via": ["sala"]}}
+{"input": "ve a comedor vía estudio", "expected": {"goal": "comedor", "via": ["estudio"]}}
+{"input": "Vale, navega a ascensor, pero asegúrate de pasar por oficina antes", "expected": {"goal": "ascensor", "via": ["oficina"]}}
+{"input": "dirígete a cama vía estudio", "expected": {"goal": "cama", "via": ["estudio"]}}
+{"input": "Tienes que dirígete hacia armario; antes pasa por pared", "expected": {"goal": "armario", "via": ["pared"]}}
+{"input": "anda a pared pasando por ventana", "expected": {"goal": "pared", "via": ["ventana"]}}
+{"input": "Vale, muévete a pared, pero asegúrate de pasar por ventana antes", "expected": {"goal": "pared", "via": ["ventana"]}}
+{"input": "avanza a salida", "expected": {"goal": "salida", "via": []}}
+{"input": "A ventana, anda pasando por pared", "expected": {"goal": "ventana", "via": ["pared"]}}
+{"input": "anda a cocina pasando por sala", "expected": {"goal": "cocina", "via": ["sala"]}}
+{"input": "Vale, avanza a mostrador, pero asegúrate de pasar por silla antes", "expected": {"goal": "mostrador", "via": ["silla"]}}
+{"input": "Vale, avanza a sala, pero asegúrate de pasar por pasillo antes", "expected": {"goal": "sala", "via": ["pasillo"]}}
+{"input": "Vale, avanza a ascensor, pero asegúrate de pasar por escritorio antes", "expected": {"goal": "ascensor", "via": ["escritorio"]}}
+{"input": "Quiero que avanza a cocina", "expected": {"goal": "cocina", "via": []}}
+{"input": "Tienes que desplázate hacia escritorio; antes pasa por dormitorio", "expected": {"goal": "escritorio", "via": ["dormitorio"]}}
+{"input": "Para llegar a escritorio, avanza pasando por librería", "expected": {"goal": "escritorio", "via": ["librería"]}}
+{"input": "A garaje, anda pasando por despacho", "expected": {"goal": "garaje", "via": ["despacho"]}}
+{"input": "Para llegar a oficina, desplázate pasando por sala", "expected": {"goal": "oficina", "via": ["sala"]}}
+{"input": "Vale, camina a comedor, pero asegúrate de pasar por armario antes", "expected": {"goal": "comedor", "via": ["armario"]}}
+{"input": "Para llegar a librería, avanza", "expected": {"goal": "librería", "via": []}}
+{"input": "Para llegar a salón, avanza pasando por librería", "expected": {"goal": "salón", "via": ["librería"]}}
+{"input": "Tienes que avanza hacia pasillo; antes pasa por oficina", "expected": {"goal": "pasillo", "via": ["oficina"]}}
+{"input": "ve a silla pasando por despacho", "expected": {"goal": "silla", "via": ["despacho"]}}
+{"input": "A estudio, dirígete pasando por pasillo", "expected": {"goal": "estudio", "via": ["pasillo"]}}
+{"input": "Quiero que muévete a comedor", "expected": {"goal": "comedor", "via": []}}
+{"input": "Quiero que muévete a puerta pasando por oficina y estantería", "expected": {"goal": "puerta", "via": ["oficina", "estantería"]}}
+{"input": "dirígete a salón vía columna y librería", "expected": {"goal": "salón", "via": ["columna", "librería"]}}
+{"input": "Quiero que desplázate a ascensor pasando por oficina", "expected": {"goal": "ascensor", "via": ["oficina"]}}
+{"input": "Quiero que anda a cama pasando por puerta", "expected": {"goal": "cama", "via": ["puerta"]}}
+{"input": "Para llegar a ascensor, dirígete pasando por cama", "expected": {"goal": "ascensor", "via": ["cama"]}}
+{"input": "Vale, avanza a pared, pero pasando antes por armario y sofá", "expected": {"goal": "pared", "via": ["armario", "sofá"]}}
+{"input": "ve a cama vía sofá", "expected": {"goal": "cama", "via": ["sofá"]}}
+{"input": "navega a librería", "expected": {"goal": "librería", "via": []}}
+{"input": "ve a despacho vía mesa", "expected": {"goal": "despacho", "via": ["mesa"]}}
+{"input": "Vale, avanza a lavadero, pero pasando antes por armario y persona", "expected": {"goal": "lavadero", "via": ["armario", "persona"]}}
+{"input": "ve a salida", "expected": {"goal": "salida", "via": []}}
+{"input": "Quiero que camina a garaje pasando por escaleras", "expected": {"goal": "garaje", "via": ["escaleras"]}}
+{"input": "Para llegar a habitación, avanza pasando por salón y silla", "expected": {"goal": "habitación", "via": ["salón", "silla"]}}
+{"input": "Para llegar a garaje, avanza pasando por silla", "expected": {"goal": "garaje", "via": ["silla"]}}
+{"input": "Quiero que muévete a pasillo pasando por baño", "expected": {"goal": "pasillo", "via": ["baño"]}}
+{"input": "Quiero que camina a puerta pasando por mostrador", "expected": {"goal": "puerta", "via": ["mostrador"]}}
+{"input": "Quiero que dirígete a ascensor", "expected": {"goal": "ascensor", "via": []}}
+{"input": "Tienes que desplázate hacia columna; antes pasa por estantería", "expected": {"goal": "columna", "via": ["estantería"]}}
+{"input": "Vale, desplázate a silla, pero pasando antes por mesa y escaleras", "expected": {"goal": "silla", "via": ["mesa", "escaleras"]}}
+{"input": "Para llegar a columna, camina", "expected": {"goal": "columna", "via": []}}
+{"input": "camina a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "A pared, muévete pasando por garaje", "expected": {"goal": "pared", "via": ["garaje"]}}
+{"input": "muévete a librería", "expected": {"goal": "librería", "via": []}}
+{"input": "anda a puerta pasando por mostrador", "expected": {"goal": "puerta", "via": ["mostrador"]}}
+{"input": "muévete a columna vía persona y mostrador", "expected": {"goal": "columna", "via": ["persona", "mostrador"]}}
+{"input": "ve a habitación pasando por librería y columna", "expected": {"goal": "habitación", "via": ["librería", "columna"]}}
+{"input": "Para llegar a persona, dirígete", "expected": {"goal": "persona", "via": []}}
+{"input": "anda a salón vía puerta", "expected": {"goal": "salón", "via": ["puerta"]}}
+{"input": "Vale, ve a cama, pero pasando antes por pared y trastero", "expected": {"goal": "cama", "via": ["pared", "trastero"]}}
+{"input": "Quiero que dirígete a lavadero pasando por librería y salida", "expected": {"goal": "lavadero", "via": ["librería", "salida"]}}
+{"input": "Para llegar a estantería, muévete", "expected": {"goal": "estantería", "via": []}}
+{"input": "Para llegar a baño, navega", "expected": {"goal": "baño", "via": []}}
+{"input": "muévete a librería pasando por cama", "expected": {"goal": "librería", "via": ["cama"]}}
+{"input": "A lavadero, muévete pasando por persona y puerta", "expected": {"goal": "lavadero", "via": ["persona", "puerta"]}}
+{"input": "dirígete a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "A trastero, anda pasando por pared y oficina", "expected": {"goal": "trastero", "via": ["pared", "oficina"]}}
+{"input": "camina a sofá vía silla y dormitorio", "expected": {"goal": "sofá", "via": ["silla", "dormitorio"]}}
+{"input": "A ventana, dirígete pasando por habitación", "expected": {"goal": "ventana", "via": ["habitación"]}}
+{"input": "Para llegar a librería, avanza pasando por salón y mostrador", "expected": {"goal": "librería", "via": ["salón", "mostrador"]}}
+{"input": "A estudio, avanza pasando por ascensor y trastero", "expected": {"goal": "estudio", "via": ["ascensor", "trastero"]}}
+{"input": "Para llegar a garaje, anda", "expected": {"goal": "garaje", "via": []}}
+{"input": "Vale, avanza a cocina, pero asegúrate de pasar por escaleras antes", "expected": {"goal": "cocina", "via": ["escaleras"]}}
+{"input": "navega a persona pasando por baño", "expected": {"goal": "persona", "via": ["baño"]}}
+{"input": "muévete a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "navega a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "Quiero que muévete a escritorio pasando por ascensor", "expected": {"goal": "escritorio", "via": ["ascensor"]}}
+{"input": "Por favor, camina a ventana pasando por columna y persona", "expected": {"goal": "ventana", "via": ["columna", "persona"]}}
+{"input": "Quiero que avanza a ascensor", "expected": {"goal": "ascensor", "via": []}}
+{"input": "dirígete a armario vía ascensor", "expected": {"goal": "armario", "via": ["ascensor"]}}
+{"input": "Para llegar a persona, avanza pasando por lavadero y escritorio", "expected": {"goal": "persona", "via": ["lavadero", "escritorio"]}}
+{"input": "Vale, muévete a salón, pero asegúrate de pasar por ascensor antes", "expected": {"goal": "salón", "via": ["ascensor"]}}
+{"input": "Tienes que avanza hacia salón; antes pasa por puerta", "expected": {"goal": "salón", "via": ["puerta"]}}
+{"input": "Quiero que anda a escaleras pasando por estantería", "expected": {"goal": "escaleras", "via": ["estantería"]}}
+{"input": "navega a armario pasando por comedor", "expected": {"goal": "armario", "via": ["comedor"]}}
+{"input": "anda a sofá pasando por trastero", "expected": {"goal": "sofá", "via": ["trastero"]}}
+{"input": "Vale, desplázate a despacho, pero asegúrate de pasar por estantería antes", "expected": {"goal": "despacho", "via": ["estantería"]}}
+{"input": "ve a salón pasando por sala y armario", "expected": {"goal": "salón", "via": ["sala", "armario"]}}
+{"input": "desplázate a cocina vía escritorio", "expected": {"goal": "cocina", "via": ["escritorio"]}}
+{"input": "Tienes que ve hacia habitación; antes pasa por comedor", "expected": {"goal": "habitación", "via": ["comedor"]}}
+{"input": "Para llegar a silla, dirígete", "expected": {"goal": "silla", "via": []}}
+{"input": "dirígete a mostrador pasando por despacho", "expected": {"goal": "mostrador", "via": ["despacho"]}}
+{"input": "desplázate a sala pasando por pasillo", "expected": {"goal": "sala", "via": ["pasillo"]}}
+{"input": "camina a mesa vía pared", "expected": {"goal": "mesa", "via": ["pared"]}}
+{"input": "Para llegar a sofá, dirígete pasando por trastero", "expected": {"goal": "sofá", "via": ["trastero"]}}
+{"input": "Tienes que desplázate hacia estantería; antes pasa por persona", "expected": {"goal": "estantería", "via": ["persona"]}}
+{"input": "camina a salón vía cama", "expected": {"goal": "salón", "via": ["cama"]}}
+{"input": "A lavadero, navega pasando por estudio", "expected": {"goal": "lavadero", "via": ["estudio"]}}
+{"input": "Vale, ve a sofá, pero asegúrate de pasar por despacho antes", "expected": {"goal": "sofá", "via": ["despacho"]}}
+{"input": "Quiero que desplázate a sofá pasando por pasillo", "expected": {"goal": "sofá", "via": ["pasillo"]}}
+{"input": "Quiero que ve a comedor pasando por armario", "expected": {"goal": "comedor", "via": ["armario"]}}
+{"input": "desplázate a garaje pasando por ascensor", "expected": {"goal": "garaje", "via": ["ascensor"]}}
+{"input": "ve a sofá vía puerta", "expected": {"goal": "sofá", "via": ["puerta"]}}
+{"input": "navega a silla vía oficina", "expected": {"goal": "silla", "via": ["oficina"]}}
+{"input": "navega a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "Para llegar a despacho, ve", "expected": {"goal": "despacho", "via": []}}
+{"input": "Vale, camina a habitación, pero asegúrate de pasar por salón antes", "expected": {"goal": "habitación", "via": ["salón"]}}
+{"input": "Tienes que camina hacia cama; antes pasa por librería y habitación", "expected": {"goal": "cama", "via": ["librería", "habitación"]}}
+{"input": "camina a estudio vía escritorio", "expected": {"goal": "estudio", "via": ["escritorio"]}}
+{"input": "desplázate a ascensor", "expected": {"goal": "ascensor", "via": []}}
+{"input": "muévete a ascensor pasando por habitación y estudio", "expected": {"goal": "ascensor", "via": ["habitación", "estudio"]}}
+{"input": "A sofá, desplázate pasando por salida", "expected": {"goal": "sofá", "via": ["salida"]}}
+{"input": "Quiero que muévete a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Para llegar a oficina, camina", "expected": {"goal": "oficina", "via": []}}
+{"input": "A sofá, desplázate pasando por baño", "expected": {"goal": "sofá", "via": ["baño"]}}
+{"input": "muévete a escritorio pasando por dormitorio", "expected": {"goal": "escritorio", "via": ["dormitorio"]}}
+{"input": "A mesa, ve pasando por librería y ventana", "expected": {"goal": "mesa", "via": ["librería", "ventana"]}}
+{"input": "Quiero que ve a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "Para llegar a pasillo, anda pasando por comedor", "expected": {"goal": "pasillo", "via": ["comedor"]}}
+{"input": "Quiero que anda a despacho pasando por estantería", "expected": {"goal": "despacho", "via": ["estantería"]}}
+{"input": "dirígete a estudio pasando por escritorio y garaje", "expected": {"goal": "estudio", "via": ["escritorio", "garaje"]}}
+{"input": "Quiero que avanza a baño", "expected": {"goal": "baño", "via": []}}
+{"input": "Para llegar a sala, avanza pasando por ascensor", "expected": {"goal": "sala", "via": ["ascensor"]}}
+{"input": "Para llegar a ventana, desplázate pasando por salida", "expected": {"goal": "ventana", "via": ["salida"]}}
+{"input": "anda a oficina pasando por escaleras", "expected": {"goal": "oficina", "via": ["escaleras"]}}
+{"input": "Tienes que ve hacia pared; antes pasa por oficina y puerta", "expected": {"goal": "pared", "via": ["oficina", "puerta"]}}
+{"input": "camina a silla vía dormitorio", "expected": {"goal": "silla", "via": ["dormitorio"]}}
+{"input": "Por favor, avanza a escaleras pasando por salida y oficina", "expected": {"goal": "escaleras", "via": ["salida", "oficina"]}}
+{"input": "dirígete a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "A escaleras, avanza pasando por sofá", "expected": {"goal": "escaleras", "via": ["sofá"]}}
+{"input": "Vale, ve a dormitorio, pero asegúrate de pasar por baño antes", "expected": {"goal": "dormitorio", "via": ["baño"]}}
+{"input": "Para llegar a mesa, dirígete", "expected": {"goal": "mesa", "via": []}}
+{"input": "Quiero que avanza a comedor pasando por dormitorio", "expected": {"goal": "comedor", "via": ["dormitorio"]}}
+{"input": "Quiero que camina a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "camina a sala vía baño y dormitorio", "expected": {"goal": "sala", "via": ["baño", "dormitorio"]}}
+{"input": "Quiero que avanza a silla pasando por librería y persona", "expected": {"goal": "silla", "via": ["librería", "persona"]}}
+{"input": "Vale, avanza a mostrador, pero asegúrate de pasar por pared antes", "expected": {"goal": "mostrador", "via": ["pared"]}}
+{"input": "A escritorio, camina pasando por habitación", "expected": {"goal": "escritorio", "via": ["habitación"]}}
+{"input": "dirígete a mesa vía dormitorio", "expected": {"goal": "mesa", "via": ["dormitorio"]}}
+{"input": "camina a sala", "expected": {"goal": "sala", "via": []}}
+{"input": "Tienes que ve hacia pasillo; antes pasa por trastero", "expected": {"goal": "pasillo", "via": ["trastero"]}}
+{"input": "camina a ventana pasando por despacho y pasillo", "expected": {"goal": "ventana", "via": ["despacho", "pasillo"]}}
+{"input": "Quiero que ve a escritorio pasando por escaleras", "expected": {"goal": "escritorio", "via": ["escaleras"]}}
+{"input": "anda a salón", "expected": {"goal": "salón", "via": []}}
+{"input": "Tienes que navega hacia baño; antes pasa por trastero", "expected": {"goal": "baño", "via": ["trastero"]}}
+{"input": "Para llegar a pared, navega pasando por salón", "expected": {"goal": "pared", "via": ["salón"]}}
+{"input": "Para llegar a estantería, ve", "expected": {"goal": "estantería", "via": []}}
+{"input": "A estudio, desplázate pasando por lavadero y columna", "expected": {"goal": "estudio", "via": ["lavadero", "columna"]}}
+{"input": "navega a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "anda a ventana", "expected": {"goal": "ventana", "via": []}}
+{"input": "Para llegar a persona, navega", "expected": {"goal": "persona", "via": []}}
+{"input": "dirígete a dormitorio vía garaje y pared", "expected": {"goal": "dormitorio", "via": ["garaje", "pared"]}}
+{"input": "Vale, dirígete a sofá, pero asegúrate de pasar por habitación antes", "expected": {"goal": "sofá", "via": ["habitación"]}}
+{"input": "Tienes que ve hacia estudio; antes pasa por cama", "expected": {"goal": "estudio", "via": ["cama"]}}
+{"input": "Vale, camina a estudio, pero asegúrate de pasar por columna antes", "expected": {"goal": "estudio", "via": ["columna"]}}
+{"input": "Para llegar a mostrador, anda", "expected": {"goal": "mostrador", "via": []}}
+{"input": "Para llegar a oficina, camina", "expected": {"goal": "oficina", "via": []}}
+{"input": "camina a salida pasando por cama", "expected": {"goal": "salida", "via": ["cama"]}}
+{"input": "Vale, avanza a cocina, pero asegúrate de pasar por armario antes", "expected": {"goal": "cocina", "via": ["armario"]}}
+{"input": "muévete a escaleras pasando por estantería", "expected": {"goal": "escaleras", "via": ["estantería"]}}
+{"input": "A garaje, avanza pasando por sofá", "expected": {"goal": "garaje", "via": ["sofá"]}}
+{"input": "navega a sala pasando por despacho", "expected": {"goal": "sala", "via": ["despacho"]}}
+{"input": "A trastero, anda pasando por ventana", "expected": {"goal": "trastero", "via": ["ventana"]}}
+{"input": "Quiero que anda a puerta pasando por oficina", "expected": {"goal": "puerta", "via": ["oficina"]}}
+{"input": "Para llegar a mostrador, ve pasando por pasillo", "expected": {"goal": "mostrador", "via": ["pasillo"]}}
+{"input": "Tienes que avanza hacia dormitorio; antes pasa por salida", "expected": {"goal": "dormitorio", "via": ["salida"]}}
+{"input": "Quiero que avanza a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "camina a escaleras pasando por estudio", "expected": {"goal": "escaleras", "via": ["estudio"]}}
+{"input": "Para llegar a columna, dirígete", "expected": {"goal": "columna", "via": []}}
+{"input": "A despacho, desplázate pasando por pared", "expected": {"goal": "despacho", "via": ["pared"]}}
+{"input": "Para llegar a comedor, ve", "expected": {"goal": "comedor", "via": []}}
+{"input": "Vale, navega a armario, pero asegúrate de pasar por estantería antes", "expected": {"goal": "armario", "via": ["estantería"]}}
+{"input": "A comedor, avanza pasando por columna", "expected": {"goal": "comedor", "via": ["columna"]}}
+{"input": "Quiero que navega a cocina", "expected": {"goal": "cocina", "via": []}}
+{"input": "Quiero que desplázate a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "Por favor, muévete a puerta pasando por escaleras y ventana", "expected": {"goal": "puerta", "via": ["escaleras", "ventana"]}}
+{"input": "Vale, camina a trastero, pero asegúrate de pasar por pared antes", "expected": {"goal": "trastero", "via": ["pared"]}}
+{"input": "Tienes que navega hacia persona; antes pasa por sofá", "expected": {"goal": "persona", "via": ["sofá"]}}
+{"input": "Tienes que anda hacia habitación; antes pasa por silla y pared", "expected": {"goal": "habitación", "via": ["silla", "pared"]}}
+{"input": "Quiero que navega a estudio pasando por baño", "expected": {"goal": "estudio", "via": ["baño"]}}
+{"input": "Quiero que desplázate a escaleras", "expected": {"goal": "escaleras", "via": []}}
+{"input": "Para llegar a trastero, avanza pasando por puerta y ascensor", "expected": {"goal": "trastero", "via": ["puerta", "ascensor"]}}
+{"input": "Por favor, avanza a escaleras pasando por salida y persona", "expected": {"goal": "escaleras", "via": ["salida", "persona"]}}
+{"input": "Quiero que muévete a escritorio", "expected": {"goal": "escritorio", "via": []}}
+{"input": "Tienes que dirígete hacia cama; antes pasa por ventana", "expected": {"goal": "cama", "via": ["ventana"]}}
+{"input": "anda a despacho", "expected": {"goal": "despacho", "via": []}}
+{"input": "A pasillo, camina pasando por escritorio", "expected": {"goal": "pasillo", "via": ["escritorio"]}}
+{"input": "Para llegar a columna, navega", "expected": {"goal": "columna", "via": []}}
+{"input": "navega a dormitorio vía librería y escaleras", "expected": {"goal": "dormitorio", "via": ["librería", "escaleras"]}}
+{"input": "A baño, dirígete pasando por armario", "expected": {"goal": "baño", "via": ["armario"]}}
+{"input": "Tienes que anda hacia escritorio; antes pasa por mesa y comedor", "expected": {"goal": "escritorio", "via": ["mesa", "comedor"]}}
+{"input": "muévete a sofá vía columna", "expected": {"goal": "sofá", "via": ["columna"]}}
+{"input": "desplázate a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "navega a trastero pasando por ascensor y sofá", "expected": {"goal": "trastero", "via": ["ascensor", "sofá"]}}
+{"input": "desplázate a estantería pasando por mostrador y estudio", "expected": {"goal": "estantería", "via": ["mostrador", "estudio"]}}
+{"input": "A despacho, desplázate pasando por comedor y estudio", "expected": {"goal": "despacho", "via": ["comedor", "estudio"]}}
+{"input": "Quiero que camina a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "dirígete a cama", "expected": {"goal": "cama", "via": []}}
+{"input": "Quiero que anda a armario pasando por sala", "expected": {"goal": "armario", "via": ["sala"]}}
+{"input": "Para llegar a mostrador, desplázate pasando por cocina", "expected": {"goal": "mostrador", "via": ["cocina"]}}
+{"input": "Para llegar a baño, ve pasando por escritorio", "expected": {"goal": "baño", "via": ["escritorio"]}}
+{"input": "anda a ascensor vía salón", "expected": {"goal": "ascensor", "via": ["salón"]}}
+{"input": "camina a dormitorio vía librería", "expected": {"goal": "dormitorio", "via": ["librería"]}}
+{"input": "Quiero que anda a silla pasando por trastero", "expected": {"goal": "silla", "via": ["trastero"]}}
+{"input": "Vale, camina a habitación, pero asegúrate de pasar por cama antes", "expected": {"goal": "habitación", "via": ["cama"]}}
+{"input": "Para llegar a trastero, navega", "expected": {"goal": "trastero", "via": []}}
+{"input": "A puerta, muévete pasando por ascensor y estudio", "expected": {"goal": "puerta", "via": ["ascensor", "estudio"]}}
+{"input": "Para llegar a columna, navega pasando por ventana y sofá", "expected": {"goal": "columna", "via": ["ventana", "sofá"]}}
+{"input": "Vale, avanza a baño, pero pasando antes por ascensor y dormitorio", "expected": {"goal": "baño", "via": ["ascensor", "dormitorio"]}}
+{"input": "desplázate a habitación vía puerta", "expected": {"goal": "habitación", "via": ["puerta"]}}
+{"input": "Tienes que camina hacia mostrador; antes pasa por pared", "expected": {"goal": "mostrador", "via": ["pared"]}}
+{"input": "avanza a puerta vía escritorio", "expected": {"goal": "puerta", "via": ["escritorio"]}}
+{"input": "Quiero que navega a pared pasando por pasillo", "expected": {"goal": "pared", "via": ["pasillo"]}}
+{"input": "dirígete a comedor pasando por despacho", "expected": {"goal": "comedor", "via": ["despacho"]}}
+{"input": "Tienes que camina hacia sofá; antes pasa por silla y baño", "expected": {"goal": "sofá", "via": ["silla", "baño"]}}
+{"input": "Para llegar a cocina, avanza pasando por escaleras", "expected": {"goal": "cocina", "via": ["escaleras"]}}
+{"input": "Para llegar a salida, dirígete pasando por librería", "expected": {"goal": "salida", "via": ["librería"]}}
+{"input": "Para llegar a mesa, anda pasando por baño", "expected": {"goal": "mesa", "via": ["baño"]}}
+{"input": "A sala, ve pasando por escritorio", "expected": {"goal": "sala", "via": ["escritorio"]}}
+{"input": "Quiero que dirígete a sofá pasando por librería", "expected": {"goal": "sofá", "via": ["librería"]}}
+{"input": "Quiero que anda a pared pasando por habitación", "expected": {"goal": "pared", "via": ["habitación"]}}
+{"input": "A librería, navega pasando por habitación y mostrador", "expected": {"goal": "librería", "via": ["habitación", "mostrador"]}}
+{"input": "navega a mesa vía dormitorio", "expected": {"goal": "mesa", "via": ["dormitorio"]}}
+{"input": "navega a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "desplázate a salón pasando por lavadero y sala", "expected": {"goal": "salón", "via": ["lavadero", "sala"]}}
+{"input": "Quiero que ve a comedor", "expected": {"goal": "comedor", "via": []}}
+{"input": "Tienes que anda hacia pared; antes pasa por estantería", "expected": {"goal": "pared", "via": ["estantería"]}}
+{"input": "Para llegar a pared, dirígete pasando por puerta", "expected": {"goal": "pared", "via": ["puerta"]}}
+{"input": "Vale, desplázate a comedor, pero asegúrate de pasar por estudio antes", "expected": {"goal": "comedor", "via": ["estudio"]}}
+{"input": "Por favor, camina a escaleras pasando por armario y silla", "expected": {"goal": "escaleras", "via": ["armario", "silla"]}}
+{"input": "Quiero que camina a ascensor pasando por escaleras", "expected": {"goal": "ascensor", "via": ["escaleras"]}}
+{"input": "Por favor, navega a oficina pasando por armario y trastero", "expected": {"goal": "oficina", "via": ["armario", "trastero"]}}
+{"input": "Para llegar a despacho, muévete", "expected": {"goal": "despacho", "via": []}}
+{"input": "A armario, camina pasando por salida", "expected": {"goal": "armario", "via": ["salida"]}}
+{"input": "Quiero que desplázate a salón pasando por columna", "expected": {"goal": "salón", "via": ["columna"]}}
+{"input": "A columna, ve pasando por armario", "expected": {"goal": "columna", "via": ["armario"]}}
+{"input": "A pasillo, ve pasando por estudio", "expected": {"goal": "pasillo", "via": ["estudio"]}}
+{"input": "desplázate a lavadero vía dormitorio", "expected": {"goal": "lavadero", "via": ["dormitorio"]}}
+{"input": "Tienes que navega hacia ventana; antes pasa por estantería", "expected": {"goal": "ventana", "via": ["estantería"]}}
+{"input": "Tienes que anda hacia oficina; antes pasa por comedor", "expected": {"goal": "oficina", "via": ["comedor"]}}
+{"input": "dirígete a puerta pasando por dormitorio", "expected": {"goal": "puerta", "via": ["dormitorio"]}}
+{"input": "camina a comedor", "expected": {"goal": "comedor", "via": []}}
+{"input": "Para llegar a cocina, anda pasando por estudio", "expected": {"goal": "cocina", "via": ["estudio"]}}
+{"input": "Quiero que muévete a pared pasando por cocina", "expected": {"goal": "pared", "via": ["cocina"]}}
+{"input": "A trastero, desplázate pasando por despacho y silla", "expected": {"goal": "trastero", "via": ["despacho", "silla"]}}
+{"input": "A trastero, navega pasando por dormitorio y estudio", "expected": {"goal": "trastero", "via": ["dormitorio", "estudio"]}}
+{"input": "Tienes que anda hacia sofá; antes pasa por columna", "expected": {"goal": "sofá", "via": ["columna"]}}
+{"input": "Quiero que avanza a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "ve a baño vía sofá", "expected": {"goal": "baño", "via": ["sofá"]}}
+{"input": "Para llegar a garaje, navega pasando por estantería", "expected": {"goal": "garaje", "via": ["estantería"]}}
+{"input": "desplázate a habitación pasando por garaje", "expected": {"goal": "habitación", "via": ["garaje"]}}
+{"input": "Para llegar a cocina, avanza", "expected": {"goal": "cocina", "via": []}}
+{"input": "Para llegar a mesa, navega pasando por sala", "expected": {"goal": "mesa", "via": ["sala"]}}
+{"input": "Quiero que muévete a salida pasando por escritorio y estantería", "expected": {"goal": "salida", "via": ["escritorio", "estantería"]}}
+{"input": "A estantería, anda pasando por garaje", "expected": {"goal": "estantería", "via": ["garaje"]}}
+{"input": "Por favor, muévete a despacho pasando por estantería y ascensor", "expected": {"goal": "despacho", "via": ["estantería", "ascensor"]}}
+{"input": "Para llegar a despacho, avanza pasando por persona", "expected": {"goal": "despacho", "via": ["persona"]}}
+{"input": "Quiero que navega a habitación pasando por escaleras", "expected": {"goal": "habitación", "via": ["escaleras"]}}
+{"input": "Para llegar a mostrador, desplázate pasando por cama y estudio", "expected": {"goal": "mostrador", "via": ["cama", "estudio"]}}
+{"input": "Tienes que dirígete hacia pasillo; antes pasa por escaleras", "expected": {"goal": "pasillo", "via": ["escaleras"]}}
+{"input": "Quiero que dirígete a oficina pasando por cocina", "expected": {"goal": "oficina", "via": ["cocina"]}}
+{"input": "Tienes que camina hacia habitación; antes pasa por oficina", "expected": {"goal": "habitación", "via": ["oficina"]}}
+{"input": "A salida, ve pasando por librería", "expected": {"goal": "salida", "via": ["librería"]}}
+{"input": "Quiero que avanza a habitación", "expected": {"goal": "habitación", "via": []}}
+{"input": "Quiero que dirígete a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "muévete a silla", "expected": {"goal": "silla", "via": []}}
+{"input": "Tienes que muévete hacia oficina; antes pasa por mesa", "expected": {"goal": "oficina", "via": ["mesa"]}}
+{"input": "Para llegar a ascensor, ve", "expected": {"goal": "ascensor", "via": []}}
+{"input": "Tienes que anda hacia columna; antes pasa por sofá", "expected": {"goal": "columna", "via": ["sofá"]}}
+{"input": "A oficina, desplázate pasando por ascensor", "expected": {"goal": "oficina", "via": ["ascensor"]}}
+{"input": "navega a armario", "expected": {"goal": "armario", "via": []}}
+{"input": "anda a baño", "expected": {"goal": "baño", "via": []}}
+{"input": "Por favor, avanza a estudio pasando por puerta y garaje", "expected": {"goal": "estudio", "via": ["puerta", "garaje"]}}
+{"input": "camina a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "Para llegar a despacho, muévete", "expected": {"goal": "despacho", "via": []}}
+{"input": "Para llegar a armario, muévete pasando por escaleras", "expected": {"goal": "armario", "via": ["escaleras"]}}
+{"input": "muévete a pared", "expected": {"goal": "pared", "via": []}}
+{"input": "desplázate a garaje vía mostrador", "expected": {"goal": "garaje", "via": ["mostrador"]}}
+{"input": "Para llegar a escritorio, dirígete pasando por ascensor", "expected": {"goal": "escritorio", "via": ["ascensor"]}}
+{"input": "Vale, desplázate a armario, pero asegúrate de pasar por baño antes", "expected": {"goal": "armario", "via": ["baño"]}}
+{"input": "A cama, ve pasando por oficina y lavadero", "expected": {"goal": "cama", "via": ["oficina", "lavadero"]}}
+{"input": "Vale, navega a puerta, pero asegúrate de pasar por librería antes", "expected": {"goal": "puerta", "via": ["librería"]}}
+{"input": "A escritorio, navega pasando por dormitorio", "expected": {"goal": "escritorio", "via": ["dormitorio"]}}
+{"input": "A pared, desplázate pasando por lavadero", "expected": {"goal": "pared", "via": ["lavadero"]}}
+{"input": "Quiero que desplázate a librería pasando por columna", "expected": {"goal": "librería", "via": ["columna"]}}
+{"input": "Vale, ve a oficina, pero pasando antes por salón y armario", "expected": {"goal": "oficina", "via": ["salón", "armario"]}}
+{"input": "ve a cama vía comedor", "expected": {"goal": "cama", "via": ["comedor"]}}
+{"input": "Vale, muévete a habitación, pero asegúrate de pasar por estantería antes", "expected": {"goal": "habitación", "via": ["estantería"]}}
+{"input": "Quiero que muévete a mostrador pasando por oficina", "expected": {"goal": "mostrador", "via": ["oficina"]}}
+{"input": "ve a columna pasando por puerta y garaje", "expected": {"goal": "columna", "via": ["puerta", "garaje"]}}
+{"input": "Vale, dirígete a oficina, pero asegúrate de pasar por salón antes", "expected": {"goal": "oficina", "via": ["salón"]}}
+{"input": "avanza a sofá vía sala y trastero", "expected": {"goal": "sofá", "via": ["sala", "trastero"]}}
+{"input": "Para llegar a mesa, dirígete pasando por garaje", "expected": {"goal": "mesa", "via": ["garaje"]}}
+{"input": "A comedor, desplázate pasando por columna", "expected": {"goal": "comedor", "via": ["columna"]}}
+{"input": "Vale, ve a sofá, pero asegúrate de pasar por cama antes", "expected": {"goal": "sofá", "via": ["cama"]}}
+{"input": "Para llegar a persona, dirígete pasando por escritorio", "expected": {"goal": "persona", "via": ["escritorio"]}}
+{"input": "Vale, avanza a trastero, pero asegúrate de pasar por silla antes", "expected": {"goal": "trastero", "via": ["silla"]}}
+{"input": "Quiero que dirígete a cocina pasando por trastero y salida", "expected": {"goal": "cocina", "via": ["trastero", "salida"]}}
+{"input": "ve a armario vía ventana", "expected": {"goal": "armario", "via": ["ventana"]}}
+{"input": "avanza a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Vale, avanza a pasillo, pero pasando antes por garaje y persona", "expected": {"goal": "pasillo", "via": ["garaje", "persona"]}}
+{"input": "desplázate a pasillo", "expected": {"goal": "pasillo", "via": []}}
+{"input": "dirígete a despacho vía salón", "expected": {"goal": "despacho", "via": ["salón"]}}
+{"input": "dirígete a baño pasando por pasillo", "expected": {"goal": "baño", "via": ["pasillo"]}}
+{"input": "Para llegar a armario, camina", "expected": {"goal": "armario", "via": []}}
+{"input": "Quiero que ve a columna", "expected": {"goal": "columna", "via": []}}
+{"input": "desplázate a mostrador pasando por pasillo", "expected": {"goal": "mostrador", "via": ["pasillo"]}}
+{"input": "Quiero que muévete a habitación pasando por armario y persona", "expected": {"goal": "habitación", "via": ["armario", "persona"]}}
+{"input": "Para llegar a despacho, anda pasando por puerta", "expected": {"goal": "despacho", "via": ["puerta"]}}
+{"input": "Quiero que camina a pared pasando por mostrador", "expected": {"goal": "pared", "via": ["mostrador"]}}
+{"input": "navega a librería pasando por salida", "expected": {"goal": "librería", "via": ["salida"]}}
+{"input": "Quiero que navega a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "Por favor, anda a estudio pasando por ventana y pared", "expected": {"goal": "estudio", "via": ["ventana", "pared"]}}
+{"input": "Para llegar a baño, dirígete pasando por silla y cocina", "expected": {"goal": "baño", "via": ["silla", "cocina"]}}
+{"input": "navega a estantería pasando por columna y despacho", "expected": {"goal": "estantería", "via": ["columna", "despacho"]}}
+{"input": "Quiero que navega a silla pasando por ventana", "expected": {"goal": "silla", "via": ["ventana"]}}
+{"input": "Tienes que muévete hacia sala; antes pasa por oficina", "expected": {"goal": "sala", "via": ["oficina"]}}
+{"input": "Para llegar a despacho, avanza pasando por silla", "expected": {"goal": "despacho", "via": ["silla"]}}
+{"input": "A sofá, dirígete pasando por dormitorio", "expected": {"goal": "sofá", "via": ["dormitorio"]}}
+{"input": "avanza a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "Para llegar a sala, desplázate pasando por sofá y estudio", "expected": {"goal": "sala", "via": ["sofá", "estudio"]}}
+{"input": "Para llegar a puerta, camina pasando por garaje y ventana", "expected": {"goal": "puerta", "via": ["garaje", "ventana"]}}
+{"input": "Para llegar a comedor, navega pasando por salida", "expected": {"goal": "comedor", "via": ["salida"]}}
+{"input": "avanza a pasillo", "expected": {"goal": "pasillo", "via": []}}
+{"input": "muévete a salida vía cocina", "expected": {"goal": "salida", "via": ["cocina"]}}
+{"input": "navega a estudio pasando por sala y puerta", "expected": {"goal": "estudio", "via": ["sala", "puerta"]}}
+{"input": "A mesa, desplázate pasando por ventana", "expected": {"goal": "mesa", "via": ["ventana"]}}
+{"input": "navega a escritorio pasando por salón", "expected": {"goal": "escritorio", "via": ["salón"]}}
+{"input": "Por favor, dirígete a lavadero pasando por cocina y ascensor", "expected": {"goal": "lavadero", "via": ["cocina", "ascensor"]}}
+{"input": "Para llegar a despacho, navega", "expected": {"goal": "despacho", "via": []}}
+{"input": "Para llegar a baño, navega pasando por dormitorio y mesa", "expected": {"goal": "baño", "via": ["dormitorio", "mesa"]}}
+{"input": "camina a estudio pasando por baño y pared", "expected": {"goal": "estudio", "via": ["baño", "pared"]}}
+{"input": "Vale, ve a puerta, pero pasando antes por mesa y sofá", "expected": {"goal": "puerta", "via": ["mesa", "sofá"]}}
+{"input": "Vale, muévete a baño, pero asegúrate de pasar por salón antes", "expected": {"goal": "baño", "via": ["salón"]}}
+{"input": "dirígete a lavadero vía salón", "expected": {"goal": "lavadero", "via": ["salón"]}}
+{"input": "Vale, navega a silla, pero pasando antes por salón y columna", "expected": {"goal": "silla", "via": ["salón", "columna"]}}
+{"input": "Tienes que camina hacia sala; antes pasa por mesa", "expected": {"goal": "sala", "via": ["mesa"]}}
+{"input": "anda a despacho", "expected": {"goal": "despacho", "via": []}}
+{"input": "dirígete a lavadero pasando por puerta", "expected": {"goal": "lavadero", "via": ["puerta"]}}
+{"input": "A persona, muévete pasando por columna", "expected": {"goal": "persona", "via": ["columna"]}}
+{"input": "camina a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "camina a estantería", "expected": {"goal": "estantería", "via": []}}
+{"input": "Para llegar a baño, camina pasando por ventana y escaleras", "expected": {"goal": "baño", "via": ["ventana", "escaleras"]}}
+{"input": "Tienes que navega hacia silla; antes pasa por estantería", "expected": {"goal": "silla", "via": ["estantería"]}}
+{"input": "Tienes que avanza hacia pasillo; antes pasa por escaleras y mesa", "expected": {"goal": "pasillo", "via": ["escaleras", "mesa"]}}
+{"input": "Quiero que ve a puerta pasando por trastero", "expected": {"goal": "puerta", "via": ["trastero"]}}
+{"input": "A comedor, navega pasando por armario", "expected": {"goal": "comedor", "via": ["armario"]}}
+{"input": "Quiero que dirígete a pasillo", "expected": {"goal": "pasillo", "via": []}}
+{"input": "A trastero, dirígete pasando por pasillo y cocina", "expected": {"goal": "trastero", "via": ["pasillo", "cocina"]}}
+{"input": "anda a silla vía salida y estantería", "expected": {"goal": "silla", "via": ["salida", "estantería"]}}
+{"input": "Para llegar a cama, dirígete", "expected": {"goal": "cama", "via": []}}
+{"input": "Por favor, desplázate a puerta pasando por oficina y cama", "expected": {"goal": "puerta", "via": ["oficina", "cama"]}}
+{"input": "desplázate a pared vía trastero y lavadero", "expected": {"goal": "pared", "via": ["trastero", "lavadero"]}}
+{"input": "A sala, avanza pasando por persona", "expected": {"goal": "sala", "via": ["persona"]}}
+{"input": "Quiero que ve a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Quiero que muévete a columna pasando por librería", "expected": {"goal": "columna", "via": ["librería"]}}
+{"input": "navega a pared vía salón y mostrador", "expected": {"goal": "pared", "via": ["salón", "mostrador"]}}
+{"input": "Vale, ve a trastero, pero pasando antes por puerta y escaleras", "expected": {"goal": "trastero", "via": ["puerta", "escaleras"]}}
+{"input": "A puerta, navega pasando por escaleras y ascensor", "expected": {"goal": "puerta", "via": ["escaleras", "ascensor"]}}
+{"input": "Tienes que navega hacia escaleras; antes pasa por ascensor", "expected": {"goal": "escaleras", "via": ["ascensor"]}}
+{"input": "Para llegar a escritorio, anda", "expected": {"goal": "escritorio", "via": []}}
+{"input": "desplázate a lavadero vía sofá", "expected": {"goal": "lavadero", "via": ["sofá"]}}
+{"input": "avanza a estudio vía habitación", "expected": {"goal": "estudio", "via": ["habitación"]}}
+{"input": "Vale, dirígete a dormitorio, pero pasando antes por garaje y habitación", "expected": {"goal": "dormitorio", "via": ["garaje", "habitación"]}}
+{"input": "dirígete a estantería pasando por pasillo y dormitorio", "expected": {"goal": "estantería", "via": ["pasillo", "dormitorio"]}}
+{"input": "ve a ventana", "expected": {"goal": "ventana", "via": []}}
+{"input": "Tienes que avanza hacia sofá; antes pasa por oficina", "expected": {"goal": "sofá", "via": ["oficina"]}}
+{"input": "Para llegar a salida, navega", "expected": {"goal": "salida", "via": []}}
+{"input": "dirígete a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "Quiero que navega a armario pasando por dormitorio", "expected": {"goal": "armario", "via": ["dormitorio"]}}
+{"input": "muévete a ascensor", "expected": {"goal": "ascensor", "via": []}}
+{"input": "Tienes que dirígete hacia oficina; antes pasa por cama", "expected": {"goal": "oficina", "via": ["cama"]}}
+{"input": "camina a pasillo pasando por dormitorio y pared", "expected": {"goal": "pasillo", "via": ["dormitorio", "pared"]}}
+{"input": "muévete a silla vía salida", "expected": {"goal": "silla", "via": ["salida"]}}
+{"input": "anda a persona pasando por estudio y ascensor", "expected": {"goal": "persona", "via": ["estudio", "ascensor"]}}
+{"input": "Quiero que camina a ventana", "expected": {"goal": "ventana", "via": []}}
+{"input": "anda a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "Para llegar a lavadero, avanza", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Quiero que desplázate a mostrador pasando por dormitorio", "expected": {"goal": "mostrador", "via": ["dormitorio"]}}
+{"input": "Para llegar a salida, dirígete pasando por cocina y baño", "expected": {"goal": "salida", "via": ["cocina", "baño"]}}
+{"input": "A persona, dirígete pasando por lavadero", "expected": {"goal": "persona", "via": ["lavadero"]}}
+{"input": "Quiero que navega a baño pasando por persona", "expected": {"goal": "baño", "via": ["persona"]}}
+{"input": "Tienes que navega hacia salida; antes pasa por silla", "expected": {"goal": "salida", "via": ["silla"]}}
+{"input": "Vale, camina a armario, pero asegúrate de pasar por mesa antes", "expected": {"goal": "armario", "via": ["mesa"]}}
+{"input": "Para llegar a mesa, dirígete", "expected": {"goal": "mesa", "via": []}}
+{"input": "Tienes que muévete hacia despacho; antes pasa por sofá", "expected": {"goal": "despacho", "via": ["sofá"]}}
+{"input": "Quiero que muévete a dormitorio pasando por ascensor", "expected": {"goal": "dormitorio", "via": ["ascensor"]}}
+{"input": "Tienes que navega hacia habitación; antes pasa por mostrador", "expected": {"goal": "habitación", "via": ["mostrador"]}}
+{"input": "dirígete a pared vía librería", "expected": {"goal": "pared", "via": ["librería"]}}
+{"input": "A ascensor, desplázate pasando por trastero", "expected": {"goal": "ascensor", "via": ["trastero"]}}
+{"input": "Vale, dirígete a escaleras, pero asegúrate de pasar por cama antes", "expected": {"goal": "escaleras", "via": ["cama"]}}
+{"input": "Tienes que camina hacia habitación; antes pasa por armario", "expected": {"goal": "habitación", "via": ["armario"]}}
+{"input": "camina a cocina", "expected": {"goal": "cocina", "via": []}}
+{"input": "Quiero que dirígete a columna", "expected": {"goal": "columna", "via": []}}
+{"input": "Quiero que camina a ascensor pasando por persona", "expected": {"goal": "ascensor", "via": ["persona"]}}
+{"input": "A sala, anda pasando por despacho", "expected": {"goal": "sala", "via": ["despacho"]}}
+{"input": "Quiero que muévete a habitación pasando por dormitorio y comedor", "expected": {"goal": "habitación", "via": ["dormitorio", "comedor"]}}
+{"input": "Vale, navega a cocina, pero pasando antes por oficina y baño", "expected": {"goal": "cocina", "via": ["oficina", "baño"]}}
+{"input": "A cocina, ve pasando por despacho y salida", "expected": {"goal": "cocina", "via": ["despacho", "salida"]}}
+{"input": "Vale, camina a dormitorio, pero asegúrate de pasar por habitación antes", "expected": {"goal": "dormitorio", "via": ["habitación"]}}
+{"input": "Quiero que desplázate a pared", "expected": {"goal": "pared", "via": []}}
+{"input": "Para llegar a persona, desplázate pasando por dormitorio", "expected": {"goal": "persona", "via": ["dormitorio"]}}
+{"input": "A salida, anda pasando por oficina", "expected": {"goal": "salida", "via": ["oficina"]}}
+{"input": "Vale, dirígete a despacho, pero asegúrate de pasar por comedor antes", "expected": {"goal": "despacho", "via": ["comedor"]}}
+{"input": "Quiero que desplázate a garaje", "expected": {"goal": "garaje", "via": []}}
+{"input": "camina a dormitorio pasando por baño", "expected": {"goal": "dormitorio", "via": ["baño"]}}
+{"input": "muévete a silla vía escaleras y librería", "expected": {"goal": "silla", "via": ["escaleras", "librería"]}}
+{"input": "navega a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "A mesa, desplázate pasando por garaje y estudio", "expected": {"goal": "mesa", "via": ["garaje", "estudio"]}}
+{"input": "Para llegar a cama, muévete", "expected": {"goal": "cama", "via": []}}
+{"input": "Para llegar a ventana, anda pasando por cama", "expected": {"goal": "ventana", "via": ["cama"]}}
+{"input": "dirígete a dormitorio vía baño", "expected": {"goal": "dormitorio", "via": ["baño"]}}
+{"input": "Quiero que anda a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Vale, desplázate a pasillo, pero asegúrate de pasar por despacho antes", "expected": {"goal": "pasillo", "via": ["despacho"]}}
+{"input": "desplázate a sala vía comedor y persona", "expected": {"goal": "sala", "via": ["comedor", "persona"]}}
+{"input": "A garaje, avanza pasando por cama", "expected": {"goal": "garaje", "via": ["cama"]}}
+{"input": "A dormitorio, navega pasando por sala y salida", "expected": {"goal": "dormitorio", "via": ["sala", "salida"]}}
+{"input": "Quiero que dirígete a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "A pared, desplázate pasando por persona", "expected": {"goal": "pared", "via": ["persona"]}}
+{"input": "A escritorio, anda pasando por cocina", "expected": {"goal": "escritorio", "via": ["cocina"]}}
+{"input": "Tienes que ve hacia estudio; antes pasa por mesa", "expected": {"goal": "estudio", "via": ["mesa"]}}
+{"input": "Quiero que ve a mesa pasando por persona y escaleras", "expected": {"goal": "mesa", "via": ["persona", "escaleras"]}}
+{"input": "desplázate a cama pasando por ascensor", "expected": {"goal": "cama", "via": ["ascensor"]}}
+{"input": "Para llegar a escritorio, dirígete pasando por pasillo", "expected": {"goal": "escritorio", "via": ["pasillo"]}}
+{"input": "Quiero que navega a despacho pasando por ascensor y librería", "expected": {"goal": "despacho", "via": ["ascensor", "librería"]}}
+{"input": "Tienes que muévete hacia salida; antes pasa por pasillo y estudio", "expected": {"goal": "salida", "via": ["pasillo", "estudio"]}}
+{"input": "Para llegar a cama, dirígete pasando por ascensor y ventana", "expected": {"goal": "cama", "via": ["ascensor", "ventana"]}}
+{"input": "A silla, navega pasando por puerta y librería", "expected": {"goal": "silla", "via": ["puerta", "librería"]}}
+{"input": "A oficina, camina pasando por columna y silla", "expected": {"goal": "oficina", "via": ["columna", "silla"]}}
+{"input": "camina a sofá vía pasillo", "expected": {"goal": "sofá", "via": ["pasillo"]}}
+{"input": "Quiero que camina a oficina pasando por baño", "expected": {"goal": "oficina", "via": ["baño"]}}
+{"input": "Quiero que anda a mesa", "expected": {"goal": "mesa", "via": []}}
+{"input": "Quiero que anda a mostrador pasando por escaleras", "expected": {"goal": "mostrador", "via": ["escaleras"]}}
+{"input": "avanza a cama", "expected": {"goal": "cama", "via": []}}
+{"input": "Quiero que camina a escritorio", "expected": {"goal": "escritorio", "via": []}}
+{"input": "Para llegar a cocina, desplázate", "expected": {"goal": "cocina", "via": []}}
+{"input": "ve a librería vía baño", "expected": {"goal": "librería", "via": ["baño"]}}
+{"input": "muévete a salida pasando por dormitorio", "expected": {"goal": "salida", "via": ["dormitorio"]}}
+{"input": "navega a pasillo pasando por armario", "expected": {"goal": "pasillo", "via": ["armario"]}}
+{"input": "Para llegar a escaleras, desplázate", "expected": {"goal": "escaleras", "via": []}}
+{"input": "Para llegar a ventana, avanza", "expected": {"goal": "ventana", "via": []}}
+{"input": "Quiero que desplázate a columna pasando por sala", "expected": {"goal": "columna", "via": ["sala"]}}
+{"input": "A salón, camina pasando por mostrador", "expected": {"goal": "salón", "via": ["mostrador"]}}
+{"input": "Tienes que desplázate hacia pared; antes pasa por cama", "expected": {"goal": "pared", "via": ["cama"]}}
+{"input": "Vale, dirígete a oficina, pero asegúrate de pasar por comedor antes", "expected": {"goal": "oficina", "via": ["comedor"]}}
+{"input": "desplázate a oficina", "expected": {"goal": "oficina", "via": []}}
+{"input": "Quiero que camina a salón pasando por pasillo y escaleras", "expected": {"goal": "salón", "via": ["pasillo", "escaleras"]}}
+{"input": "A sala, anda pasando por estantería", "expected": {"goal": "sala", "via": ["estantería"]}}
+{"input": "Quiero que navega a columna pasando por escritorio", "expected": {"goal": "columna", "via": ["escritorio"]}}
+{"input": "Tienes que dirígete hacia oficina; antes pasa por pasillo y salón", "expected": {"goal": "oficina", "via": ["pasillo", "salón"]}}
+{"input": "A trastero, anda pasando por puerta", "expected": {"goal": "trastero", "via": ["puerta"]}}
+{"input": "Vale, muévete a columna, pero asegúrate de pasar por mesa antes", "expected": {"goal": "columna", "via": ["mesa"]}}
+{"input": "A pasillo, camina pasando por mesa", "expected": {"goal": "pasillo", "via": ["mesa"]}}
+{"input": "Por favor, ve a estudio pasando por salón y silla", "expected": {"goal": "estudio", "via": ["salón", "silla"]}}
+{"input": "Vale, desplázate a puerta, pero asegúrate de pasar por persona antes", "expected": {"goal": "puerta", "via": ["persona"]}}
+{"input": "Quiero que ve a pasillo pasando por puerta y cama", "expected": {"goal": "pasillo", "via": ["puerta", "cama"]}}
+{"input": "muévete a estantería pasando por sofá y librería", "expected": {"goal": "estantería", "via": ["sofá", "librería"]}}
+{"input": "Quiero que navega a mostrador pasando por oficina", "expected": {"goal": "mostrador", "via": ["oficina"]}}
+{"input": "Quiero que avanza a salón pasando por ascensor y baño", "expected": {"goal": "salón", "via": ["ascensor", "baño"]}}
+{"input": "Para llegar a garaje, avanza pasando por trastero", "expected": {"goal": "garaje", "via": ["trastero"]}}
+{"input": "desplázate a sofá vía puerta", "expected": {"goal": "sofá", "via": ["puerta"]}}
+{"input": "camina a trastero vía mostrador", "expected": {"goal": "trastero", "via": ["mostrador"]}}
+{"input": "Vale, navega a pasillo, pero pasando antes por oficina y mostrador", "expected": {"goal": "pasillo", "via": ["oficina", "mostrador"]}}
+{"input": "A escritorio, muévete pasando por mostrador", "expected": {"goal": "escritorio", "via": ["mostrador"]}}
+{"input": "Tienes que avanza hacia puerta; antes pasa por silla", "expected": {"goal": "puerta", "via": ["silla"]}}
+{"input": "Vale, muévete a salida, pero pasando antes por despacho y armario", "expected": {"goal": "salida", "via": ["despacho", "armario"]}}
+{"input": "desplázate a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "camina a habitación pasando por estantería y escaleras", "expected": {"goal": "habitación", "via": ["estantería", "escaleras"]}}
+{"input": "Quiero que desplázate a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "avanza a pasillo pasando por garaje y ascensor", "expected": {"goal": "pasillo", "via": ["garaje", "ascensor"]}}
+{"input": "muévete a salida vía mostrador y escritorio", "expected": {"goal": "salida", "via": ["mostrador", "escritorio"]}}
+{"input": "Quiero que desplázate a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "Para llegar a lavadero, muévete pasando por escritorio", "expected": {"goal": "lavadero", "via": ["escritorio"]}}
+{"input": "Quiero que camina a ventana", "expected": {"goal": "ventana", "via": []}}
+{"input": "A escritorio, muévete pasando por silla", "expected": {"goal": "escritorio", "via": ["silla"]}}
+{"input": "ve a columna vía persona y pasillo", "expected": {"goal": "columna", "via": ["persona", "pasillo"]}}
+{"input": "Por favor, camina a trastero pasando por garaje y mesa", "expected": {"goal": "trastero", "via": ["garaje", "mesa"]}}
+{"input": "Para llegar a sofá, ve", "expected": {"goal": "sofá", "via": []}}
+{"input": "Para llegar a salón, avanza", "expected": {"goal": "salón", "via": []}}
+{"input": "A ascensor, anda pasando por librería", "expected": {"goal": "ascensor", "via": ["librería"]}}
+{"input": "Tienes que avanza hacia mostrador; antes pasa por trastero", "expected": {"goal": "mostrador", "via": ["trastero"]}}
+{"input": "Vale, dirígete a baño, pero asegúrate de pasar por pasillo antes", "expected": {"goal": "baño", "via": ["pasillo"]}}
+{"input": "Quiero que anda a escritorio", "expected": {"goal": "escritorio", "via": []}}
+{"input": "A puerta, muévete pasando por escaleras", "expected": {"goal": "puerta", "via": ["escaleras"]}}
+{"input": "anda a despacho", "expected": {"goal": "despacho", "via": []}}
+{"input": "Para llegar a despacho, camina pasando por mesa", "expected": {"goal": "despacho", "via": ["mesa"]}}
+{"input": "Quiero que ve a cocina pasando por estudio y escritorio", "expected": {"goal": "cocina", "via": ["estudio", "escritorio"]}}
+{"input": "Tienes que camina hacia trastero; antes pasa por sofá", "expected": {"goal": "trastero", "via": ["sofá"]}}
+{"input": "Tienes que navega hacia armario; antes pasa por sofá", "expected": {"goal": "armario", "via": ["sofá"]}}
+{"input": "Quiero que dirígete a pasillo", "expected": {"goal": "pasillo", "via": []}}
+{"input": "ve a trastero", "expected": {"goal": "trastero", "via": []}}
+{"input": "Quiero que anda a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Quiero que desplázate a pared pasando por sofá y despacho", "expected": {"goal": "pared", "via": ["sofá", "despacho"]}}
+{"input": "A cama, anda pasando por persona", "expected": {"goal": "cama", "via": ["persona"]}}
+{"input": "Para llegar a persona, camina pasando por mostrador y baño", "expected": {"goal": "persona", "via": ["mostrador", "baño"]}}
+{"input": "Quiero que camina a baño pasando por habitación y mostrador", "expected": {"goal": "baño", "via": ["habitación", "mostrador"]}}
+{"input": "Por favor, muévete a oficina pasando por ascensor y comedor", "expected": {"goal": "oficina", "via": ["ascensor", "comedor"]}}
+{"input": "Quiero que anda a columna", "expected": {"goal": "columna", "via": []}}
+{"input": "Quiero que desplázate a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Vale, desplázate a baño, pero pasando antes por lavadero y salón", "expected": {"goal": "baño", "via": ["lavadero", "salón"]}}
+{"input": "Tienes que navega hacia armario; antes pasa por ascensor", "expected": {"goal": "armario", "via": ["ascensor"]}}
+{"input": "navega a salón", "expected": {"goal": "salón", "via": []}}
+{"input": "Para llegar a estudio, dirígete pasando por mostrador", "expected": {"goal": "estudio", "via": ["mostrador"]}}
+{"input": "navega a librería vía pared", "expected": {"goal": "librería", "via": ["pared"]}}
+{"input": "Quiero que dirígete a despacho pasando por garaje", "expected": {"goal": "despacho", "via": ["garaje"]}}
+{"input": "A persona, ve pasando por mesa", "expected": {"goal": "persona", "via": ["mesa"]}}
+{"input": "anda a baño pasando por ventana", "expected": {"goal": "baño", "via": ["ventana"]}}
+{"input": "Para llegar a ventana, avanza pasando por pared y escritorio", "expected": {"goal": "ventana", "via": ["pared", "escritorio"]}}
+{"input": "Vale, muévete a dormitorio, pero asegúrate de pasar por librería antes", "expected": {"goal": "dormitorio", "via": ["librería"]}}
+{"input": "avanza a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Vale, anda a comedor, pero asegúrate de pasar por salón antes", "expected": {"goal": "comedor", "via": ["salón"]}}
+{"input": "Para llegar a sofá, desplázate pasando por columna", "expected": {"goal": "sofá", "via": ["columna"]}}
+{"input": "A estantería, ve pasando por oficina", "expected": {"goal": "estantería", "via": ["oficina"]}}
+{"input": "Tienes que navega hacia lavadero; antes pasa por dormitorio", "expected": {"goal": "lavadero", "via": ["dormitorio"]}}
+{"input": "Tienes que camina hacia pared; antes pasa por comedor", "expected": {"goal": "pared", "via": ["comedor"]}}
+{"input": "Quiero que anda a lavadero", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Vale, desplázate a garaje, pero asegúrate de pasar por sala antes", "expected": {"goal": "garaje", "via": ["sala"]}}
+{"input": "Vale, desplázate a ascensor, pero asegúrate de pasar por cama antes", "expected": {"goal": "ascensor", "via": ["cama"]}}
+{"input": "Para llegar a salida, anda", "expected": {"goal": "salida", "via": []}}
+{"input": "Quiero que navega a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Para llegar a salón, anda", "expected": {"goal": "salón", "via": []}}
+{"input": "Tienes que camina hacia sala; antes pasa por mesa", "expected": {"goal": "sala", "via": ["mesa"]}}
+{"input": "Quiero que ve a ascensor pasando por estantería y salida", "expected": {"goal": "ascensor", "via": ["estantería", "salida"]}}
+{"input": "Para llegar a comedor, anda", "expected": {"goal": "comedor", "via": []}}
+{"input": "Quiero que navega a cocina", "expected": {"goal": "cocina", "via": []}}
+{"input": "Quiero que avanza a mostrador pasando por escaleras y salida", "expected": {"goal": "mostrador", "via": ["escaleras", "salida"]}}
+{"input": "Quiero que camina a silla pasando por mostrador", "expected": {"goal": "silla", "via": ["mostrador"]}}
+{"input": "Tienes que camina hacia sala; antes pasa por puerta y estudio", "expected": {"goal": "sala", "via": ["puerta", "estudio"]}}
+{"input": "anda a puerta", "expected": {"goal": "puerta", "via": []}}
+{"input": "Vale, avanza a estudio, pero asegúrate de pasar por sofá antes", "expected": {"goal": "estudio", "via": ["sofá"]}}
+{"input": "Quiero que muévete a persona", "expected": {"goal": "persona", "via": []}}
+{"input": "muévete a ventana pasando por garaje", "expected": {"goal": "ventana", "via": ["garaje"]}}
+{"input": "Para llegar a salón, ve pasando por trastero y persona", "expected": {"goal": "salón", "via": ["trastero", "persona"]}}
+{"input": "Vale, ve a salida, pero asegúrate de pasar por puerta antes", "expected": {"goal": "salida", "via": ["puerta"]}}
+{"input": "Para llegar a lavadero, muévete", "expected": {"goal": "lavadero", "via": []}}
+{"input": "Quiero que dirígete a estudio", "expected": {"goal": "estudio", "via": []}}
+{"input": "Quiero que avanza a oficina", "expected": {"goal": "oficina", "via": []}}
+{"input": "Tienes que muévete hacia dormitorio; antes pasa por estudio y silla", "expected": {"goal": "dormitorio", "via": ["estudio", "silla"]}}
+{"input": "Tienes que desplázate hacia mesa; antes pasa por baño", "expected": {"goal": "mesa", "via": ["baño"]}}
+{"input": "Vale, navega a escaleras, pero pasando antes por mostrador y pared", "expected": {"goal": "escaleras", "via": ["mostrador", "pared"]}}
+{"input": "anda a ascensor vía sala", "expected": {"goal": "ascensor", "via": ["sala"]}}
+{"input": "A comedor, navega pasando por lavadero y estantería", "expected": {"goal": "comedor", "via": ["lavadero", "estantería"]}}
+{"input": "Tienes que navega hacia garaje; antes pasa por ventana y salón", "expected": {"goal": "garaje", "via": ["ventana", "salón"]}}
+{"input": "A despacho, avanza pasando por baño", "expected": {"goal": "despacho", "via": ["baño"]}}
+{"input": "Quiero que ve a garaje", "expected": {"goal": "garaje", "via": []}}

@@ -1,0 +1,300 @@
+{"text": "Quiero que camina a dormitorio", "label": "navigation"}
+{"text": "Tienes que navega hacia armario; antes pasa por sofá", "label": "navigation"}
+{"text": "repite", "label": "noise"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "¿Qué objetos hay delante?", "label": "recognition"}
+{"text": "Quiero que camina a lavadero", "label": "navigation"}
+{"text": "espera un segundo", "label": "noise"}
+{"text": "muévete a estantería", "label": "navigation"}
+{"text": "Describe lo que ves delante", "label": "recognition"}
+{"text": "hazlo", "label": "noise"}
+{"text": "Quiero que muévete a lavadero", "label": "navigation"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "Reconoce los objetos que tienes delante. Incorpora esta información al mapa", "label": "recognition"}
+{"text": "Describe lo que ves delante. Incorpora esta información al mapa", "label": "recognition"}
+{"text": "Para llegar a mesa, dirígete", "label": "navigation"}
+{"text": "avanza a escaleras vía garaje y librería", "label": "navigation"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "dirígete a cama", "label": "navigation"}
+{"text": "A mesa, ve pasando por librería y ventana", "label": "navigation"}
+{"text": "Identifica lo que tienes delante", "label": "recognition"}
+{"text": "Analiza lo que hay delante. Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Analiza lo que hay delante. Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "Tienes que ve hacia baño; antes pasa por lavadero", "label": "navigation"}
+{"text": "Vale, ve a dormitorio, pero asegúrate de pasar por baño antes", "label": "navigation"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "ok", "label": "noise"}
+{"text": "¿Qué objetos hay delante?", "label": "recognition"}
+{"text": "Detecta lo que tienes delante. Mapea lo que estás viendo ahora", "label": "recognition"}
+{"text": "Identifica lo que tienes delante", "label": "recognition"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "Quiero que dirígete a puerta pasando por estantería", "label": "navigation"}
+{"text": "¿Qué objetos puedes ver aquí?", "label": "recognition"}
+{"text": "desplázate a lavadero", "label": "navigation"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "vale sigue", "label": "noise"}
+{"text": "ve a oficina", "label": "navigation"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "desplázate a habitación vía puerta", "label": "navigation"}
+{"text": "Tienes que desplázate hacia pared; antes pasa por cama", "label": "navigation"}
+{"text": "Quiero que dirígete a pasillo", "label": "navigation"}
+{"text": "ok", "label": "noise"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "para", "label": "noise"}
+{"text": "Identifica lo que tienes delante", "label": "recognition"}
+{"text": "creo que hay un error", "label": "noise"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "creo que hay un error", "label": "noise"}
+{"text": "espera un segundo", "label": "noise"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "A estudio, navega pasando por escaleras", "label": "navigation"}
+{"text": "Vale, muévete a baño, pero asegúrate de pasar por comedor antes", "label": "navigation"}
+{"text": "Para llegar a puerta, dirígete", "label": "navigation"}
+{"text": "Quiero que desplázate a columna pasando por sala", "label": "navigation"}
+{"text": "creo que hay un error", "label": "noise"}
+{"text": "Vale, muévete a columna, pero asegúrate de pasar por estudio antes", "label": "navigation"}
+{"text": "Reconoce los objetos que tienes delante", "label": "recognition"}
+{"text": "Tienes que dirígete hacia lavadero; antes pasa por armario", "label": "navigation"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "camina a salida pasando por cama", "label": "navigation"}
+{"text": "Vale, navega a silla, pero asegúrate de pasar por lavadero antes", "label": "navigation"}
+{"text": "ok", "label": "noise"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "olvídalo", "label": "noise"}
+{"text": "¿Qué hay en frente del robot? Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "Vale, muévete a baño, pero asegúrate de pasar por salón antes", "label": "navigation"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "continúa", "label": "noise"}
+{"text": "Vale, camina a dormitorio, pero asegúrate de pasar por habitación antes", "label": "navigation"}
+{"text": "Quiero que desplázate a pared pasando por sofá y despacho", "label": "navigation"}
+{"text": "Registra esta escena en el mapa", "label": "recognition"}
+{"text": "desplázate a sofá vía habitación y salón", "label": "navigation"}
+{"text": "Tienes que anda hacia escaleras; antes pasa por persona y salón", "label": "navigation"}
+{"text": "Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "Quiero que navega a puerta", "label": "navigation"}
+{"text": "Detecta lo que tienes delante", "label": "recognition"}
+{"text": "Detecta lo que tienes delante. Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "Dime qué tienes delante. Mapea lo que estás viendo ahora", "label": "recognition"}
+{"text": "¿Qué objetos puedes ver aquí?", "label": "recognition"}
+{"text": "haz lo que quieras", "label": "noise"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "camina a garaje", "label": "navigation"}
+{"text": "está bien", "label": "noise"}
+{"text": "el sistema está respondiendo lento hoy", "label": "noise"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "Para llegar a persona, camina pasando por mostrador y baño", "label": "navigation"}
+{"text": "Quiero que dirígete a ascensor", "label": "navigation"}
+{"text": "vale sigue", "label": "noise"}
+{"text": "Para llegar a comedor, camina pasando por cama", "label": "navigation"}
+{"text": "ve a columna vía persona y pasillo", "label": "navigation"}
+{"text": "no sé qué está pasando", "label": "noise"}
+{"text": "Para llegar a sala, dirígete", "label": "navigation"}
+{"text": "¿Qué objetos puedes ver aquí?", "label": "recognition"}
+{"text": "Analiza lo que hay delante. Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "Dime qué tienes delante", "label": "recognition"}
+{"text": "no", "label": "noise"}
+{"text": "dirígete a despacho vía salón", "label": "navigation"}
+{"text": "Para llegar a pared, dirígete pasando por puerta", "label": "navigation"}
+{"text": "Detecta los objetos delante de ti. Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "Mapea lo que estás viendo ahora", "label": "recognition"}
+{"text": "Quiero que muévete a columna pasando por librería", "label": "navigation"}
+{"text": "Para llegar a escaleras, camina pasando por sofá", "label": "navigation"}
+{"text": "el sistema está respondiendo lento hoy", "label": "noise"}
+{"text": "Quiero que navega a mostrador pasando por oficina", "label": "navigation"}
+{"text": "Describe lo que ves delante", "label": "recognition"}
+{"text": "Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "vale sigue", "label": "noise"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "Reconoce los objetos que tienes delante", "label": "recognition"}
+{"text": "¿Qué estás viendo ahora? Registra esta escena en el mapa", "label": "recognition"}
+{"text": "Para llegar a garaje, camina pasando por escaleras", "label": "navigation"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "esto no funciona", "label": "noise"}
+{"text": "ok hazlo", "label": "noise"}
+{"text": "Para llegar a columna, avanza", "label": "navigation"}
+{"text": "¿Qué objetos puedes ver aquí? Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "el sistema está respondiendo lento hoy", "label": "noise"}
+{"text": "Por favor, avanza a mostrador pasando por trastero y pared", "label": "navigation"}
+{"text": "Quiero que dirígete a pasillo", "label": "navigation"}
+{"text": "Para llegar a despacho, camina pasando por mesa", "label": "navigation"}
+{"text": "avanza a puerta vía escritorio", "label": "navigation"}
+{"text": "Identifica lo que tienes delante", "label": "recognition"}
+{"text": "¿Qué objetos hay delante?", "label": "recognition"}
+{"text": "vale", "label": "noise"}
+{"text": "A cocina, dirígete pasando por garaje y salón", "label": "navigation"}
+{"text": "no entiendo nada", "label": "noise"}
+{"text": "¿Qué hay en frente del robot? Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "navega a librería vía pared", "label": "navigation"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "camina a dormitorio pasando por pared", "label": "navigation"}
+{"text": "¿eh?", "label": "noise"}
+{"text": "Para llegar a ventana, ve", "label": "navigation"}
+{"text": "desplázate a columna vía sofá y cama", "label": "navigation"}
+{"text": "Detecta los objetos delante de ti. Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Vale, desplázate a pasillo, pero asegúrate de pasar por despacho antes", "label": "navigation"}
+{"text": "Identifica lo que tienes delante. Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Detecta los objetos delante de ti. Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "Mapea lo que estás viendo ahora", "label": "recognition"}
+{"text": "dirígete a mesa pasando por cama y estantería", "label": "navigation"}
+{"text": "Para llegar a armario, navega", "label": "navigation"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "no entiendo nada", "label": "noise"}
+{"text": "¿Qué objetos puedes ver aquí?", "label": "recognition"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "Vale, navega a lavadero, pero asegúrate de pasar por sala antes", "label": "navigation"}
+{"text": "A comedor, desplázate pasando por librería", "label": "navigation"}
+{"text": "Detecta lo que tienes delante", "label": "recognition"}
+{"text": "continúa", "label": "noise"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "Dime qué tienes delante. Mapea lo que estás viendo ahora", "label": "recognition"}
+{"text": "Detecta los objetos delante de ti. Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Quiero que anda a pared pasando por estantería", "label": "navigation"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "¿Qué estás viendo ahora?", "label": "recognition"}
+{"text": "Describe lo que ves delante", "label": "recognition"}
+{"text": "Identifica lo que tienes delante", "label": "recognition"}
+{"text": "ve a baño pasando por ascensor y trastero", "label": "navigation"}
+{"text": "Dime qué tienes delante. Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "Tienes que avanza hacia cama; antes pasa por librería", "label": "navigation"}
+{"text": "Vale, navega a silla, pero pasando antes por salón y columna", "label": "navigation"}
+{"text": "muévete a silla", "label": "navigation"}
+{"text": "A comedor, navega pasando por armario", "label": "navigation"}
+{"text": "Vale, dirígete a sofá, pero asegúrate de pasar por habitación antes", "label": "navigation"}
+{"text": "ve a cama vía sofá", "label": "navigation"}
+{"text": "ve a salón pasando por sala y armario", "label": "navigation"}
+{"text": "desplázate a salida", "label": "navigation"}
+{"text": "Registra esta escena en el mapa", "label": "recognition"}
+{"text": "muévete a silla vía escaleras y librería", "label": "navigation"}
+{"text": "Por favor, avanza a oficina pasando por cama y estantería", "label": "navigation"}
+{"text": "Vale, dirígete a librería, pero pasando antes por mesa y escritorio", "label": "navigation"}
+{"text": "Describe lo que ves delante", "label": "recognition"}
+{"text": "Quiero que dirígete a lavadero pasando por librería y salida", "label": "navigation"}
+{"text": "Quiero que camina a librería pasando por ascensor", "label": "navigation"}
+{"text": "¿Qué estás viendo ahora?", "label": "recognition"}
+{"text": "Vale, muévete a habitación, pero asegúrate de pasar por estantería antes", "label": "navigation"}
+{"text": "Reconoce los objetos que tienes delante", "label": "recognition"}
+{"text": "Para llegar a armario, camina", "label": "navigation"}
+{"text": "no sé qué está pasando", "label": "noise"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "mmm", "label": "noise"}
+{"text": "Para llegar a estantería, muévete", "label": "navigation"}
+{"text": "el sistema está respondiendo lento hoy", "label": "noise"}
+{"text": "vale sigue", "label": "noise"}
+{"text": "Vale, desplázate a silla, pero pasando antes por mesa y escaleras", "label": "navigation"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "¿Qué estás viendo ahora?", "label": "recognition"}
+{"text": "A baño, dirígete pasando por armario", "label": "navigation"}
+{"text": "Vale, desplázate a despacho, pero pasando antes por ventana y baño", "label": "navigation"}
+{"text": "desplázate a mesa", "label": "navigation"}
+{"text": "¿Qué estás viendo ahora? Añade lo que ves al mapa", "label": "recognition"}
+{"text": "¿eh?", "label": "noise"}
+{"text": "Quiero que dirígete a dormitorio", "label": "navigation"}
+{"text": "Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "Tienes que navega hacia persona; antes pasa por sofá", "label": "navigation"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "el sistema está respondiendo lento hoy", "label": "noise"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "esto no funciona", "label": "noise"}
+{"text": "Tienes que avanza hacia pasillo; antes pasa por oficina", "label": "navigation"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "Tienes que avanza hacia dormitorio; antes pasa por salida", "label": "navigation"}
+{"text": "Detecta lo que tienes delante", "label": "recognition"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Reconoce los objetos que tienes delante. Registra esta escena en el mapa", "label": "recognition"}
+{"text": "de acuerdo", "label": "noise"}
+{"text": "Describe lo que ves delante. Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "A persona, ve pasando por mesa", "label": "navigation"}
+{"text": "Dime qué tienes delante", "label": "recognition"}
+{"text": "Para llegar a pasillo, muévete pasando por mostrador", "label": "navigation"}
+{"text": "haz lo que quieras", "label": "noise"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "olvídalo", "label": "noise"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "Vale, avanza a habitación, pero asegúrate de pasar por pasillo antes", "label": "navigation"}
+{"text": "Quiero que navega a silla pasando por ventana", "label": "navigation"}
+{"text": "Actualiza el mapa con lo que tienes delante", "label": "recognition"}
+{"text": "Quiero que avanza a comedor pasando por dormitorio", "label": "navigation"}
+{"text": "Quiero que desplázate a ascensor pasando por oficina", "label": "navigation"}
+{"text": "el sistema está respondiendo lento hoy", "label": "noise"}
+{"text": "Por favor, desplázate a cocina pasando por escritorio y ventana", "label": "navigation"}
+{"text": "no entiendo nada", "label": "noise"}
+{"text": "¿eh?", "label": "noise"}
+{"text": "¿Qué objetos hay delante?", "label": "recognition"}
+{"text": "Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "no sé qué está pasando", "label": "noise"}
+{"text": "Vale, camina a estudio, pero asegúrate de pasar por columna antes", "label": "navigation"}
+{"text": "desplázate a ascensor vía puerta", "label": "navigation"}
+{"text": "A ventana, anda pasando por pared", "label": "navigation"}
+{"text": "hazlo", "label": "noise"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "Detecta los objetos delante de ti", "label": "recognition"}
+{"text": "Analiza lo que hay delante. Guarda lo que ves en el mapa", "label": "recognition"}
+{"text": "Para llegar a librería, desplázate pasando por mostrador", "label": "navigation"}
+{"text": "Tienes que avanza hacia salón; antes pasa por puerta", "label": "navigation"}
+{"text": "vale sigue", "label": "noise"}
+{"text": "Tienes que desplázate hacia estudio; antes pasa por silla", "label": "navigation"}
+{"text": "Reconoce los objetos que tienes delante", "label": "recognition"}
+{"text": "camina a oficina pasando por comedor y columna", "label": "navigation"}
+{"text": "ok hazlo", "label": "noise"}
+{"text": "Detecta lo que tienes delante", "label": "recognition"}
+{"text": "¿Qué hay en frente del robot?", "label": "recognition"}
+{"text": "Quiero que desplázate a garaje", "label": "navigation"}
+{"text": "ve a ventana", "label": "navigation"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "Quiero que muévete a habitación pasando por dormitorio y comedor", "label": "navigation"}
+{"text": "avanza a columna vía despacho", "label": "navigation"}
+{"text": "espera un segundo", "label": "noise"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "¿Qué objetos hay delante? Incorpora esta información al mapa", "label": "recognition"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "¿Qué tienes delante?", "label": "recognition"}
+{"text": "Identifica lo que tienes delante", "label": "recognition"}
+{"text": "¿Qué objetos hay delante?", "label": "recognition"}
+{"text": "camina a mesa", "label": "navigation"}
+{"text": "Tienes que navega hacia baño; antes pasa por persona y dormitorio", "label": "navigation"}
+{"text": "Para llegar a mesa, navega pasando por sala", "label": "navigation"}
+{"text": "Dime qué tienes delante", "label": "recognition"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Analiza lo que hay delante", "label": "recognition"}
+{"text": "creo que hay un error", "label": "noise"}
+{"text": "Tienes que camina hacia pasillo; antes pasa por ascensor", "label": "navigation"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "continúa", "label": "noise"}
+{"text": "Para llegar a estudio, ve", "label": "navigation"}
+{"text": "¿Qué objetos hay delante?", "label": "recognition"}
+{"text": "Para llegar a escaleras, camina pasando por estantería", "label": "navigation"}
+{"text": "Incorpora esta información al mapa", "label": "recognition"}
+{"text": "avanza a cocina vía mesa y habitación", "label": "navigation"}
+{"text": "Para llegar a armario, muévete pasando por escaleras", "label": "navigation"}
+{"text": "Analiza lo que hay delante. Incorpora esta información al mapa", "label": "recognition"}
+{"text": "dirígete a oficina vía lavadero y trastero", "label": "navigation"}
+{"text": "Tienes que navega hacia silla; antes pasa por estantería", "label": "navigation"}
+{"text": "Vale, desplázate a comedor, pero asegúrate de pasar por estudio antes", "label": "navigation"}
+{"text": "Tienes que camina hacia mostrador; antes pasa por pared", "label": "navigation"}
+{"text": "muévete a columna vía persona y mostrador", "label": "navigation"}
+{"text": "avanza a lavadero", "label": "navigation"}
+{"text": "Tienes que anda hacia ascensor; antes pasa por comedor y cama", "label": "navigation"}
+{"text": "¿Qué estás viendo ahora? Añade lo que ves al mapa", "label": "recognition"}
+{"text": "Añade lo que ves al mapa", "label": "recognition"}
+{"text": "¿Qué estás viendo ahora?", "label": "recognition"}
+{"text": "ok hazlo", "label": "noise"}
+{"text": "¿Qué estás viendo ahora? Registra esta escena en el mapa", "label": "recognition"}
+{"text": "A pasillo, camina pasando por escritorio", "label": "navigation"}
+{"text": "Vale, dirígete a oficina, pero asegúrate de pasar por comedor antes", "label": "navigation"}
+{"text": "Tienes que anda hacia pasillo; antes pasa por silla y dormitorio", "label": "navigation"}
+{"text": "vale sigue", "label": "noise"}
+{"text": "esto parece incorrecto", "label": "noise"}
+{"text": "Guarda lo que ves en el mapa", "label": "recognition"}

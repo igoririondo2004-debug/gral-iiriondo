@@ -1,0 +1,21 @@
+==================== RESULTS ====================
+
+Model: Qwen/Qwen2.5-3B-Instruct
+
+Total samples: 300
+
+Valid JSON: 300/300 (100.00%)
+
+Valid intent:
+297/300 (99.00%)
+
+Exact match:
+297/300 (99.00%)
+
+Avg latency/sample:
+3.9055 s
+
+Throughput:
+0.26 samples/sec
+
+================================================

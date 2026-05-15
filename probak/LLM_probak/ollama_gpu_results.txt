@@ -1,0 +1,10 @@
+
+MODEL: ministral-3:3b
+
+Samples: 1000
+Format valid: 1000/1000
+Rules valid: 998/1000
+Exact match: 870/1000
+
+Avg latency: 0.8963s
+Throughput: 1.12 samples/sec

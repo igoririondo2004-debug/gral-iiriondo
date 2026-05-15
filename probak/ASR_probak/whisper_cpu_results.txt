@@ -1,0 +1,12 @@
+
+===============================
+WHISPER SMALL (CPU ONLY)
+===============================
+
+Samples: 2000
+
+WER mean: 0.1872
+CER mean: 0.0618
+RTF mean: 0.2754
+
+Avg latency: 1.3410s

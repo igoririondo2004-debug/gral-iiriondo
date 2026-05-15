@@ -1,0 +1,13 @@
+
+CPU MODE RESULTS
+
+Model: llama3.2:3b
+
+Samples: 1000
+
+Format valid: 839/1000 (83.90%)
+Rules valid: 817/1000 (81.70%)
+Exact match: 542/1000 (54.20%)
+
+Avg latency: 3.3017s
+Throughput: 1.16 samples/sec
