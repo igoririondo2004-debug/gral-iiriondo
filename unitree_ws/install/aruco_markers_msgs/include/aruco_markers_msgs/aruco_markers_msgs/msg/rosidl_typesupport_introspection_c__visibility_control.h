@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_c/aruco_markers_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

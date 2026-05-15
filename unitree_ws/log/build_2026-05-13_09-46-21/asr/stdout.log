@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating asr.egg-info
+writing asr.egg-info/PKG-INFO
+writing dependency_links to asr.egg-info/dependency_links.txt
+writing entry points to asr.egg-info/entry_points.txt
+writing requirements to asr.egg-info/requires.txt
+writing top-level names to asr.egg-info/top_level.txt
+writing manifest file 'asr.egg-info/SOURCES.txt'
+reading manifest file 'asr.egg-info/SOURCES.txt'
+writing manifest file 'asr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/igor/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages/asr.egg-link (link to .)
+Installing vosk_node script to /home/igor/gral-iiriondo/unitree_ws/install/asr/lib/asr
+Installing whisper_medium_node script to /home/igor/gral-iiriondo/unitree_ws/install/asr/lib/asr
+
+Installed /home/igor/gral-iiriondo/unitree_ws/build/asr
+running symlink_data
+creating /home/igor/gral-iiriondo/unitree_ws/install/asr/share/ament_index
+creating /home/igor/gral-iiriondo/unitree_ws/install/asr/share/ament_index/resource_index
+creating /home/igor/gral-iiriondo/unitree_ws/install/asr/share/ament_index/resource_index/packages
+symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/asr/resource/asr -> /home/igor/gral-iiriondo/unitree_ws/install/asr/share/ament_index/resource_index/packages
+symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/asr/package.xml -> /home/igor/gral-iiriondo/unitree_ws/install/asr/share/asr
+creating /home/igor/gral-iiriondo/unitree_ws/install/asr/share/asr/launch
+symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/asr/launch/whisper_medium.launch.py -> /home/igor/gral-iiriondo/unitree_ws/install/asr/share/asr/launch
+symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/asr/launch/vosk.launch.py -> /home/igor/gral-iiriondo/unitree_ws/install/asr/share/asr/launch

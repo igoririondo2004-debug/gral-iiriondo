@@ -1,0 +1,9 @@
+source;share/speech_to_goal/hook/pythonpath.ps1
+source;share/speech_to_goal/hook/pythonpath.dsv
+source;share/speech_to_goal/hook/pythonpath.sh
+source;share/speech_to_goal/hook/ament_prefix_path.ps1
+source;share/speech_to_goal/hook/ament_prefix_path.dsv
+source;share/speech_to_goal/hook/ament_prefix_path.sh
+source;../../build/speech_to_goal/share/speech_to_goal/hook/pythonpath_develop.ps1
+source;../../build/speech_to_goal/share/speech_to_goal/hook/pythonpath_develop.dsv
+source;../../build/speech_to_goal/share/speech_to_goal/hook/pythonpath_develop.sh

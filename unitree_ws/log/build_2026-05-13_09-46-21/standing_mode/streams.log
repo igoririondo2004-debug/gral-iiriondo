@@ -1,0 +1,26 @@
+[3.167s] Invoking command in '/home/igor/gral-iiriondo/unitree_ws/build/standing_mode': PYTHONPATH=/home/igor/gral-iiriondo/unitree_ws/build/standing_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/gral-iiriondo/unitree_ws/install/standing_mode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/igor/gral-iiriondo/unitree_ws/build/standing_mode/build --no-deps symlink_data
+[4.156s] running develop
+[4.966s] running egg_info
+[4.967s] creating standing_mode.egg-info
+[4.967s] writing standing_mode.egg-info/PKG-INFO
+[4.968s] writing dependency_links to standing_mode.egg-info/dependency_links.txt
+[4.968s] writing entry points to standing_mode.egg-info/entry_points.txt
+[4.968s] writing requirements to standing_mode.egg-info/requires.txt
+[4.968s] writing top-level names to standing_mode.egg-info/top_level.txt
+[4.969s] writing manifest file 'standing_mode.egg-info/SOURCES.txt'
+[4.974s] reading manifest file 'standing_mode.egg-info/SOURCES.txt'
+[4.976s] writing manifest file 'standing_mode.egg-info/SOURCES.txt'
+[4.980s] running build_ext
+[4.982s] Creating /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/lib/python3.10/site-packages/standing-mode.egg-link (link to .)
+[4.984s] Installing standing_mode script to /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/lib/standing_mode
+[4.984s] 
+[4.984s] Installed /home/igor/gral-iiriondo/unitree_ws/build/standing_mode
+[4.985s] running symlink_data
+[4.985s] creating /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/ament_index
+[4.985s] creating /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/ament_index/resource_index
+[4.985s] creating /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/ament_index/resource_index/packages
+[4.986s] symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/standing_mode/resource/standing_mode -> /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/ament_index/resource_index/packages
+[4.992s] symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/standing_mode/package.xml -> /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/standing_mode
+[4.992s] creating /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/standing_mode/launch
+[4.993s] symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/standing_mode/launch/standing_mode.launch.py -> /home/igor/gral-iiriondo/unitree_ws/install/standing_mode/share/standing_mode/launch
+[5.059s] Invoked command in '/home/igor/gral-iiriondo/unitree_ws/build/standing_mode' returned '0': PYTHONPATH=/home/igor/gral-iiriondo/unitree_ws/build/standing_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/gral-iiriondo/unitree_ws/install/standing_mode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/igor/gral-iiriondo/unitree_ws/build/standing_mode/build --no-deps symlink_data

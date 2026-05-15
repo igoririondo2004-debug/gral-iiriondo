@@ -1,0 +1,3 @@
+/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:msg/Waypoint.idl
+/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/LLMQuery.idl
+/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/DetectIntent.idl

@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_cpp/object_recognition_interfaces/srv/detail/add_object__traits.hpp

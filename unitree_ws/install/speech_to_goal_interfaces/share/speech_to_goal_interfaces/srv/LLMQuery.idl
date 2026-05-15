@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speech_to_goal_interfaces/srv/LLMQuery.srv
+// generated code does not contain a copyright notice
+
+#include "speech_to_goal_interfaces/msg/Waypoint.idl"
+
+module speech_to_goal_interfaces {
+  module srv {
+    struct LLMQuery_Request {
+      string query;
+    };
+    struct LLMQuery_Response {
+      sequence<speech_to_goal_interfaces::msg::Waypoint> waypoints;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

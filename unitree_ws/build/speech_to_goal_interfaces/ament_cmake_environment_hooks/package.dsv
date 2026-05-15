@@ -1,0 +1,4 @@
+source;share/speech_to_goal_interfaces/local_setup.bash
+source;share/speech_to_goal_interfaces/local_setup.dsv
+source;share/speech_to_goal_interfaces/local_setup.sh
+source;share/speech_to_goal_interfaces/local_setup.zsh

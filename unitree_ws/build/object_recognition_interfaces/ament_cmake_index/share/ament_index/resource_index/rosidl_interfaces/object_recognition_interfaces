@@ -1,0 +1,8 @@
+srv/AddObject.idl
+srv/AddObject.srv
+srv/AddObject_Request.msg
+srv/AddObject_Response.msg
+srv/DetectObject.idl
+srv/DetectObject.srv
+srv/DetectObject_Request.msg
+srv/DetectObject_Response.msg

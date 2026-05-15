@@ -1,0 +1,4 @@
+
+string object
+float32 confidence
+bool success

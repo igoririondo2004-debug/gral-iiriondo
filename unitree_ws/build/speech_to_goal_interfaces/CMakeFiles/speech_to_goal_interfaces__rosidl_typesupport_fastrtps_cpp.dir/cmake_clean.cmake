@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o"
+  "CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o.d"
+  "CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/dds_fastrtps/detect_intent__type_support.cpp.o"
+  "CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/dds_fastrtps/detect_intent__type_support.cpp.o.d"
+  "CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/dds_fastrtps/llm_query__type_support.cpp.o"
+  "CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/dds_fastrtps/llm_query__type_support.cpp.o.d"
+  "libspeech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libspeech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/dds_fastrtps/detect_intent__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/dds_fastrtps/llm_query__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/detect_intent__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

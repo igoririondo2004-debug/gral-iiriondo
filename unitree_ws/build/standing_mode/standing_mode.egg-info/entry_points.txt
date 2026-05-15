@@ -1,0 +1,3 @@
+[console_scripts]
+standing_mode = standing_mode.standing_mode:main
+

@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_cmake/srv/AddObject_Response.msg

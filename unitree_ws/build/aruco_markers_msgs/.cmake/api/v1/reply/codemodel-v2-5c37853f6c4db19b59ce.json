@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9ae1d82e949ad9e74d45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "aruco_markers_msgs__py",
+					"jsonFile" : "directory-aruco_markers_msgs__py-71c139b6272067ddddc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "aruco_markers_msgs__rs",
+					"jsonFile" : "directory-aruco_markers_msgs__rs-e59995ca0513f3a8514b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "aruco_markers_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aruco_markers_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aruco_markers_msgs_egg-17fe22332505d15179a8.json",
+					"name" : "ament_cmake_python_build_aruco_markers_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_aruco_markers_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_aruco_markers_msgs-6740da4a08230b9f6973.json",
+					"name" : "ament_cmake_python_symlink_aruco_markers_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs-08ac2221fddd6b3b2015.json",
+					"name" : "aruco_markers_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__cpp-d69cad1046a604af24e9.json",
+					"name" : "aruco_markers_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aruco_markers_msgs__py::@47ef51df7bdcaec2ed49",
+					"jsonFile" : "target-aruco_markers_msgs__py-1c6a8c352cb954785f3f.json",
+					"name" : "aruco_markers_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_generator_c-d330d28a3b7ae1d53ba1.json",
+					"name" : "aruco_markers_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_generator_py-55b5dee0944bc14ddb23.json",
+					"name" : "aruco_markers_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_c-2b4f0d5f7f3ed08d07fb.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_c__pyext-cd33a19798bf4c774a3d.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_cpp-2b633d59b406b21e3642.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_fastrtps_c-87fe5acf49b1c1253260.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext-5e122a8676f2f34babdd.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_fastrtps_cpp-f40dcc2e4e9f0af1e71e.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_introspection_c-147a1ba70df9c8015523.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext-33197fc9abc2e524cee2.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs__rosidl_typesupport_introspection_cpp-e4b963b002cfcd5b8f86.json",
+					"name" : "aruco_markers_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aruco_markers_msgs__rs::@48e36cf6095abd5e36ad",
+					"jsonFile" : "target-aruco_markers_msgs__rs-2d0fd9f63434a789467d.json",
+					"name" : "aruco_markers_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_markers_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_markers_msgs_uninstall-3ebabc97c0ebe787f8fc.json",
+					"name" : "aruco_markers_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fcbc3edcdee26e04ca27.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs",
+		"source" : "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,11 @@
+markers:
+  '0':
+    name: entrada
+    x: -1.0
+    y: -2.0
+    z: 0.0
+  '1':
+    name: puerta
+    x: -2.0
+    y: 1.0
+    z: 0.0

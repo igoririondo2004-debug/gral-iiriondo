@@ -1,0 +1,3 @@
+[console_scripts]
+object_recognition_node = object_recognition.recognition_service:main
+

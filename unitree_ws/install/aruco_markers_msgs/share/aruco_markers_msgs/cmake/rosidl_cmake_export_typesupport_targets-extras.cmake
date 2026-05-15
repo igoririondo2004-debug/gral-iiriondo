@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

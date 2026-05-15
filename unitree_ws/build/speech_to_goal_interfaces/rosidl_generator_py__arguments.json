@@ -1,0 +1,28 @@
+{
+  "package_name": "speech_to_goal_interfaces",
+  "output_dir": "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:msg/Waypoint.idl",
+    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/LLMQuery.idl",
+    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/DetectIntent.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
+    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
+    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl"
+  ]
+}

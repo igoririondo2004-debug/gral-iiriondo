@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_typesupport_fastrtps_cpp/object_recognition_interfaces/srv/detail/detect_object__rosidl_typesupport_fastrtps_cpp.hpp

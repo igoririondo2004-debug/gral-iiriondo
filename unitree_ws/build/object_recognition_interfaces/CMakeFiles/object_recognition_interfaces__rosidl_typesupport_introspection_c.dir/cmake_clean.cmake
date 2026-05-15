@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/add_object__type_support.c.o"
+  "CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/add_object__type_support.c.o.d"
+  "CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/detect_object__type_support.c.o"
+  "CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/detect_object__type_support.c.o.d"
+  "libobject_recognition_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libobject_recognition_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/add_object__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/add_object__type_support.c"
+  "rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/detect_object__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/detect_object__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

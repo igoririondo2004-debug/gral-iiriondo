@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "aruco_markers_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs")

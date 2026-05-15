@@ -1,0 +1,7 @@
+{
+  "package_name": "object_recognition_interfaces",
+  "non_idl_tuples": [
+    "/home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces:srv/DetectObject.srv",
+    "/home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces:srv/AddObject.srv"
+  ]
+}

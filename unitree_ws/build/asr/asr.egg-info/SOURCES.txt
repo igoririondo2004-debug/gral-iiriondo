@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+asr/__init__.py
+asr/vosk_node.py
+asr/whisper_medium_node.py
+asr.egg-info/PKG-INFO
+asr.egg-info/SOURCES.txt
+asr.egg-info/dependency_links.txt
+asr.egg-info/entry_points.txt
+asr.egg-info/requires.txt
+asr.egg-info/top_level.txt
+asr.egg-info/zip-safe
+launch/vosk.launch.py
+launch/whisper_medium.launch.py
+resource/asr

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from object_recognition_interfaces/srv/AddObject.srv
+// generated code does not contain a copyright notice
+
+
+module object_recognition_interfaces {
+  module srv {
+    struct AddObject_Request {
+      string name;
+
+      double x;
+
+      double y;
+
+      double z;
+    };
+    struct AddObject_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

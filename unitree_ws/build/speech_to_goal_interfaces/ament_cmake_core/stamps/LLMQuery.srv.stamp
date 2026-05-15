@@ -1,0 +1,5 @@
+string query
+---
+Waypoint[] waypoints
+bool success
+string message

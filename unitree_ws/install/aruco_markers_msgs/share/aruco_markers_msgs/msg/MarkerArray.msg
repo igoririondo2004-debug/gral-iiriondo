@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg

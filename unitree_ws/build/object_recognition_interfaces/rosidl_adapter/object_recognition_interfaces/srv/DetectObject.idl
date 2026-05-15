@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from object_recognition_interfaces/srv/DetectObject.srv
+// generated code does not contain a copyright notice
+
+
+module object_recognition_interfaces {
+  module srv {
+    struct DetectObject_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct DetectObject_Response {
+      string object;
+
+      float confidence;
+
+      boolean success;
+    };
+  };
+};

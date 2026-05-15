@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/ament_cmake_core/object_recognition_interfacesConfig-version.cmake

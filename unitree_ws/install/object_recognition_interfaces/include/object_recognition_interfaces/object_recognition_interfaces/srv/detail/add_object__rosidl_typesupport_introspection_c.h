@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/add_object__rosidl_typesupport_introspection_c.h

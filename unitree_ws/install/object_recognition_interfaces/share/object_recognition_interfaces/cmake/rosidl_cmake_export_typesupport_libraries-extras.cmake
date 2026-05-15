@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

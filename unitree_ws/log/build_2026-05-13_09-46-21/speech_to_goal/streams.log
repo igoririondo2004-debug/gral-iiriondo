@@ -1,0 +1,27 @@
+[1.767s] Invoking command in '/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal': PYTHONPATH=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages:/home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal/build --no-deps symlink_data
+[2.414s] running develop
+[2.810s] running egg_info
+[2.810s] creating speech_to_goal.egg-info
+[2.811s] writing speech_to_goal.egg-info/PKG-INFO
+[2.811s] writing dependency_links to speech_to_goal.egg-info/dependency_links.txt
+[2.811s] writing entry points to speech_to_goal.egg-info/entry_points.txt
+[2.812s] writing requirements to speech_to_goal.egg-info/requires.txt
+[2.812s] writing top-level names to speech_to_goal.egg-info/top_level.txt
+[2.813s] writing manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+[2.816s] reading manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+[2.818s] writing manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+[2.820s] running build_ext
+[2.821s] Creating /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages/speech-to-goal.egg-link (link to .)
+[2.822s] Installing intent_classifier_node script to /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[2.823s] Installing speech_to_goal_llm_node script to /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[2.823s] Installing speech_to_goal_main_planner_node script to /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[2.823s] Installing speech_to_goal_node script to /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[2.824s] 
+[2.824s] Installed /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal
+[2.824s] running symlink_data
+[2.824s] creating /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index
+[2.824s] creating /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index
+[2.825s] creating /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index/packages
+[2.825s] symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal/resource/speech_to_goal -> /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index/packages
+[2.825s] symbolically linking /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal/package.xml -> /home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal
+[2.865s] Invoked command in '/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal' returned '0': PYTHONPATH=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages:/home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal/build --no-deps symlink_data

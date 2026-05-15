@@ -1,0 +1,3 @@
+[console_scripts]
+mapping_publishers = mapping_configuration.mapping_publishers:main
+

@@ -1,0 +1,10 @@
+msg/Waypoint.idl
+msg/Waypoint.msg
+srv/DetectIntent.idl
+srv/DetectIntent.srv
+srv/DetectIntent_Request.msg
+srv/DetectIntent_Response.msg
+srv/LLMQuery.idl
+srv/LLMQuery.srv
+srv/LLMQuery_Request.msg
+srv/LLMQuery_Response.msg

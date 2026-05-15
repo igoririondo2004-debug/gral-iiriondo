@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/marker_array.h

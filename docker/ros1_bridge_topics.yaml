@@ -1,0 +1,190 @@
+topics:
+  - topic: /camera/body/left/image_raw/compressed
+    type: sensor_msgs/msg/CompressedImage
+    queue_size: 10
+  - topic: /camera/body/right/image_raw/compressed
+    type: sensor_msgs/msg/CompressedImage
+    queue_size: 10
+  - topic: /camera/bottom/image_raw/compressed
+    type: sensor_msgs/msg/CompressedImage
+    queue_size: 10
+  - topic: /camera/head/front/image_raw/compressed
+    type: sensor_msgs/msg/CompressedImage
+    queue_size: 10
+  - topic: /camera/head/front/point_cloud
+    type: sensor_msgs/msg/PointCloud2
+    queue_size: 10
+  - topic: /camera/head/front/camera_info
+    type: sensor_msgs/msg/CameraInfo
+    queue_size: 10
+  - topic: /camera/head/jaw/image_raw/compressed
+    type: sensor_msgs/msg/CompressedImage
+    queue_size: 10
+  - topic: /cmd_vel
+    type: geometry_msgs/msg/Twist
+    queue_size: 10
+  - topic: /mapping/enable
+    type: std_msgs/msg/Bool
+    queue_size: 10
+  - topic: /mapping/save_map
+    type: std_msgs/msg/String
+    queue_size: 10
+  - topic: /mapping/load_map
+    type: std_msgs/msg/String
+    queue_size: 10
+  - topic: /map
+    type: nav_msgs/msg/OccupancyGrid
+    queue_size: 10
+  - topic: /joint_states
+    type: sensor_msgs/msg/JointState
+    queue_size: 10
+  - topic: /move_base/status
+    type: actionlib_msgs/msg/GoalStatusArray
+    queue_size: 10
+  - topic: /move_base_simple/goal
+    type: geometry_msgs/msg/PoseStamped
+    queue_size: 10
+  - topic: /odom
+    type: nav_msgs/msg/Odometry
+    queue_size: 10
+  - topic: /scan
+    type: sensor_msgs/msg/LaserScan
+    queue_size: 10
+  - topic: /slam_planner_node/DBLocalPlannerROS/global_plan
+    type: nav_msgs/msg/Path
+    queue_size: 10
+  - topic: /slam_planner_node/DBLocalPlannerROS/local_plan
+    type: nav_msgs/msg/Path
+    queue_size: 10
+  - topic: /slam_planner_node/DBLocalPlannerROS/teb_markers
+    type: visualization_msgs/msg/Marker
+    queue_size: 10
+  - topic: /slam_planner_node/DBLocalPlannerROS/teb_poses
+    type: geometry_msgs/msg/PoseArray
+    queue_size: 10
+  - topic: /slam_planner_node/GlobalPlanner/plan
+    type: nav_msgs/msg/Path
+    queue_size: 10
+  - topic: /slam_planner_node/GlobalPlanner/potential
+    type: nav_msgs/msg/OccupancyGrid
+    queue_size: 10
+  - topic: /slam_planner_node/current_goal
+    type: geometry_msgs/msg/PoseStamped
+    queue_size: 10
+  - topic: /slam_planner_node/global_costmap/costmap
+    type: nav_msgs/msg/OccupancyGrid
+    queue_size: 10
+  - topic: /slam_planner_node/global_costmap/footprint
+    type: geometry_msgs/msg/Polygon
+    queue_size: 10
+  - topic: /slam_planner_node/global_costmap/obstacle_layer/clearing_endpoints
+    type: sensor_msgs/msg/PointCloud
+    queue_size: 10
+  - topic: /slam_planner_node/local_costmap/costmap
+    type: nav_msgs/msg/OccupancyGrid
+    queue_size: 10
+  - topic: /slam_planner_node/local_costmap/footprint
+    type: geometry_msgs/msg/Polygon
+    queue_size: 10
+  - topic: /slamware_ros_sdk_server_node/global_plan_path
+    type: nav_msgs/msg/Path
+    queue_size: 10
+  - topic: /slamware_ros_sdk_server_node/map_metadata
+    type: nav_msgs/msg/MapMetaData
+    queue_size: 10
+  - topic: /slamware_ros_sdk_server_node/set_pose
+    type: geometry_msgs/msg/Pose
+    queue_size: 10
+  - topic: /tf
+    type: tf2_msgs/msg/TFMessage
+    queue_size: 10
+  - topic: /move_base/cancel
+    type: actionlib_msgs/msg/GoalID
+    queue_size: 10
+  - topic: /slam_planner_node/DBLocalPlannerROS/via_points
+    type: nav_msgs/msg/Path
+    queue_size: 10
+services_1_to_2: []
+services_2_to_1: []
+
+# topics that are not supported by the current ros1_bridge build:
+# /move_base/goal
+# /move_base/result
+# /move_base/feedback
+# /slam_planner_node/DBLocalPlannerROS/obstacles
+# /slam_planner_node/DBLocalPlannerROS/parameter_descriptions
+# /slam_planner_node/DBLocalPlannerROS/parameter_updates
+# /slam_planner_node/DBLocalPlannerROS/teb_feedback
+# /slam_planner_node/GlobalPlanner/parameter_descriptions
+# /slam_planner_node/GlobalPlanner/parameter_updates
+# /slam_planner_node/global_costmap/costmap_updates
+# /slam_planner_node/global_costmap/inflation_layer/parameter_descriptions
+# /slam_planner_node/global_costmap/inflation_layer/parameter_updates
+# /slam_planner_node/global_costmap/obstacle_layer/parameter_descriptions
+# /slam_planner_node/global_costmap/obstacle_layer/parameter_updates
+# /slam_planner_node/global_costmap/parameter_descriptions
+# /slam_planner_node/global_costmap/parameter_updates
+# /slam_planner_node/global_costmap/static_layer/parameter_descriptions
+# /slam_planner_node/global_costmap/static_layer/parameter_updates
+# /slam_planner_node/local_costmap/costmap_updates
+# /slam_planner_node/local_costmap/obstacle_layer/parameter_descriptions
+# /slam_planner_node/local_costmap/obstacle_layer/parameter_updates
+# /slam_planner_node/local_costmap/parameter_descriptions
+# /slam_planner_node/local_costmap/parameter_updates
+# /slam_planner_node/local_costmap/static_layer/parameter_descriptions
+# /slam_planner_node/local_costmap/static_layer/parameter_updates
+# /slam_planner_node/parameter_descriptions
+# /slam_planner_node/parameter_updates
+# /slamware_ros_sdk_server_node/set_map_localization
+# /slamware_ros_sdk_server_node/set_map_update
+
+# services that are likely not supported by the current ros1_bridge build:
+# /slam_planner_node/GlobalPlanner/make_plan
+# /slam_planner_node/clear_costmaps
+# /slam_planner_node/make_plan
+# /base2laser/get_loggers
+# /base2laser/set_logger_level
+# /body_left_raw_image_node/get_loggers
+# /body_left_raw_image_node/set_logger_level
+# /body_right_raw_image_node/get_loggers
+# /body_right_raw_image_node/set_logger_level
+# /bottom_raw_image_node/get_loggers
+# /bottom_raw_image_node/set_logger_level
+# /compressed_image_relay/get_loggers
+# /compressed_image_relay/set_logger_level
+# /head_pointcloud_node/get_loggers
+# /head_pointcloud_node/set_logger_level
+# /jaw_raw_image_node/get_loggers
+# /jaw_raw_image_node/set_logger_level
+# /laser2foot/get_loggers
+# /laser2foot/set_logger_level
+# /map2odom/get_loggers
+# /map2odom/set_logger_level
+# /mapMessage_node/get_loggers
+# /mapMessage_node/set_logger_level
+# /mqttControl_node/get_loggers
+# /mqttControl_node/set_logger_level
+# /ros_bridge/get_loggers
+# /ros_bridge/set_logger_level
+# /rosout/get_loggers
+# /rosout/set_logger_level
+# /slam_planner_node/DBLocalPlannerROS/set_parameters
+# /slam_planner_node/GlobalPlanner/set_parameters
+# /slam_planner_node/get_loggers
+# /slam_planner_node/global_costmap/inflation_layer/set_parameters
+# /slam_planner_node/global_costmap/obstacle_layer/set_parameters
+# /slam_planner_node/global_costmap/set_parameters
+# /slam_planner_node/global_costmap/static_layer/set_parameters
+# /slam_planner_node/local_costmap/obstacle_layer/set_parameters
+# /slam_planner_node/local_costmap/set_parameters
+# /slam_planner_node/local_costmap/static_layer/set_parameters
+# /slam_planner_node/set_logger_level
+# /slam_planner_node/set_parameters
+# /slamwalk_node/get_loggers
+# /slamwalk_node/set_logger_level
+# /slamware_ros_sdk_server_node/get_loggers
+# /slamware_ros_sdk_server_node/set_logger_level
+# /slamware_ros_sdk_server_node/sync_get_stcm
+# /slamware_ros_sdk_server_node/sync_set_stcm
+# /udp_to_set_pose_bridge/get_loggers
+# /udp_to_set_pose_bridge/set_logger_level

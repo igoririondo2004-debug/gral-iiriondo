@@ -1,0 +1,1 @@
+/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
