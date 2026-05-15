@@ -93,7 +93,7 @@ class ArucoMapper(Node):
             self.add_marker_cb
         )
 
-        self.get_logger().info("Aruco Mapper Ready (+ /aruco/add_marker service)")
+        self.get_logger().info("Aruco Mapper Ready")
 
         # -------------------------------------------------
         self.timer = self.create_timer(0.2, self.publish)

@@ -1,8 +1,8 @@
-# Install script for directory: /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/object_recognition_interfaces__rs
+# Install script for directory: /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/object_recognition_interfaces__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/igor/gral-iiriondo/unitree_ws/install/object_recognition_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

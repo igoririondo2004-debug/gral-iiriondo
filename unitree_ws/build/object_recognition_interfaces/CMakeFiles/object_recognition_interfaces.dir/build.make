@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces
 
 # Utility rule file for object_recognition_interfaces.
 
@@ -66,10 +66,10 @@ include CMakeFiles/object_recognition_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/object_recognition_interfaces.dir/progress.make
 
-CMakeFiles/object_recognition_interfaces: /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces/srv/DetectObject.srv
+CMakeFiles/object_recognition_interfaces: /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces/srv/DetectObject.srv
 CMakeFiles/object_recognition_interfaces: rosidl_cmake/srv/DetectObject_Request.msg
 CMakeFiles/object_recognition_interfaces: rosidl_cmake/srv/DetectObject_Response.msg
-CMakeFiles/object_recognition_interfaces: /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces/srv/AddObject.srv
+CMakeFiles/object_recognition_interfaces: /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces/srv/AddObject.srv
 CMakeFiles/object_recognition_interfaces: rosidl_cmake/srv/AddObject_Request.msg
 CMakeFiles/object_recognition_interfaces: rosidl_cmake/srv/AddObject_Response.msg
 
@@ -86,6 +86,6 @@ CMakeFiles/object_recognition_interfaces.dir/clean:
 .PHONY : CMakeFiles/object_recognition_interfaces.dir/clean
 
 CMakeFiles/object_recognition_interfaces.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles/object_recognition_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles/object_recognition_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/object_recognition_interfaces.dir/depend
 

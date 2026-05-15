@@ -4,3 +4,8 @@ speech_to_goal_interfaces.egg-info/PKG-INFO
 speech_to_goal_interfaces.egg-info/SOURCES.txt
 speech_to_goal_interfaces.egg-info/dependency_links.txt
 speech_to_goal_interfaces.egg-info/top_level.txt
+speech_to_goal_interfaces/msg/__init__.py
+speech_to_goal_interfaces/msg/_waypoint.py
+speech_to_goal_interfaces/srv/__init__.py
+speech_to_goal_interfaces/srv/_detect_intent.py
+speech_to_goal_interfaces/srv/_llm_query.py

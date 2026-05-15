@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/igor/gral-iiriondo/unitree_ws/install/standing_mode'
+    sys.prefix = sys.exec_prefix = '/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode'

@@ -1,0 +1,1 @@
+/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/ament_cmake_python/object_recognition_interfaces/object_recognition_interfaces.egg-info/top_level.txt

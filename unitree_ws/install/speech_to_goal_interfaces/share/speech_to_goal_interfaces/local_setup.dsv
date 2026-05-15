@@ -1,4 +1,1 @@
-source;share/speech_to_goal_interfaces/environment/ament_prefix_path.sh
-source;share/speech_to_goal_interfaces/environment/library_path.sh
-source;share/speech_to_goal_interfaces/environment/path.sh
-source;share/speech_to_goal_interfaces/environment/pythonpath.sh
+/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_environment_hooks/local_setup.dsv

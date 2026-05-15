@@ -5,7 +5,6 @@ go1_description/__init__.py
 go1_description.egg-info/PKG-INFO
 go1_description.egg-info/SOURCES.txt
 go1_description.egg-info/dependency_links.txt
-go1_description.egg-info/entry_points.txt
 go1_description.egg-info/requires.txt
 go1_description.egg-info/top_level.txt
 go1_description.egg-info/zip-safe

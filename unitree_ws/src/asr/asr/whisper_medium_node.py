@@ -1,28 +1,23 @@
+#!/usr/bin/env python3
 import queue
 import time
 import numpy as np
 import sounddevice as sd
-import webrtcvad
 
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
 import torch
-
-from faster_whisper import WhisperModel
+import whisper
 
 # =====================================================
 # CONFIG
 # =====================================================
 SAMPLE_RATE = 16000
-
 FRAME_DURATION = 30  # ms
 FRAME_SIZE = int(SAMPLE_RATE * FRAME_DURATION / 1000)
-
 SILENCE_LIMIT = 1.0  # seconds of silence before transcription
-
-# minimum speech required before transcribing
 MIN_SPEECH_FRAMES = 15
 
 MODEL_NAME = "medium"
@@ -30,223 +25,118 @@ MODEL_NAME = "medium"
 # =====================================================
 # NODE
 # =====================================================
-class FasterWhisperNode(Node):
+class WhisperPyTorchNode(Node):
 
     def __init__(self):
         super().__init__("whisper_medium_node")
 
-        # =================================================
-        # ROS2 PUB
-        # =================================================
-        self.publisher_ = self.create_publisher(
-            String,
-            "speech_text",
-            10
-        )
+        # Publisher for transcribed text
+        self.publisher_ = self.create_publisher(String, "speech_text", 10)
 
-        # =================================================
-        # DEVICE
-        # =================================================
+        # Device selection
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.get_logger().info(f"Using device: {self.device}")
 
-        self.get_logger().info(f"Device: {self.device}")
+        # Load Whisper model
+        self.get_logger().info(f"Loading Whisper model '{MODEL_NAME}'...")
+        self.model = whisper.load_model(MODEL_NAME, device=self.device)
+        self.get_logger().info("Model loaded successfully")
 
-        # =================================================
-        # MODEL
-        # =================================================
-        self.get_logger().info("Loading Faster-Whisper model...")
-
-        self.model = WhisperModel(
-            MODEL_NAME,
-            device=self.device,
-            compute_type="float16" if self.device == "cuda" else "int8"
-        )
-
-        self.get_logger().info("Model loaded")
-
-        # =================================================
-        # VAD
-        # =================================================
-        self.vad = webrtcvad.Vad(2)
-
-        # =================================================
-        # AUDIO STATE
-        # =================================================
+        # VAD and audio buffering
         self.q = queue.Queue()
-
         self.buffer = []
-
         self.speech_active = False
-
         self.speech_frames = 0
-
         self.last_voice_time = time.time()
 
-        # =================================================
-        # MIC STREAM
-        # =================================================
-        self.stream = sd.RawInputStream(
+        # Audio stream
+        self.stream = sd.InputStream(
             samplerate=SAMPLE_RATE,
             blocksize=FRAME_SIZE,
-            dtype="int16",
             channels=1,
+            dtype="float32",
             callback=self.audio_callback
         )
-
         self.stream.start()
 
-        # =================================================
-        # TIMER
-        # =================================================
-        self.timer = self.create_timer(
-            0.05,
-            self.process_audio
-        )
+        # Timer to process audio periodically
+        self.timer = self.create_timer(0.05, self.process_audio)
+        self.get_logger().info("Whisper PyTorch node started")
 
-        self.get_logger().info("Faster-Whisper node started")
-
-    # =================================================
-    # AUDIO CALLBACK
-    # =================================================
+    # Audio callback: put frames in queue
     def audio_callback(self, indata, frames, time_info, status):
-
         if status:
             self.get_logger().warn(str(status))
+        self.q.put(indata.copy())
 
-        self.q.put(bytes(indata))
+    # Simple energy-based voice activity detection
+    def is_speech(self, frame):
+        energy = np.mean(frame ** 2)
+        return energy > 0.0003
 
-    # =================================================
-    # VAD CHECK
-    # =================================================
-    def is_speech(self, frame_bytes):
-
-        try:
-            return self.vad.is_speech(
-                frame_bytes,
-                SAMPLE_RATE
-            )
-
-        except:
-            return False
-
-    # =================================================
-    # PROCESS AUDIO
-    # =================================================
+    # Process queued audio frames
     def process_audio(self):
-
         while not self.q.empty():
-
             frame = self.q.get()
-
             speech = self.is_speech(frame)
-
             now = time.time()
 
-            # =============================================
-            # SPEECH DETECTED
-            # =============================================
             if speech:
-
                 self.buffer.append(frame)
-
                 self.speech_frames += 1
-
                 self.speech_active = True
-
                 self.last_voice_time = now
-
-            # =============================================
-            # SILENCE
-            # =============================================
             else:
-
-                # keep short silence inside phrase
                 if self.speech_active:
                     self.buffer.append(frame)
 
-                # enough silence -> transcribe
-                if (
-                    self.speech_active and
-                    self.speech_frames >= MIN_SPEECH_FRAMES and
-                    (now - self.last_voice_time > SILENCE_LIMIT)
-                ):
-
+                if self.speech_active and self.speech_frames >= MIN_SPEECH_FRAMES and (now - self.last_voice_time > SILENCE_LIMIT):
                     self.transcribe()
-
-                    # reset state
                     self.buffer = []
-
                     self.speech_frames = 0
-
+                    self.speech_active = False
+                elif self.speech_active and self.speech_frames < MIN_SPEECH_FRAMES and (now - self.last_voice_time > SILENCE_LIMIT):
+                    self.buffer = []
+                    self.speech_frames = 0
                     self.speech_active = False
 
-                # reset tiny noises
-                elif (
-                    self.speech_active and
-                    self.speech_frames < MIN_SPEECH_FRAMES and
-                    (now - self.last_voice_time > SILENCE_LIMIT)
-                ):
-
-                    # self.get_logger().info("Ignored short noise")
-
-                    self.buffer = []
-
-                    self.speech_frames = 0
-
-                    self.speech_active = False
-
-    # =================================================
-    # TRANSCRIBE
-    # =================================================
+    # Transcribe buffered audio
     def transcribe(self):
-
-        if len(self.buffer) == 0:
+        if not self.buffer:
             return
 
-        self.get_logger().info("Transcribing...")
+        try:
+            audio = np.concatenate(self.buffer, axis=0).flatten()
+            # Whisper expects float32 in [-1, 1]
+            audio = audio.astype(np.float32)
 
-        audio_bytes = b"".join(self.buffer)
+            self.get_logger().info("Transcribing audio...")
+            result = self.model.transcribe(audio, language="es")
 
-        audio = (
-            np.frombuffer(audio_bytes, np.int16)
-            .astype(np.float32)
-            / 32768.0
-        )
-
-        segments, info = self.model.transcribe(
-            audio,
-            language="es",
-            beam_size=1
-        )
-
-        text = " ".join(
-            [segment.text for segment in segments]
-        ).strip()
-
-        if text:
-
-            msg = String()
-
-            msg.data = text
-
-            self.publisher_.publish(msg)
-
-            self.get_logger().info(f"[ASR] {text}")
-
-        else:
-            self.get_logger().info("Empty transcription")
+            text = result.get("text", "").strip()
+            if text:
+                msg = String()
+                msg.data = text
+                self.publisher_.publish(msg)
+                self.get_logger().info(f"[ASR] {text}")
+            else:
+                self.get_logger().info("Empty transcription")
+        except Exception as e:
+            self.get_logger().error(f"Transcription failed: {str(e)}")
 
 # =====================================================
 # MAIN
 # =====================================================
 def main(args=None):
-
     rclpy.init(args=args)
+    node = WhisperPyTorchNode()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info("Shutting down Whisper node...")
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
-    node = FasterWhisperNode()
-
-    rclpy.spin(node)
-
-    node.destroy_node()
-
-    rclpy.shutdown()
+if __name__ == "__main__":
+    main()

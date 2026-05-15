@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "object_recognition_interfaces__rs",
+		"source" : "/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/object_recognition_interfaces__rs"
+	}
+}

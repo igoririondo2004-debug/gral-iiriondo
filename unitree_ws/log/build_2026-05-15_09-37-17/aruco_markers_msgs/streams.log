@@ -1,0 +1,240 @@
+[0.070s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs
+[3.506s] -- The C compiler identification is GNU 11.4.0
+[3.507s] -- The CXX compiler identification is GNU 11.4.0
+[3.507s] -- Detecting C compiler ABI info
+[3.507s] -- Detecting C compiler ABI info - done
+[3.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.507s] -- Detecting C compile features
+[3.507s] -- Detecting C compile features - done
+[3.508s] -- Detecting CXX compiler ABI info
+[3.508s] -- Detecting CXX compiler ABI info - done
+[3.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.508s] -- Detecting CXX compile features
+[3.508s] -- Detecting CXX compile features - done
+[3.509s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.509s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.509s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[3.509s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.509s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.509s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.510s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.510s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.510s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.654s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.721s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.722s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.722s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.722s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.779s] -- Found PythonExtra: .so  
+[5.264s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.405s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.410s] -- Added test 'lint_cmake' to check CMake code style
+[5.413s] -- Added test 'xmllint' to check XML markup files
+[5.441s] -- Configuring done
+[5.658s] -- Generating done
+[5.702s] -- Build files have been written to: /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
+[5.750s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs
+[5.751s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --build /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs -- -j8 -l8
+[6.009s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.072s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.153s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.198s] [  7%] Built target ament_cmake_python_symlink_aruco_markers_msgs
+[7.894s] [  7%] Built target aruco_markers_msgs__rs
+[8.282s] [  7%] Built target aruco_markers_msgs__cpp
+[8.380s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.380s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.408s] running egg_info
+[8.438s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.504s] creating aruco_markers_msgs.egg-info
+[8.657s] writing aruco_markers_msgs.egg-info/PKG-INFO
+[8.658s] writing dependency_links to aruco_markers_msgs.egg-info/dependency_links.txt
+[8.659s] writing top-level names to aruco_markers_msgs.egg-info/top_level.txt
+[8.659s] writing manifest file 'aruco_markers_msgs.egg-info/SOURCES.txt'
+[8.685s] [ 17%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker_array__functions.c.o[0m
+[8.692s] [ 20%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__functions.c.o[0m
+[9.079s] reading manifest file 'aruco_markers_msgs.egg-info/SOURCES.txt'
+[9.104s] [ 22%] [32m[1mLinking C shared library libaruco_markers_msgs__rosidl_generator_c.so[0m
+[9.104s] writing manifest file 'aruco_markers_msgs.egg-info/SOURCES.txt'
+[9.335s] [ 22%] Built target aruco_markers_msgs__rosidl_generator_c
+[9.449s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.461s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.465s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.748s] [ 30%] Built target ament_cmake_python_build_aruco_markers_msgs_egg
+[11.425s] [ 32%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_markers_msgs/msg/marker__type_support.cpp.o[0m
+[11.472s] [ 35%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_markers_msgs/msg/marker_array__type_support.cpp.o[0m
+[11.515s] [ 37%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_markers_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[11.548s] [ 40%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_markers_msgs/msg/detail/marker__type_support.cpp.o[0m
+[11.928s] [ 42%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_markers_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[13.000s] [ 45%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_markers_msgs/msg/marker__type_support.cpp.o[0m
+[13.008s] [ 47%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[13.294s] [ 50%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_markers_msgs/msg/marker_array__type_support.cpp.o[0m
+[13.558s] [ 52%] [32m[1mLinking CXX shared library libaruco_markers_msgs__rosidl_typesupport_c.so[0m
+[13.715s] [ 52%] Built target aruco_markers_msgs__rosidl_typesupport_c
+[13.926s] [ 55%] [32m[1mLinking CXX shared library libaruco_markers_msgs__rosidl_typesupport_cpp.so[0m
+[14.231s] [ 57%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_markers_msgs/msg/detail/marker__type_support.c.o[0m
+[14.280s] [ 57%] Built target aruco_markers_msgs__rosidl_typesupport_cpp
+[14.449s] [ 60%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_markers_msgs/msg/detail/marker_array__type_support.c.o[0m
+[14.488s] [ 62%] [32m[1mLinking CXX shared library libaruco_markers_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.749s] [ 65%] [32m[1mLinking C shared library libaruco_markers_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.919s] [ 65%] Built target aruco_markers_msgs__rosidl_typesupport_introspection_c
+[14.948s] [ 67%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_markers_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[14.948s] [ 67%] Built target aruco_markers_msgs__rosidl_typesupport_introspection_cpp
+[14.967s] [ 70%] [32mBuilding CXX object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[15.680s] [ 72%] [32m[1mLinking CXX shared library libaruco_markers_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[15.846s] [ 72%] Built target aruco_markers_msgs__rosidl_typesupport_fastrtps_c
+[15.949s] [ 75%] [32m[1mLinking CXX shared library libaruco_markers_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.097s] [ 75%] Built target aruco_markers_msgs__rosidl_typesupport_fastrtps_cpp
+[16.136s] [ 75%] Built target aruco_markers_msgs
+[16.177s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.378s] [ 77%] Built target aruco_markers_msgs__py
+[17.416s] [ 80%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_markers_msgs/msg/_marker_s.c.o[0m
+[17.610s] [ 82%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_markers_msgs/msg/_marker_array_s.c.o[0m
+[17.814s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/aruco_markers_msgs/libaruco_markers_msgs__rosidl_generator_py.so[0m
+[17.889s] [ 85%] Built target aruco_markers_msgs__rosidl_generator_py
+[17.928s] [ 87%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.119s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.189s] [ 90%] Built target aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.227s] [ 92%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.420s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.495s] [ 95%] Built target aruco_markers_msgs__rosidl_typesupport_c__pyext
+[18.533s] [ 97%] [32mBuilding C object CMakeFiles/aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.726s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.804s] [100%] Built target aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext
+[18.832s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --build /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs -- -j8 -l8
+[18.835s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --install /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
+[18.849s] -- Install configuration: ""
+[18.850s] -- Execute custom install script
+[18.850s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_markers_msgs
+[18.871s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__functions.h
+[18.887s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__struct.h
+[18.907s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__type_support.h
+[18.923s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__functions.h
+[18.939s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__struct.h
+[18.955s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__type_support.h
+[18.970s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/marker.h
+[18.984s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/marker_array.h
+[19.000s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.017s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/library_path.sh
+[19.034s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/library_path.dsv
+[19.051s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[19.067s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[19.083s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.102s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__builder.hpp
+[19.119s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__struct.hpp
+[19.135s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__traits.hpp
+[19.152s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__type_support.hpp
+[19.168s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__builder.hpp
+[19.185s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__struct.hpp
+[19.201s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__traits.hpp
+[19.220s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__type_support.hpp
+[19.237s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/marker.hpp
+[19.255s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/marker_array.hpp
+[19.276s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.292s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[19.308s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.326s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.346s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[19.361s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[19.379s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.396s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[19.413s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/include/aruco_markers_msgs/aruco_markers_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[19.430s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/pythonpath.sh
+[19.447s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/pythonpath.dsv
+[19.464s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs-0.0.3-py3.10.egg-info/PKG-INFO
+[19.481s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs-0.0.3-py3.10.egg-info/SOURCES.txt
+[19.500s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs-0.0.3-py3.10.egg-info/dependency_links.txt
+[19.519s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs-0.0.3-py3.10.egg-info/top_level.txt
+[19.545s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/__init__.py
+[19.560s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_c.c
+[19.579s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.596s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.613s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.630s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.647s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.666s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/libaruco_markers_msgs__rosidl_generator_py.so
+[19.686s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/__init__.py
+[19.702s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/_marker.py
+[19.721s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/_marker_array.py
+[19.740s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/_marker_array_s.c
+[19.762s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/_marker_s.c
+[19.780s] -- Up-to-date symlink: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.781s] -- Up-to-date symlink: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.782s] -- Up-to-date symlink: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/aruco_markers_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.782s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/ament_index/resource_index/rust_packages/aruco_markers_msgs
+[19.798s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/rust/Cargo.toml
+[19.814s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/rust/build.rs
+[19.831s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/rust/src/lib.rs
+[19.848s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/rust/src/msg.rs
+[19.865s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/rust/src/msg/rmw.rs
+[19.884s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/msg/Marker.idl
+[19.901s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/msg/MarkerArray.idl
+[19.918s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/msg/Marker.msg
+[19.937s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/msg/MarkerArray.msg
+[19.956s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_markers_msgs
+[19.975s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_markers_msgs
+[19.991s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/ament_prefix_path.sh
+[20.008s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/ament_prefix_path.dsv
+[20.025s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/path.sh
+[20.042s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/environment/path.dsv
+[20.060s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/local_setup.bash
+[20.077s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/local_setup.sh
+[20.094s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/local_setup.zsh
+[20.111s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/local_setup.dsv
+[20.129s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/package.dsv
+[20.146s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/ament_index/resource_index/packages/aruco_markers_msgs
+[20.165s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/rosidl_cmake-extras.cmake
+[20.181s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.198s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.215s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.232s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.249s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.268s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.285s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgsConfig.cmake
+[20.302s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgsConfig-version.cmake
+[20.319s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/package.xml
+[20.337s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_generator_c.so
+[20.337s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_generator_c.so" to ""
+[20.337s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_fastrtps_c.so
+[20.338s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[20.338s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_fastrtps_cpp.so
+[20.339s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.340s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_introspection_c.so
+[20.340s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_introspection_c.so" to ""
+[20.340s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_c.so
+[20.341s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_c.so" to ""
+[20.341s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_introspection_cpp.so
+[20.342s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[20.342s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_cpp.so
+[20.342s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_typesupport_cpp.so" to ""
+[20.443s] Listing '/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs'...
+[20.444s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/__init__.py'...
+[20.444s] Listing '/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg'...
+[20.444s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/__init__.py'...
+[20.444s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/_marker.py'...
+[20.444s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/local/lib/python3.10/dist-packages/aruco_markers_msgs/msg/_marker_array.py'...
+[20.458s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_generator_py.so
+[20.458s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/lib/libaruco_markers_msgs__rosidl_generator_py.so" to ""
+[20.458s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_generator_cExport.cmake
+[20.458s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.459s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.459s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.459s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_generator_cppExport.cmake
+[20.460s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.460s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.461s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.461s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.461s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_cExport.cmake
+[20.461s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.461s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.462s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.462s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_cppExport.cmake
+[20.462s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/aruco_markers_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.462s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_generator_pyExport.cmake
+[20.462s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/share/aruco_markers_msgs/cmake/export_aruco_markers_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.832s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --install /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs

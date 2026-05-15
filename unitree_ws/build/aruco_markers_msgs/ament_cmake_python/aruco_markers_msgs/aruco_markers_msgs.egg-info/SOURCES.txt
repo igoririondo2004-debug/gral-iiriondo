@@ -4,3 +4,6 @@ aruco_markers_msgs.egg-info/PKG-INFO
 aruco_markers_msgs.egg-info/SOURCES.txt
 aruco_markers_msgs.egg-info/dependency_links.txt
 aruco_markers_msgs.egg-info/top_level.txt
+aruco_markers_msgs/msg/__init__.py
+aruco_markers_msgs/msg/_marker.py
+aruco_markers_msgs/msg/_marker_array.py

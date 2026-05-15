@@ -1,0 +1,4 @@
+Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces -- -j8 -l8
+Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces -- -j8 -l8
+Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces
+Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces

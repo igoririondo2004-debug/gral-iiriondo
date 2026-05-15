@@ -1,0 +1,1 @@
+/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal/launch/speech_to_goal_full.launch.py

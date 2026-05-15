@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o: rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o -MF CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o.d -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o -c /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o -MF CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o.d -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.o -c /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.i"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c > CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c > CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.i
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.s"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/msg/_waypoint_s.c.s
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o: rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o -MF CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o.d -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o -c /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o -MF CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o.d -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o -c /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.i"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c > CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c > CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.i
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.s"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.s
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o: rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o -MF CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o.d -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o -c /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o -MF CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o.d -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o -c /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.i"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c > CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c > CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.i
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.s"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c -o CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.s
 
 # Object files for target speech_to_goal_interfaces__rosidl_generator_py
 speech_to_goal_interfaces__rosidl_generator_py_OBJECTS = \
@@ -124,13 +124,13 @@ rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosi
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_llm_query_s.c.o
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_to_goal_interfaces/srv/_detect_intent_s.c.o
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/build.make
-rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: libspeech_to_goal_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: libspeech_to_goal_interfaces__rosidl_generator_c.so
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so: CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/clean
 
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_to_goal_interfaces__rosidl_generator_py.dir/depend
 

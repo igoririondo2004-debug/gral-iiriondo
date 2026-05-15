@@ -1,1 +1,1 @@
-/home/igor/gral-iiriondo/unitree_ws/build/asr/launch/whisper_medium.launch.py
+/home/tknika/gral-iiriondo-main/unitree_ws/build/asr/launch/whisper_medium.launch.py

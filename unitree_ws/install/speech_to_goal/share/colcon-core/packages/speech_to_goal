@@ -1,1 +1,1 @@
-geometry_msgs:rclpy:speech_to_goal_interfaces:std_msgs:visualization_msgs
+geometry_msgs:object_recognition_interfaces:rclpy:speech_to_goal_interfaces:std_msgs:visualization_msgs

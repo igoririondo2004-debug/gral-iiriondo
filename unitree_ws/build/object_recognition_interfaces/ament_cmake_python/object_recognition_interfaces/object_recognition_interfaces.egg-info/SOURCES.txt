@@ -4,3 +4,6 @@ object_recognition_interfaces.egg-info/PKG-INFO
 object_recognition_interfaces.egg-info/SOURCES.txt
 object_recognition_interfaces.egg-info/dependency_links.txt
 object_recognition_interfaces.egg-info/top_level.txt
+object_recognition_interfaces/srv/__init__.py
+object_recognition_interfaces/srv/_add_object.py
+object_recognition_interfaces/srv/_detect_object.py

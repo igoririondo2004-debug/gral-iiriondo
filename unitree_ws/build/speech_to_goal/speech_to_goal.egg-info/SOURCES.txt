@@ -1,6 +1,7 @@
 package.xml
 setup.cfg
 setup.py
+launch/speech_to_goal_full.launch.py
 resource/speech_to_goal
 speech_to_goal/__init__.py
 speech_to_goal/intent_detection_llm_service.py

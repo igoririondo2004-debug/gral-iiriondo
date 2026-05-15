@@ -1,4 +1,1 @@
-string name
-float64 x
-float64 y
-float64 z
+/home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces/msg/Waypoint.msg

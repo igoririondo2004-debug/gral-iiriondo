@@ -52,7 +52,7 @@ _colcon_prepend_unique_value() {
 # since a plain shell script can't determine its own path when being sourced
 # either use the provided COLCON_CURRENT_PREFIX
 # or fall back to the build time prefix (if it exists)
-_colcon_package_sh_COLCON_CURRENT_PREFIX="/home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces"
+_colcon_package_sh_COLCON_CURRENT_PREFIX="/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal_interfaces"
 if [ -z "$COLCON_CURRENT_PREFIX" ]; then
   if [ ! -d "$_colcon_package_sh_COLCON_CURRENT_PREFIX" ]; then
     echo "The build time path \"$_colcon_package_sh_COLCON_CURRENT_PREFIX\" doesn't exist. Either source a script for a different shell or set the environment variable \"COLCON_CURRENT_PREFIX\" explicitly." 1>&2
@@ -80,10 +80,7 @@ _colcon_package_sh_source_script() {
 # source sh hooks
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/hook/cmake_prefix_path.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/hook/ld_library_path_lib.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/hook/ros_package_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/hook/catkin_pythonpath.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/hook/pkg_config_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/hook/pkg_config_path_multiarch.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/speech_to_goal_interfaces/local_setup.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX

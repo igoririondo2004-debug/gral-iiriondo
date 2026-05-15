@@ -1,0 +1,1 @@
+/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_introspection_c.c

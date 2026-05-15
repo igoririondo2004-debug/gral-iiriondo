@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -315,17 +315,17 @@ speech_to_goal_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : speech_to_goal_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_speech_to_goal_interfaces
+# Target rules for targets named ament_cmake_python_symlink_speech_to_goal_interfaces
 
 # Build rule for target.
-ament_cmake_python_copy_speech_to_goal_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_speech_to_goal_interfaces
-.PHONY : ament_cmake_python_copy_speech_to_goal_interfaces
+ament_cmake_python_symlink_speech_to_goal_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_speech_to_goal_interfaces
+.PHONY : ament_cmake_python_symlink_speech_to_goal_interfaces
 
 # fast build rule for target.
-ament_cmake_python_copy_speech_to_goal_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_speech_to_goal_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_speech_to_goal_interfaces.dir/build
-.PHONY : ament_cmake_python_copy_speech_to_goal_interfaces/fast
+ament_cmake_python_symlink_speech_to_goal_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/build
+.PHONY : ament_cmake_python_symlink_speech_to_goal_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_speech_to_goal_interfaces_egg
@@ -1080,7 +1080,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_speech_to_goal_interfaces_egg"
-	@echo "... ament_cmake_python_copy_speech_to_goal_interfaces"
+	@echo "... ament_cmake_python_symlink_speech_to_goal_interfaces"
 	@echo "... speech_to_goal_interfaces"
 	@echo "... speech_to_goal_interfaces__cpp"
 	@echo "... speech_to_goal_interfaces__py"

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
 
 # Utility rule file for aruco_markers_msgs__py.
 
@@ -154,8 +154,8 @@ rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesuppo
 rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_markers_msgs/_aruco_markers_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -195,10 +195,10 @@ aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/build: aruco_marker
 .PHONY : aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/build
 
 aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/clean:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/aruco_markers_msgs__py.dir/cmake_clean.cmake
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/aruco_markers_msgs__py.dir/cmake_clean.cmake
 .PHONY : aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/clean
 
 aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aruco_markers_msgs__py/CMakeFiles/aruco_markers_msgs__py.dir/depend
 

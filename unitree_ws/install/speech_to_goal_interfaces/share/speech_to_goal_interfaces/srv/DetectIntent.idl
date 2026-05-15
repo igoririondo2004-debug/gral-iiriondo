@@ -1,15 +1,1 @@
-// generated from rosidl_adapter/resource/srv.idl.em
-// with input from speech_to_goal_interfaces/srv/DetectIntent.srv
-// generated code does not contain a copyright notice
-
-
-module speech_to_goal_interfaces {
-  module srv {
-    struct DetectIntent_Request {
-      string text;
-    };
-    struct DetectIntent_Response {
-      string intent;
-    };
-  };
-};
+/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl

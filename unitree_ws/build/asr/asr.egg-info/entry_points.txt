@@ -1,4 +1,3 @@
 [console_scripts]
 vosk_node = asr.vosk_node:main
 whisper_medium_node = asr.whisper_medium_node:main
-

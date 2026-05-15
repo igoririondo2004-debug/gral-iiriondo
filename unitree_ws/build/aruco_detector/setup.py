@@ -1,1 +1,1 @@
-/home/igor/gral-iiriondo/unitree_ws/src/aruco_detector/setup.py
+/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_detector/setup.py

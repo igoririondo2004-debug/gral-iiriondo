@@ -13,5 +13,5 @@ serde-big-array = { version = "0.5.1", optional = true }
 [features]
 serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde']
 
-[package.metadata.rclrs]
-reexport = true
+[package.metadata.ros-env]
+include = true

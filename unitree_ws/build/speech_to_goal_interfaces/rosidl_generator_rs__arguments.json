@@ -1,16 +1,16 @@
 {
   "package_name": "speech_to_goal_interfaces",
-  "output_dir": "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_rs/speech_to_goal_interfaces",
+  "output_dir": "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_rs/speech_to_goal_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:msg/Waypoint.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/LLMQuery.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/DetectIntent.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:msg/Waypoint.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/LLMQuery.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces:srv/DetectIntent.idl"
   ],
   "ros_interface_files": [
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
@@ -25,12 +25,12 @@
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_rmw.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl"
   ],
   "package_version": "0.0.0"
 }

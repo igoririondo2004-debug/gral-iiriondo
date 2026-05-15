@@ -5,7 +5,8 @@ from std_msgs.msg import String
 from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Odometry
 
-from speech_to_goal_interfaces.srv import LLMQuery
+from speech_to_goal_interfaces.srv import LLMQuery, DetectIntent
+from object_recognition_interfaces.srv import DetectObject
 
 import math
 
@@ -54,23 +55,43 @@ class SpeechToGoalClient(Node):
         )
 
         # -----------------------------
-        # SERVICE CLIENT
+        # SERVICE CLIENTS
         # -----------------------------
-        self.cli = self.create_client(LLMQuery, '/speech_to_goal/query_llm_waypoints')
+        self.cli = self.create_client(
+            LLMQuery,
+            '/speech_to_goal/query_llm_waypoints'
+        )
 
+        self.intent_cli = self.create_client(
+            DetectIntent,
+            '/speech_to_goal/detect_intent'
+        )
+
+        self.object_cli = self.create_client(
+            DetectObject,
+            '/object_recognition/detect_object'
+        )
+
+        # wait for services
         while not self.cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Esperando servicio LLM...')
+            self.get_logger().info('Esperando LLM service...')
+
+        while not self.intent_cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Esperando intent service...')
+
+        while not self.object_cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Esperando object service...')
 
         self.get_logger().info("SpeechToGoal CLIENT ready")
 
     # -------------------------------------------------
-    # ODOMETRÍA
+    # ODOM
     # -------------------------------------------------
     def odom_cb(self, msg):
         self.current_pose = msg.pose.pose
 
     # -------------------------------------------------
-    # VOZ
+    # SPEECH ENTRY POINT
     # -------------------------------------------------
     def speech_cb(self, msg):
 
@@ -90,15 +111,78 @@ class SpeechToGoalClient(Node):
 
         self.busy = True
 
+        req = DetectIntent.Request()
+        req.text = text
+
+        future = self.intent_cli.call_async(req)
+        future.add_done_callback(lambda f: self.handle_intent(f, text))
+
+    # -------------------------------------------------
+    # INTENT HANDLER
+    # -------------------------------------------------
+    def handle_intent(self, future, original_text):
+
+        try:
+            res = future.result()
+        except Exception as e:
+            self.get_logger().error(f"Intent service failed: {e}")
+            self.busy = False
+            return
+
+        intent = res.intent
+        self.get_logger().info(f"Intent detected: {intent}")
+
+        if intent == "noise":
+            self.get_logger().warn("Orden ignorada")
+            self.busy = False
+            return
+
+        if intent == "recognition":
+            self.handle_recognition(original_text)
+            return
+
+        if intent == "navigation":
+            self.handle_navigation(original_text)
+            return
+
+        self.get_logger().warn(f"Intent desconocido: {intent}")
+        self.busy = False
+
+    # -------------------------------------------------
+    # RECOGNITION FLOW
+    # -------------------------------------------------
+    def handle_recognition(self, text):
+
+        req = DetectObject.Request()
+        req.text = text
+
+        future = self.object_cli.call_async(req)
+        future.add_done_callback(self.handle_object_result)
+
+    def handle_object_result(self, future):
+
+        try:
+            res = future.result()
+        except Exception as e:
+            self.get_logger().error(f"Object detection failed: {e}")
+            self.busy = False
+            return
+
+        self.get_logger().info(f"Objeto detectados: {res.objects}")
+
+        self.busy = False
+
+    # -------------------------------------------------
+    # NAVIGATION FLOW
+    # -------------------------------------------------
+    def handle_navigation(self, text):
+
         req = LLMQuery.Request()
         req.query = text
 
         future = self.cli.call_async(req)
         future.add_done_callback(self.handle_response)
 
-    # -------------------------------------------------
-    # RESPUESTA LLM
-    # -------------------------------------------------
     def handle_response(self, future):
 
         try:
@@ -109,7 +193,7 @@ class SpeechToGoalClient(Node):
             return
 
         if not res.success:
-            self.get_logger().warn(f"LLM falló: {res.message}")
+            self.get_logger().warn(f"LLM fallido: {res.message}")
             self.busy = False
             return
 
@@ -118,7 +202,7 @@ class SpeechToGoalClient(Node):
         self.execute_next_waypoint(res.waypoints, 0)
 
     # -------------------------------------------------
-    # NAVEGACIÓN SECUENCIAL
+    # NAVIGATION EXECUTION
     # -------------------------------------------------
     def execute_next_waypoint(self, waypoints, index):
 
@@ -142,10 +226,8 @@ class SpeechToGoalClient(Node):
 
         self.goal_pub.publish(goal)
 
-        # reset estado de llegada
         self.waiting_after_arrival = False
 
-        # iniciar chequeo de odometría
         if self.wait_timer:
             self.wait_timer.cancel()
 
@@ -155,7 +237,7 @@ class SpeechToGoalClient(Node):
         )
 
     # -------------------------------------------------
-    # CHECK LLEGADA
+    # ARRIVAL CHECK
     # -------------------------------------------------
     def check_arrival(self, wp, waypoints, index):
 
@@ -182,7 +264,7 @@ class SpeechToGoalClient(Node):
             )
 
     # -------------------------------------------------
-    # PAUSA DE 2 SEGUNDOS
+    # PAUSE
     # -------------------------------------------------
     def after_pause(self, waypoints, index):
 

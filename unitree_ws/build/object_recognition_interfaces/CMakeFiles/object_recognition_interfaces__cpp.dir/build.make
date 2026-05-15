@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces
 
 # Utility rule file for object_recognition_interfaces__cpp.
 
@@ -95,8 +95,8 @@ rosidl_generator_cpp/object_recognition_interfaces/srv/detect_object.hpp: /opt/r
 rosidl_generator_cpp/object_recognition_interfaces/srv/detect_object.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/object_recognition_interfaces/srv/detect_object.hpp: rosidl_adapter/object_recognition_interfaces/srv/DetectObject.idl
 rosidl_generator_cpp/object_recognition_interfaces/srv/detect_object.hpp: rosidl_adapter/object_recognition_interfaces/srv/AddObject.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.8 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/object_recognition_interfaces/srv/detail/detect_object__builder.hpp: rosidl_generator_cpp/object_recognition_interfaces/srv/detect_object.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/object_recognition_interfaces/srv/detail/detect_object__builder.hpp
@@ -148,6 +148,6 @@ CMakeFiles/object_recognition_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/object_recognition_interfaces__cpp.dir/clean
 
 CMakeFiles/object_recognition_interfaces__cpp.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles/object_recognition_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles/object_recognition_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/object_recognition_interfaces__cpp.dir/depend
 

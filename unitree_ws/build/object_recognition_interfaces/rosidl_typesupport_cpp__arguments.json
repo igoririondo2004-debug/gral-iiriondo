@@ -1,10 +1,10 @@
 {
   "package_name": "object_recognition_interfaces",
-  "output_dir": "/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_typesupport_cpp/object_recognition_interfaces",
+  "output_dir": "/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_typesupport_cpp/object_recognition_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces:srv/DetectObject.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces:srv/AddObject.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces:srv/DetectObject.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces:srv/AddObject.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -13,7 +13,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces/srv/DetectObject.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces/srv/AddObject.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces/srv/DetectObject.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_adapter/object_recognition_interfaces/srv/AddObject.idl"
   ]
 }

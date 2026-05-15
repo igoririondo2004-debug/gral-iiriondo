@@ -240,6 +240,8 @@ class SpeechToGoalLLM(Node):
         result = self.validate(data)
 
         if not result or result["goal"] is None:
+            self.get_logger().warn("No se han encontrado esos puntos")
+
             res.success = False
             res.message = "validation failed"
             res.waypoints = []

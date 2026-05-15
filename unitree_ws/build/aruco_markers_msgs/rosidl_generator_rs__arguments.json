@@ -1,14 +1,14 @@
 {
   "package_name": "aruco_markers_msgs",
-  "output_dir": "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs",
+  "output_dir": "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/Marker.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/MarkerArray.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/Marker.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/MarkerArray.idl"
   ],
   "ros_interface_files": [
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -89,10 +89,10 @@
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_rmw.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

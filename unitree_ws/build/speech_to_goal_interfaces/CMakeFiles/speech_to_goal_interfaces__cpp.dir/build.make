@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces
 
 # Utility rule file for speech_to_goal_interfaces__cpp.
 
@@ -101,8 +101,8 @@ rosidl_generator_cpp/speech_to_goal_interfaces/msg/waypoint.hpp: /opt/ros/humble
 rosidl_generator_cpp/speech_to_goal_interfaces/msg/waypoint.hpp: rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl
 rosidl_generator_cpp/speech_to_goal_interfaces/msg/waypoint.hpp: rosidl_adapter/speech_to_goal_interfaces/srv/LLMQuery.idl
 rosidl_generator_cpp/speech_to_goal_interfaces/msg/waypoint.hpp: rosidl_adapter/speech_to_goal_interfaces/srv/DetectIntent.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.8 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/speech_to_goal_interfaces/msg/detail/waypoint__builder.hpp: rosidl_generator_cpp/speech_to_goal_interfaces/msg/waypoint.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/speech_to_goal_interfaces/msg/detail/waypoint__builder.hpp
@@ -174,6 +174,6 @@ CMakeFiles/speech_to_goal_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/speech_to_goal_interfaces__cpp.dir/clean
 
 CMakeFiles/speech_to_goal_interfaces__cpp.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/speech_to_goal_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/speech_to_goal_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_to_goal_interfaces__cpp.dir/depend
 

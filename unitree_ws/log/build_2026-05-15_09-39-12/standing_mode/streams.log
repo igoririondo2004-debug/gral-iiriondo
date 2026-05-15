@@ -1,0 +1,17 @@
+[7.248s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode/build --no-deps symlink_data
+[8.297s] running develop
+[9.112s] running egg_info
+[9.165s] writing standing_mode.egg-info/PKG-INFO
+[9.169s] writing dependency_links to standing_mode.egg-info/dependency_links.txt
+[9.170s] writing entry points to standing_mode.egg-info/entry_points.txt
+[9.171s] writing requirements to standing_mode.egg-info/requires.txt
+[9.171s] writing top-level names to standing_mode.egg-info/top_level.txt
+[9.271s] reading manifest file 'standing_mode.egg-info/SOURCES.txt'
+[9.273s] writing manifest file 'standing_mode.egg-info/SOURCES.txt'
+[9.323s] running build_ext
+[9.324s] Creating /home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode/lib/python3.10/site-packages/standing-mode.egg-link (link to .)
+[9.326s] Installing standing_mode script to /home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode/lib/standing_mode
+[9.327s] 
+[9.328s] Installed /home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode
+[9.328s] running symlink_data
+[9.586s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode/build --no-deps symlink_data

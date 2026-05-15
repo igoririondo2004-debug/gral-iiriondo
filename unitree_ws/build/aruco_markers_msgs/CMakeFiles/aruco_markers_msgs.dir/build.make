@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
 
 # Utility rule file for aruco_markers_msgs.
 
@@ -66,8 +66,8 @@ include CMakeFiles/aruco_markers_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/aruco_markers_msgs.dir/progress.make
 
-CMakeFiles/aruco_markers_msgs: /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg
-CMakeFiles/aruco_markers_msgs: /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg
+CMakeFiles/aruco_markers_msgs: /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg
+CMakeFiles/aruco_markers_msgs: /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg
 CMakeFiles/aruco_markers_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/aruco_markers_msgs: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/aruco_markers_msgs: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -144,6 +144,6 @@ CMakeFiles/aruco_markers_msgs.dir/clean:
 .PHONY : CMakeFiles/aruco_markers_msgs.dir/clean
 
 CMakeFiles/aruco_markers_msgs.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/CMakeFiles/aruco_markers_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/CMakeFiles/aruco_markers_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_markers_msgs.dir/depend
 

@@ -1,0 +1,1 @@
+export PYTHONPATH=$PYTHONPATH:~/gral-iiriondo-main/unitree_ws/src/unitree_legged_sdk/lib/python/arm64

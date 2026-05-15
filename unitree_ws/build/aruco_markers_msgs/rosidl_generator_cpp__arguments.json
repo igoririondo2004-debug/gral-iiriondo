@@ -1,10 +1,10 @@
 {
   "package_name": "aruco_markers_msgs",
-  "output_dir": "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_cpp/aruco_markers_msgs",
+  "output_dir": "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_cpp/aruco_markers_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/Marker.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/MarkerArray.idl"
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/Marker.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs:msg/MarkerArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -88,8 +88,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
-    "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl",
+    "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

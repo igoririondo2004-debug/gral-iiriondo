@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "speech_to_goal_interfaces__rs",
+		"source" : "/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/speech_to_goal_interfaces__rs"
+	}
+}

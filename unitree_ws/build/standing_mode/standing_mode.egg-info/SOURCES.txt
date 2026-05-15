@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 launch/standing_mode.launch.py
 resource/standing_mode
+script/unitree_stand.py
 standing_mode/__init__.py
 standing_mode/standing_mode.py
 standing_mode.egg-info/PKG-INFO

@@ -12,6 +12,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
+        ('share/' + package_name + '/script', glob('script/*.py')),  # <--- ADD THIS
     ],
     install_requires=['setuptools'],
     zip_safe=True,

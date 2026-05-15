@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/flags.
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o: rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o -MF CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o.d -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o -c /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o -MF CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o.d -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o -c /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c
 
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.i"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c > CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c > CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.i
 
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.s"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.s
 
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o: rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o -MF CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o.d -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o -c /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o -MF CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o.d -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o -c /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c
 
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.i"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c > CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c > CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.i
 
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.s"
-	/usr/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c -o CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.s
 
 # Object files for target object_recognition_interfaces__rosidl_generator_py
 object_recognition_interfaces__rosidl_generator_py_OBJECTS = \
@@ -108,13 +108,13 @@ object_recognition_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/build.make
-rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: libobject_recognition_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: libobject_recognition_interfaces__rosidl_generator_c.so
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so: CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/clean
 
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/src/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces /home/igor/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/depend
 

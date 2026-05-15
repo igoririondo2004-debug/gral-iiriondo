@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/igor/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/igor/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/igor/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/igor/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/${destination}")
+      set(destination "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -315,131 +315,131 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_fastrtps_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_c/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_typesupport_introspection_cpp/aruco_markers_msgs/" "DESTINATION" "include/aruco_markers_msgs/aruco_markers_msgs" "PATTERN" "*.hpp")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_python/aruco_markers_msgs/aruco_markers_msgs.egg-info/" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs-0.0.3-py3.8.egg-info")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_python/aruco_markers_msgs/aruco_markers_msgs.egg-info/" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs-0.0.3-py3.8.egg-info")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_python/aruco_markers_msgs/aruco_markers_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs-0.0.3-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_python/aruco_markers_msgs/aruco_markers_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs-0.0.3-py3.10.egg-info")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs/" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs/" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs")
-include("/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install("TARGETS" "aruco_markers_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs")
+include("/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs")
-include("/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install("TARGETS" "aruco_markers_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs")
+include("/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "aruco_markers_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/aruco_markers_msgs")
-include("/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install("TARGETS" "aruco_markers_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/aruco_markers_msgs")
+include("/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rust_packages")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/rust_packages")
 
-# install(DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs/rust" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_directory("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs/rust" "DESTINATION" "share/aruco_markers_msgs")
+# install(DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs/rust" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_directory("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" DIRECTORY "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs/rust" "DESTINATION" "share/aruco_markers_msgs")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/Marker.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_adapter/aruco_markers_msgs/msg/MarkerArray.idl" "DESTINATION" "share/aruco_markers_msgs/msg")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg" "DESTINATION" "share/aruco_markers_msgs/msg")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_markers_msgs/environment")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_markers_msgs")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_markers_msgs")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_markers_msgs")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_markers_msgs")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_markers_msgs")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_markers_msgs")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_markers_msgs")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_markers_msgs")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_markers_msgs")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_markers_msgs")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_index/share/ament_index/resource_index/packages/aruco_markers_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig.cmake" "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig-version.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig.cmake" "/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig-version.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig.cmake" "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig-version.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig.cmake" "/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig-version.cmake" "DESTINATION" "share/aruco_markers_msgs/cmake")
 
-# install(FILES "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/package.xml" "DESTINATION" "share/aruco_markers_msgs")
-ament_cmake_symlink_install_files("/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs" FILES "/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/package.xml" "DESTINATION" "share/aruco_markers_msgs")
+# install(FILES "/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/package.xml" "DESTINATION" "share/aruco_markers_msgs")
+ament_cmake_symlink_install_files("/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs" FILES "/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/package.xml" "DESTINATION" "share/aruco_markers_msgs")

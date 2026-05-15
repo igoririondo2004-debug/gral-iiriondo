@@ -1,18 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from speech_to_goal_interfaces/msg/Waypoint.msg
-// generated code does not contain a copyright notice
-
-
-module speech_to_goal_interfaces {
-  module msg {
-    struct Waypoint {
-      string name;
-
-      double x;
-
-      double y;
-
-      double z;
-    };
-  };
-};
+/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_adapter/speech_to_goal_interfaces/msg/Waypoint.idl

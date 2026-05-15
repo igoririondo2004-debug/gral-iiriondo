@@ -1,1 +1,1 @@
-/home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg
+/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/Marker.msg

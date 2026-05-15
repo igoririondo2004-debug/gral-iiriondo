@@ -1,8 +1,8 @@
-# Install script for directory: /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/speech_to_goal_interfaces__py
+# Install script for directory: /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/speech_to_goal_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/igor/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

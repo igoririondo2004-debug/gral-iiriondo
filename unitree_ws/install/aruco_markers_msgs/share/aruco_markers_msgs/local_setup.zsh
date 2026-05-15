@@ -1,1 +1,1 @@
-/home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.zsh
+/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/local_setup.zsh

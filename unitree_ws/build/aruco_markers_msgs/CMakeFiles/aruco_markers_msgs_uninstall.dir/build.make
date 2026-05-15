@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
 
 # Utility rule file for aruco_markers_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/aruco_markers_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/aruco_markers_msgs_uninstall.dir/progress.make
 
 CMakeFiles/aruco_markers_msgs_uninstall:
-	/usr/bin/cmake -P /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 aruco_markers_msgs_uninstall: CMakeFiles/aruco_markers_msgs_uninstall
 aruco_markers_msgs_uninstall: CMakeFiles/aruco_markers_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/aruco_markers_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/aruco_markers_msgs_uninstall.dir/clean
 
 CMakeFiles/aruco_markers_msgs_uninstall.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/igor/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/CMakeFiles/aruco_markers_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/CMakeFiles/aruco_markers_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_markers_msgs_uninstall.dir/depend
 

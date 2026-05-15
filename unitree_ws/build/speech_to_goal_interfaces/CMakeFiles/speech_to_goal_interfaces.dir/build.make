@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces
 
 # Utility rule file for speech_to_goal_interfaces.
 
@@ -66,11 +66,11 @@ include CMakeFiles/speech_to_goal_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/speech_to_goal_interfaces.dir/progress.make
 
-CMakeFiles/speech_to_goal_interfaces: /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces/msg/Waypoint.msg
-CMakeFiles/speech_to_goal_interfaces: /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces/srv/LLMQuery.srv
+CMakeFiles/speech_to_goal_interfaces: /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces/msg/Waypoint.msg
+CMakeFiles/speech_to_goal_interfaces: /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces/srv/LLMQuery.srv
 CMakeFiles/speech_to_goal_interfaces: rosidl_cmake/srv/LLMQuery_Request.msg
 CMakeFiles/speech_to_goal_interfaces: rosidl_cmake/srv/LLMQuery_Response.msg
-CMakeFiles/speech_to_goal_interfaces: /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces/srv/DetectIntent.srv
+CMakeFiles/speech_to_goal_interfaces: /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces/srv/DetectIntent.srv
 CMakeFiles/speech_to_goal_interfaces: rosidl_cmake/srv/DetectIntent_Request.msg
 CMakeFiles/speech_to_goal_interfaces: rosidl_cmake/srv/DetectIntent_Response.msg
 
@@ -87,6 +87,6 @@ CMakeFiles/speech_to_goal_interfaces.dir/clean:
 .PHONY : CMakeFiles/speech_to_goal_interfaces.dir/clean
 
 CMakeFiles/speech_to_goal_interfaces.dir/depend:
-	cd /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/igor/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/speech_to_goal_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/speech_to_goal_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_to_goal_interfaces.dir/depend
 

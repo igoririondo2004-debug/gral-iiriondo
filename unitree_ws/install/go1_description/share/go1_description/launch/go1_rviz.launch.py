@@ -1,1 +1,1 @@
-/home/igor/gral-iiriondo/unitree_ws/build/go1_description/launch/go1_rviz.launch.py
+/home/tknika/gral-iiriondo-main/unitree_ws/build/go1_description/launch/go1_rviz.launch.py

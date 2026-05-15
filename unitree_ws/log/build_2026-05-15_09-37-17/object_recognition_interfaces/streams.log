@@ -1,0 +1,239 @@
+[0.075s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces
+[3.512s] -- The C compiler identification is GNU 11.4.0
+[3.514s] -- The CXX compiler identification is GNU 11.4.0
+[3.514s] -- Detecting C compiler ABI info
+[3.514s] -- Detecting C compiler ABI info - done
+[3.516s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.516s] -- Detecting C compile features
+[3.516s] -- Detecting C compile features - done
+[3.516s] -- Detecting CXX compiler ABI info
+[3.516s] -- Detecting CXX compiler ABI info - done
+[3.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.516s] -- Detecting CXX compile features
+[3.517s] -- Detecting CXX compile features - done
+[3.517s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.517s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.517s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.518s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.207s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.216s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.282s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.282s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.283s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.337s] -- Found PythonExtra: .so  
+[4.575s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.614s] -- Added test 'lint_cmake' to check CMake code style
+[4.616s] -- Added test 'xmllint' to check XML markup files
+[4.625s] -- Configuring done
+[4.726s] -- Generating done
+[4.772s] -- Build files have been written to: /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces
+[4.807s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake /home/tknika/gral-iiriondo-main/unitree_ws/src/object_recognition_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces
+[4.808s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --build /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces -- -j8 -l8
+[4.935s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.046s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.057s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.096s] [  7%] Built target ament_cmake_python_symlink_object_recognition_interfaces
+[6.502s] running egg_info
+[6.582s] creating object_recognition_interfaces.egg-info
+[6.684s] writing object_recognition_interfaces.egg-info/PKG-INFO
+[6.684s] writing dependency_links to object_recognition_interfaces.egg-info/dependency_links.txt
+[6.685s] writing top-level names to object_recognition_interfaces.egg-info/top_level.txt
+[6.685s] writing manifest file 'object_recognition_interfaces.egg-info/SOURCES.txt'
+[6.935s] reading manifest file 'object_recognition_interfaces.egg-info/SOURCES.txt'
+[6.938s] writing manifest file 'object_recognition_interfaces.egg-info/SOURCES.txt'
+[7.146s] [  7%] Built target object_recognition_interfaces__rs
+[7.331s] [  7%] Built target ament_cmake_python_build_object_recognition_interfaces_egg
+[7.363s] [ 10%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__functions.c.o[0m
+[7.383s] [ 12%] Built target object_recognition_interfaces__cpp
+[7.383s] [ 12%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__functions.c.o[0m
+[7.483s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.495s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.532s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.706s] [ 22%] [32m[1mLinking C shared library libobject_recognition_interfaces__rosidl_generator_c.so[0m
+[8.012s] [ 22%] Built target object_recognition_interfaces__rosidl_generator_c
+[8.120s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.123s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.140s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.151s] [ 32%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_interfaces/srv/detect_object__type_support.cpp.o[0m
+[10.183s] [ 35%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/object_recognition_interfaces/srv/add_object__type_support.cpp.o[0m
+[10.627s] [ 40%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/detect_object__type_support.c.o[0m
+[10.628s] [ 40%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/object_recognition_interfaces/srv/detail/add_object__type_support.c.o[0m
+[10.698s] [ 42%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_interfaces/srv/detail/detect_object__type_support.cpp.o[0m
+[10.871s] [ 45%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_interfaces/srv/detect_object__type_support.cpp.o[0m
+[10.976s] [ 47%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/object_recognition_interfaces/srv/add_object__type_support.cpp.o[0m
+[10.993s] [ 50%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_interfaces/srv/detail/dds_fastrtps/detect_object__type_support.cpp.o[0m
+[11.019s] [ 52%] [32m[1mLinking C shared library libobject_recognition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.243s] [ 55%] [32m[1mLinking CXX shared library libobject_recognition_interfaces__rosidl_typesupport_c.so[0m
+[11.282s] [ 57%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/object_recognition_interfaces/srv/detail/add_object__type_support.cpp.o[0m
+[11.299s] [ 57%] Built target object_recognition_interfaces__rosidl_typesupport_introspection_c
+[11.379s] [ 60%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/object_recognition_interfaces/srv/detail/dds_fastrtps/add_object__type_support.cpp.o[0m
+[11.612s] [ 60%] Built target object_recognition_interfaces__rosidl_typesupport_c
+[11.963s] [ 62%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_interfaces/srv/detail/detect_object__type_support_c.cpp.o[0m
+[11.979s] [ 65%] [32mBuilding CXX object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/object_recognition_interfaces/srv/detail/add_object__type_support_c.cpp.o[0m
+[12.301s] [ 67%] [32m[1mLinking CXX shared library libobject_recognition_interfaces__rosidl_typesupport_cpp.so[0m
+[12.773s] [ 67%] Built target object_recognition_interfaces__rosidl_typesupport_cpp
+[14.194s] [ 70%] [32m[1mLinking CXX shared library libobject_recognition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.696s] [ 72%] [32m[1mLinking CXX shared library libobject_recognition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.738s] [ 72%] Built target object_recognition_interfaces__rosidl_typesupport_introspection_cpp
+[14.924s] [ 75%] [32m[1mLinking CXX shared library libobject_recognition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.063s] [ 75%] Built target object_recognition_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.161s] [ 75%] Built target object_recognition_interfaces__rosidl_typesupport_fastrtps_c
+[15.211s] [ 75%] Built target object_recognition_interfaces
+[15.255s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.635s] [ 77%] Built target object_recognition_interfaces__py
+[16.674s] [ 80%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o[0m
+[16.890s] [ 82%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_add_object_s.c.o[0m
+[17.112s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so[0m
+[17.184s] [ 85%] Built target object_recognition_interfaces__rosidl_generator_py
+[17.225s] [ 87%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.419s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.485s] [ 90%] Built target object_recognition_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[17.524s] [ 92%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[17.713s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.774s] [ 95%] Built target object_recognition_interfaces__rosidl_typesupport_c__pyext
+[17.816s] [ 97%] [32mBuilding C object CMakeFiles/object_recognition_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.008s] [100%] [32m[1mLinking C shared library rosidl_generator_py/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.070s] [100%] Built target object_recognition_interfaces__rosidl_typesupport_introspection_c__pyext
+[18.095s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --build /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces -- -j8 -l8
+[18.114s] Invoking command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --install /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces
+[18.130s] -- Install configuration: ""
+[18.131s] -- Execute custom install script
+[18.132s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/ament_index/resource_index/rosidl_interfaces/object_recognition_interfaces
+[18.148s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.165s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/add_object.h
+[18.182s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__functions.h
+[18.198s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__struct.h
+[18.215s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__type_support.h
+[18.232s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__functions.h
+[18.247s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__struct.h
+[18.265s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__type_support.h
+[18.284s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detect_object.h
+[18.301s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/library_path.sh
+[18.316s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/library_path.dsv
+[18.333s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.350s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__rosidl_typesupport_fastrtps_c.h
+[18.367s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__rosidl_typesupport_fastrtps_c.h
+[18.384s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.401s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__rosidl_typesupport_introspection_c.h
+[18.418s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__rosidl_typesupport_introspection_c.h
+[18.435s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.450s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/add_object.hpp
+[18.467s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__builder.hpp
+[18.485s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__struct.hpp
+[18.504s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__traits.hpp
+[18.522s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__type_support.hpp
+[18.537s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__builder.hpp
+[18.553s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__struct.hpp
+[18.569s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__traits.hpp
+[18.585s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__type_support.hpp
+[18.601s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detect_object.hpp
+[18.618s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.635s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__rosidl_typesupport_fastrtps_cpp.hpp
+[18.652s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__rosidl_typesupport_fastrtps_cpp.hpp
+[18.670s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/add_object__rosidl_typesupport_introspection_cpp.hpp
+[18.687s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/include/object_recognition_interfaces/object_recognition_interfaces/srv/detail/detect_object__rosidl_typesupport_introspection_cpp.hpp
+[18.704s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/pythonpath.sh
+[18.722s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/pythonpath.dsv
+[18.740s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[18.756s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.773s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.790s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[18.808s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/__init__.py
+[18.826s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_c.c
+[18.843s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.857s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.874s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/libobject_recognition_interfaces__rosidl_generator_py.so
+[18.892s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.911s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.927s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.944s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/__init__.py
+[18.961s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/_add_object.py
+[18.978s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/_add_object_s.c
+[18.995s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/_detect_object.py
+[19.011s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/_detect_object_s.c
+[19.029s] -- Up-to-date symlink: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.030s] -- Up-to-date symlink: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.030s] -- Up-to-date symlink: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/object_recognition_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.031s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/ament_index/resource_index/rust_packages/object_recognition_interfaces
+[19.046s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/rust/Cargo.toml
+[19.062s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/rust/build.rs
+[19.079s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/rust/src/lib.rs
+[19.095s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/rust/src/srv.rs
+[19.112s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/rust/src/srv/rmw.rs
+[19.130s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/DetectObject.idl
+[19.146s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/AddObject.idl
+[19.163s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/DetectObject.srv
+[19.180s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/DetectObject_Request.msg
+[19.196s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/DetectObject_Response.msg
+[19.212s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/AddObject.srv
+[19.229s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/AddObject_Request.msg
+[19.248s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/srv/AddObject_Response.msg
+[19.266s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/ament_index/resource_index/package_run_dependencies/object_recognition_interfaces
+[19.288s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/ament_index/resource_index/parent_prefix_path/object_recognition_interfaces
+[19.305s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/ament_prefix_path.sh
+[19.322s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/ament_prefix_path.dsv
+[19.338s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/path.sh
+[19.356s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/environment/path.dsv
+[19.373s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/local_setup.bash
+[19.390s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/local_setup.sh
+[19.407s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/local_setup.zsh
+[19.424s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/local_setup.dsv
+[19.441s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/package.dsv
+[19.458s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/ament_index/resource_index/packages/object_recognition_interfaces
+[19.475s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.492s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.512s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.530s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.552s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.571s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.591s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.608s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfacesConfig.cmake
+[19.624s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfacesConfig-version.cmake
+[19.642s] -- Symlinking: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/package.xml
+[19.659s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_generator_c.so
+[19.659s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_generator_c.so" to ""
+[19.659s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.660s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.660s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_introspection_c.so
+[19.661s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.661s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_c.so
+[19.662s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_c.so" to ""
+[19.662s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.662s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.663s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.664s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.664s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_cpp.so
+[19.664s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.756s] Listing '/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces'...
+[19.756s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/__init__.py'...
+[19.757s] Listing '/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv'...
+[19.757s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/__init__.py'...
+[19.757s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/_add_object.py'...
+[19.757s] Compiling '/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/local/lib/python3.10/dist-packages/object_recognition_interfaces/srv/_detect_object.py'...
+[19.770s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_generator_py.so
+[19.770s] -- Set runtime path of "/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/lib/libobject_recognition_interfaces__rosidl_generator_py.so" to ""
+[19.771s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_generator_cExport.cmake
+[19.771s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.773s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.773s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.773s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.774s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.774s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_cExport.cmake
+[19.774s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.774s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_generator_cppExport.cmake
+[19.775s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.775s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.775s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.776s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.776s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_cppExport.cmake
+[19.777s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/object_recognition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.777s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_generator_pyExport.cmake
+[19.777s] -- Installing: /home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition_interfaces/share/object_recognition_interfaces/cmake/export_object_recognition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.785s] Invoked command in '/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo-main/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo-main/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo-main/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo-main/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo-main/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo-main/unitree_ws/install/asr:/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_detector:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(unitree_env) /usr/bin/cmake --install /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces
