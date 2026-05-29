@@ -58,11 +58,7 @@ def generate_launch_description():
         output='screen',
         arguments=[
             '-d',
-            PathJoinSubstitution([
-                FindPackageShare('go1_description'),
-                'launch',
-                'check_joint.rviz'
-            ])
+            '/home/tknika/gral-iiriondo/rviz/unitree_go1.rviz'
         ]
     )
 
