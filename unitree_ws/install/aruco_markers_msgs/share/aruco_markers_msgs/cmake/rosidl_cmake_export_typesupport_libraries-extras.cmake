@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+/home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

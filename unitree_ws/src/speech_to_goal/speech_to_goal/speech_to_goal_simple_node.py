@@ -7,7 +7,7 @@ from geometry_msgs.msg import PoseStamped
 
 import re
 
-
+# CAREFUL: Does not take into account the intent of the speech and does not use object recognition
 class SpeechToGoal(Node):
 
     def __init__(self):

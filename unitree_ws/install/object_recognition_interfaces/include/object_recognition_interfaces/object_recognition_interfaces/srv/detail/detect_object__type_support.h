@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__type_support.h
+/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__type_support.h

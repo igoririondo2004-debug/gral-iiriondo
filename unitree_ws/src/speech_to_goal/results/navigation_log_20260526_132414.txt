@@ -1,0 +1,8 @@
+Texto recibido: ve a la basura pasando por la entrada.
+Intent detected: navigation
+Waypoints recibidos: 2
+Distancia robot -> entrada: 4.34 metros
+Distancia entrada -> basura: 8.73 metros
+Distancia total estimada: 13.07 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 4.34 metros

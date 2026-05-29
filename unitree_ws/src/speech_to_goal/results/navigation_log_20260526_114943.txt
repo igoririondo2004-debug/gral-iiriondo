@@ -1,0 +1,16 @@
+Texto recibido: B a la mesa.
+Intent detected: navigation
+Texto recibido: Ve a la mesa.
+Intent detected: navigation
+Texto recibido: B a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 2.52 metros
+Distancia total estimada: 2.52 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 2.52 metros
+Llegado a entrada | Tiempo: 30.00 s | Distancia directa: 2.52 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 32.01 segundos
+Distancia total estimada: 2.52 metros

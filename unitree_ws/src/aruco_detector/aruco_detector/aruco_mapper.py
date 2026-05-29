@@ -68,6 +68,7 @@ class ArucoMapper(Node):
         # STATE
         # -------------------------------------------------
         self.robot_xy = None
+        self.initial_pose = None   # <-- ADDED
         self.map = {}
 
         # -------------------------------------------------
@@ -95,16 +96,31 @@ class ArucoMapper(Node):
 
         self.get_logger().info("Aruco Mapper Ready")
 
-        # -------------------------------------------------
         self.timer = self.create_timer(0.2, self.publish)
 
     # -------------------------------------------------
+    # ODOM
+    # -------------------------------------------------
     def odom_cb(self, msg):
+
         self.robot_xy = (
             msg.pose.pose.position.x,
             msg.pose.pose.position.y
         )
 
+        # store initial pose only once
+        if self.initial_pose is None:
+            self.initial_pose = (
+                msg.pose.pose.position.x,
+                msg.pose.pose.position.y
+            )
+
+            self.get_logger().info(
+                f"Initial pose set: {self.initial_pose}"
+            )
+
+    # -------------------------------------------------
+    # MARKERS
     # -------------------------------------------------
     def marker_cb(self, msg):
 
@@ -135,14 +151,12 @@ class ArucoMapper(Node):
     # -------------------------------------------------
     def add_marker_cb(self, request, response):
 
-        # si ya existe EXACTAMENTE igual (nombre con espacios cuenta)
         for m in self.map.values():
             if m["name"] == request.name:
                 response.success = False
                 response.message = "Marker already exists with same name"
                 return response
 
-        # añadir nuevo marker manual
         new_id = max(self.map.keys(), default=-1) + 1
 
         self.map[new_id] = {
@@ -160,6 +174,8 @@ class ArucoMapper(Node):
         return response
 
     # -------------------------------------------------
+    # PUBLISH
+    # -------------------------------------------------
     def publish(self):
 
         map_msg = MarkerArray()
@@ -167,11 +183,66 @@ class ArucoMapper(Node):
 
         now = self.get_clock().now().to_msg()
 
+        # -------------------------------------------------
+        # INITIAL POSE MARKER (pose_inicial)
+        # -------------------------------------------------
+        if self.initial_pose is not None:
+
+            ix, iy = self.initial_pose
+
+            init_marker = VizMarker()
+            init_marker.header.frame_id = "map"
+            init_marker.header.stamp = now
+            init_marker.ns = "aruco_init_pose"
+            init_marker.id = 99999
+            init_marker.type = VizMarker.SPHERE
+            init_marker.action = VizMarker.ADD
+
+            init_marker.pose.position.x = ix
+            init_marker.pose.position.y = iy
+            init_marker.pose.position.z = 0.0
+
+            init_marker.scale.x = 0.25
+            init_marker.scale.y = 0.25
+            init_marker.scale.z = 0.25
+
+            init_marker.color.a = 1.0
+            init_marker.color.r = 1.0
+            init_marker.color.g = 0.0
+            init_marker.color.b = 0.0
+
+            viz_msg.markers.append(init_marker)
+
+            init_text = VizMarker()
+            init_text.header.frame_id = "map"
+            init_text.header.stamp = now
+            init_text.ns = "aruco_init_text"
+            init_text.id = 99998
+            init_text.type = VizMarker.TEXT_VIEW_FACING
+            init_text.action = VizMarker.ADD
+
+            init_text.pose.position.x = ix
+            init_text.pose.position.y = iy
+            init_text.pose.position.z = 0.35
+
+            init_text.scale.z = 0.25
+
+            init_text.color.r = 0.0
+            init_text.color.g = 0.0
+            init_text.color.b = 1.0
+            init_text.color.a = 1.0
+
+            init_text.text = "pose inicial"
+
+            viz_msg.markers.append(init_text)
+
+        # -------------------------------------------------
+        # ARUCO MAP MARKERS
+        # -------------------------------------------------
         for m_id, m in self.map.items():
 
             x, y, z = m["x"], m["y"], m["z"]
 
-            # MAP
             frozen = Marker()
             frozen.id = m_id
             frozen.header.frame_id = "map"
@@ -183,7 +254,6 @@ class ArucoMapper(Node):
 
             map_msg.markers.append(frozen)
 
-            # SPHERE
             sphere = VizMarker()
             sphere.header.frame_id = "map"
             sphere.header.stamp = now
@@ -205,7 +275,6 @@ class ArucoMapper(Node):
 
             viz_msg.markers.append(sphere)
 
-            # TEXT
             text = VizMarker()
             text.header.frame_id = "map"
             text.header.stamp = now
@@ -220,10 +289,10 @@ class ArucoMapper(Node):
 
             text.scale.z = 0.25
 
-            text.color.a = 1.0
-            text.color.r = 1.0
-            text.color.g = 1.0
+            text.color.r = 0.0
+            text.color.g = 0.0
             text.color.b = 1.0
+            text.color.a = 1.0
 
             text.text = m["name"]
 
@@ -232,6 +301,8 @@ class ArucoMapper(Node):
         self.pub_map.publish(map_msg)
         self.pub_viz.publish(viz_msg)
 
+    # -------------------------------------------------
+    # SAVE MAP
     # -------------------------------------------------
     def save_map_cb(self, msg):
 
@@ -256,6 +327,8 @@ class ArucoMapper(Node):
 
         self.get_logger().info(f"Saved map -> {path}")
 
+    # -------------------------------------------------
+    # LOAD MAP
     # -------------------------------------------------
     def load_map_cb(self, msg):
 

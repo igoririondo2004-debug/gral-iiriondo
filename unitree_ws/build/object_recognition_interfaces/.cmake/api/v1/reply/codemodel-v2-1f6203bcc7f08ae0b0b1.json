@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3650ff790d9120e316ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "object_recognition_interfaces__py",
+					"jsonFile" : "directory-object_recognition_interfaces__py-1c2a183b36bd3f03ec18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/object_recognition_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "object_recognition_interfaces__rs",
+					"jsonFile" : "directory-object_recognition_interfaces__rs-82ef1def65641c6a585b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/object_recognition_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "object_recognition_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_object_recognition_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_object_recognition_interfaces_egg-a297b67bc3451a470c54.json",
+					"name" : "ament_cmake_python_build_object_recognition_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_object_recognition_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_object_recognition_interfaces-d0555fcf4e8d798d3544.json",
+					"name" : "ament_cmake_python_symlink_object_recognition_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces-1c596b8f005923b47f51.json",
+					"name" : "object_recognition_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__cpp-5a1f5c7d2a321c072e26.json",
+					"name" : "object_recognition_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "object_recognition_interfaces__py::@d089f460eb8d8998743f",
+					"jsonFile" : "target-object_recognition_interfaces__py-f998b74626648f8835bd.json",
+					"name" : "object_recognition_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_generator_c-f8cff15bc636df063352.json",
+					"name" : "object_recognition_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_generator_py-bc6368607e24772035a5.json",
+					"name" : "object_recognition_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_c-111a24595aecea934a4c.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_c__pyext-2fc0f6f45dda7736f3b0.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_cpp-20c5f4885d1e9cef1f92.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_fastrtps_c-5caa14d198d2923629d0.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_fastrtps_c__pyext-1ba7e5bb43a51232635b.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_fastrtps_cpp-b820bf5a76dde19ccdda.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_introspection_c-41cf68120d099dc5ee83.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_introspection_c__pyext-353dd2ffc877c24d3a50.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces__rosidl_typesupport_introspection_cpp-b506e19daaaafb7489f5.json",
+					"name" : "object_recognition_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "object_recognition_interfaces__rs::@5fbac13d1aeb97ca0a92",
+					"jsonFile" : "target-object_recognition_interfaces__rs-f0d5a7b59a3c242f71fd.json",
+					"name" : "object_recognition_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_recognition_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_recognition_interfaces_uninstall-5bb72926f80b84cda380.json",
+					"name" : "object_recognition_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4de29c012acc1697d2c3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces",
+		"source" : "/home/tknika/gral-iiriondo/unitree_ws/src/object_recognition_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

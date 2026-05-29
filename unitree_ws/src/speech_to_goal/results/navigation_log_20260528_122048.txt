@@ -1,0 +1,12 @@
+Texto recibido: muevete al ascensor.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> ascensor: 14.22 metros
+Distancia total estimada: 14.22 metros
+Yendo a: ascensor (-14.03886039077931, 2.280418698836788)
+Distancia directa al waypoint: 14.22 metros
+Llegado a ascensor | Tiempo: 126.60 s | Distancia directa: 0.29 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 128.61 segundos
+Distancia total estimada: 14.22 metros

@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'object_recognition_node = object_recognition.recognition_service:main',
+            'object_recognition_yolo_node = object_recognition.recognition_service_yolo:main',
+            'object_recognition_vit_node = object_recognition.recognition_service_vit:main',
+            'object_recognition_yolo_cls_node = object_recognition.recognition_service_yolo_cls:main',
+
         ],
     },
 )

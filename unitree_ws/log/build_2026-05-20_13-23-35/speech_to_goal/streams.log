@@ -1,0 +1,30 @@
+[2.368s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal': LD_LIBRARY_PATH=/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition_interfaces/lib:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/lib:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/build --no-deps symlink_data
+[3.221s] running develop
+[3.727s] running egg_info
+[3.728s] creating speech_to_goal.egg-info
+[3.758s] writing speech_to_goal.egg-info/PKG-INFO
+[3.759s] writing dependency_links to speech_to_goal.egg-info/dependency_links.txt
+[3.759s] writing entry points to speech_to_goal.egg-info/entry_points.txt
+[3.760s] writing requirements to speech_to_goal.egg-info/requires.txt
+[3.760s] writing top-level names to speech_to_goal.egg-info/top_level.txt
+[3.760s] writing manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+[3.822s] reading manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+[3.823s] writing manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+[3.856s] running build_ext
+[3.857s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages/speech-to-goal.egg-link (link to .)
+[3.858s] Installing intent_classifier_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[3.859s] Installing speech_to_goal_llm_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[3.859s] Installing speech_to_goal_main_planner_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[3.860s] Installing speech_to_goal_main_planner_node_logs script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[3.860s] Installing speech_to_goal_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+[3.861s] 
+[3.861s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal
+[3.861s] running symlink_data
+[3.861s] creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index
+[3.862s] creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index
+[3.862s] creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index/packages
+[3.862s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/resource/speech_to_goal -> /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index/packages
+[3.862s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal
+[3.862s] creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal/launch
+[3.863s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/launch/speech_to_goal_full.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal/launch
+[4.021s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal' returned '0': LD_LIBRARY_PATH=/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition_interfaces/lib:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/lib:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/build --no-deps symlink_data

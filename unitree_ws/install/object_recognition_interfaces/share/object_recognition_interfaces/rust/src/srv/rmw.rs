@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_rs/object_recognition_interfaces/rust/src/srv/rmw.rs
+/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_rs/object_recognition_interfaces/rust/src/srv/rmw.rs

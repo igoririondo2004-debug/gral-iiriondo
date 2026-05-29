@@ -24,6 +24,32 @@ def generate_launch_description():
             package='speech_to_goal',
             executable='speech_to_goal_main_planner_node',
             name='speech_to_goal_main_planner',
+            output='screen',
+            parameters=[
+                {"map_name": "tknika_proba_handia"},
+            ]
+        ),
+
+
+        # COMPLEMENTARY NODES
+        Node(
+            package='mapping_configuration',
+            executable='mapping_publishers',
+            name='mapping_publishers',
+            output='screen'
+        ),
+
+        Node(
+            package='aruco_detector',
+            executable='aruco_mapper_node',
+            name='aruco_mapper_node',
+            output='screen'
+        ),
+
+        Node(
+            package='standing_mode',
+            executable='standing_mode',
+            name='standing_mode',
             output='screen'
         ),
 

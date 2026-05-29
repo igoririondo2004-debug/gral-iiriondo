@@ -1,7 +1,7 @@
 CMakeFiles/object_recognition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__functions.c.o: \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__functions.c \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__functions.c \
  /usr/include/stdc-predef.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__functions.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__functions.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/include/stdlib.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
@@ -44,8 +44,8 @@ CMakeFiles/object_recognition_interfaces__rosidl_generator_c.dir/rosidl_generato
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/add_object__struct.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \

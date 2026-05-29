@@ -33,50 +33,65 @@ print(f"Total images: {len(image_paths)}")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model, _, preprocess = open_clip.create_model_and_transforms(
-    "ViT-B-32",
+    "ViT-B-16",
     pretrained="openai"
 )
 
-tokenizer = open_clip.get_tokenizer("ViT-B-32")
+tokenizer = open_clip.get_tokenizer("ViT-B-16")
 
 model = model.to(device)
 model.eval()
 
+# (opcional pero recomendado en 8GB)
+torch.backends.cudnn.benchmark = True
+
 # =========================
-# CLASS NAMES (fixed label space)
+# CLASS NAMES
 # =========================
 class_names = sorted(list(set(true_labels)))
 
-# Prompt templates (IMPORTANT for CLIP quality)
 templates = [
     "a photo of a {}",
     "a blurry photo of a {}",
     "a close-up photo of a {}"
 ]
 
-# Build prompts
+# =========================
+# BUILD PROMPTS
+# =========================
 prompts = []
-prompt_map = []  # maps prompt → class index
-
-for i, c in enumerate(class_names):
+for c in class_names:
     for t in templates:
         prompts.append(t.format(c.replace("_", " ")))
-        prompt_map.append(i)
 
-# Encode text once
-text_tokens = tokenizer(prompts).to(device)
-
-with torch.no_grad():
-    text_features = model.encode_text(text_tokens)
-    text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-
-text_features = text_features.reshape(len(class_names), len(templates), -1)
-text_features = text_features.mean(dim=1)  # average templates per class
-
-text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+text_tokens = tokenizer(prompts)
 
 # =========================
-# PREDICT FUNCTION
+# ENCODE TEXT (BATCHED SAFE)
+# =========================
+batch_size = 128
+text_features_list = []
+
+with torch.no_grad():
+    for i in range(0, len(text_tokens), batch_size):
+        batch = text_tokens[i:i + batch_size].to(device)
+
+        feats = model.encode_text(batch)
+        feats = feats / feats.norm(dim=-1, keepdim=True)
+
+        text_features_list.append(feats.cpu())
+
+text_features = torch.cat(text_features_list, dim=0)
+
+# reshape: (classes, templates, dim)
+text_features = text_features.reshape(len(class_names), len(templates), -1)
+text_features = text_features.mean(dim=1)
+text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+
+text_features = text_features.to(device)
+
+# =========================
+# PREDICT
 # =========================
 def predict(img_path):
     image = preprocess(Image.open(img_path).convert("RGB")).unsqueeze(0).to(device)
@@ -91,7 +106,7 @@ def predict(img_path):
     return class_names[idx]
 
 # =========================
-# METRICS
+# EVALUATION
 # =========================
 y_true = []
 y_pred = []
@@ -103,21 +118,15 @@ for i, (img_path, label) in enumerate(tqdm(list(zip(image_paths, true_labels))))
     pred = predict(img_path)
     end = time.time()
 
-    latency = (end - start) * 1000
-    latencies.append(latency)
+    latencies.append((end - start) * 1000)
 
     y_true.append(label)
     y_pred.append(pred)
 
-    match = "✔" if pred == label else "✖"
-
-    print(f"\n[{i}] {match}")
-    print(f"Expected : {label}")
-    print(f"Predicted: {pred}")
-    print(f"Latency  : {latency:.2f} ms")
+    print(f"[{i}] {'✔' if pred == label else '✖'} {label} -> {pred}")
 
 # =========================
-# FINAL METRICS
+# METRICS
 # =========================
 acc = accuracy_score(y_true, y_pred)
 prec = precision_score(y_true, y_pred, average="macro", zero_division=0)

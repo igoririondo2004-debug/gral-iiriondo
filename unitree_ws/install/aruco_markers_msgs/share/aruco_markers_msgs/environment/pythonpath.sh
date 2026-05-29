@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.sh
+/home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_environment_hooks/pythonpath.sh

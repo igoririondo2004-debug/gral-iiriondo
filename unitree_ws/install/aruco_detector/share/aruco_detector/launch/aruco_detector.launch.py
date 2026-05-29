@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_detector/launch/aruco_detector.launch.py
+/home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/launch/aruco_detector.launch.py

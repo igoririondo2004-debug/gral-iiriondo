@@ -1,0 +1,17 @@
+[4.198s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/standing_mode': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/standing_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/standing_mode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/standing_mode/build --no-deps symlink_data
+[4.931s] running develop
+[5.361s] running egg_info
+[5.401s] writing standing_mode.egg-info/PKG-INFO
+[5.402s] writing dependency_links to standing_mode.egg-info/dependency_links.txt
+[5.402s] writing entry points to standing_mode.egg-info/entry_points.txt
+[5.402s] writing requirements to standing_mode.egg-info/requires.txt
+[5.402s] writing top-level names to standing_mode.egg-info/top_level.txt
+[5.469s] reading manifest file 'standing_mode.egg-info/SOURCES.txt'
+[5.472s] writing manifest file 'standing_mode.egg-info/SOURCES.txt'
+[5.511s] running build_ext
+[5.511s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/standing_mode/lib/python3.10/site-packages/standing-mode.egg-link (link to .)
+[5.514s] Installing standing_mode script to /home/tknika/gral-iiriondo/unitree_ws/install/standing_mode/lib/standing_mode
+[5.514s] 
+[5.515s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/standing_mode
+[5.515s] running symlink_data
+[5.674s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/standing_mode' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/standing_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/standing_mode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/standing_mode/build --no-deps symlink_data

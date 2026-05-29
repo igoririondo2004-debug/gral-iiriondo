@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_cpp/object_recognition_interfaces/srv/detail/detect_object__traits.hpp
+/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_cpp/object_recognition_interfaces/srv/detail/detect_object__traits.hpp

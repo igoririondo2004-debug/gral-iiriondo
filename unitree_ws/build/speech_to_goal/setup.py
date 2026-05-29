@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal/setup.py
+/home/tknika/gral-iiriondo/unitree_ws/src/speech_to_goal/setup.py

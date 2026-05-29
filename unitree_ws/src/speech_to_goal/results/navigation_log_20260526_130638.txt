@@ -1,0 +1,31 @@
+Texto recibido: a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 2.54 metros
+Distancia total estimada: 2.54 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 2.54 metros
+Llegado a entrada | Tiempo: 27.80 s | Distancia directa: 0.29 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 29.81 segundos
+Distancia total estimada: 2.54 metros
+Texto recibido: V a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 2.56 metros
+Distancia total estimada: 2.56 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 2.56 metros
+Llegado a entrada | Tiempo: 32.00 s | Distancia directa: 0.29 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 34.01 segundos
+Distancia total estimada: 2.56 metros
+Texto recibido: a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 2.80 metros
+Distancia total estimada: 2.80 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 2.80 metros

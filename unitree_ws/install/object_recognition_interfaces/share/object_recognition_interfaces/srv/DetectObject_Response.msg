@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_cmake/srv/DetectObject_Response.msg
+/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_cmake/srv/DetectObject_Response.msg

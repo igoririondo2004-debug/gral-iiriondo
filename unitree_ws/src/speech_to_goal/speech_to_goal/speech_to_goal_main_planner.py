@@ -4,6 +4,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Odometry
+from std_msgs.msg import Bool
 
 from speech_to_goal_interfaces.srv import LLMQuery, DetectIntent
 from object_recognition_interfaces.srv import DetectObject
@@ -19,11 +20,14 @@ class SpeechToGoalClient(Node):
         # -----------------------------
         # STATE
         # -----------------------------
+        self.declare_parameter("map_name", "tknika_proba_handia")
+        self.map_name = self.get_parameter("map_name").value
+
         self.busy = False
         self.current_pose = None
         self.waiting_after_arrival = False
 
-        self.goal_tolerance = 0.2
+        self.goal_tolerance = 0.3
 
         self.wait_timer = None
         self.post_arrival_timer = None
@@ -42,6 +46,24 @@ class SpeechToGoalClient(Node):
             Odometry,
             '/odom',
             self.odom_cb,
+            10
+        )
+
+        self.aruco_map_pub = self.create_publisher(
+            String,
+            '/aruco/load_map',
+            10
+        )
+
+        self.mapping_map_pub = self.create_publisher(
+            String,
+            '/mapping/load_map',
+            10
+        )
+
+        self.mapping_mode = self.create_publisher(
+            Bool,
+            '/mapping/enable',
             10
         )
 
@@ -82,6 +104,9 @@ class SpeechToGoalClient(Node):
         while not self.object_cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Esperando object service...')
 
+
+        self.load_maps()
+        
         self.get_logger().info("SpeechToGoal CLIENT ready")
 
     # -------------------------------------------------
@@ -89,6 +114,26 @@ class SpeechToGoalClient(Node):
     # -------------------------------------------------
     def odom_cb(self, msg):
         self.current_pose = msg.pose.pose
+
+    # -------------------------------------------------
+    # LOADING MAPS
+    # -------------------------------------------------
+    def load_maps(self):
+        msg = String()
+        msg.data = self.map_name
+
+        self.aruco_map_pub.publish(msg)
+        self.mapping_map_pub.publish(msg)
+
+        # Mapping mode diasbled (Bool publisher)
+        mapping_msg = Bool()
+        mapping_msg.data = False
+
+        self.mapping_mode.publish(mapping_msg)
+
+        self.get_logger().info(
+            f"Requested map load: {self.map_name} | Mapping mode disabled"
+        )
 
     # -------------------------------------------------
     # SPEECH ENTRY POINT

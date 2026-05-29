@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake
+/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

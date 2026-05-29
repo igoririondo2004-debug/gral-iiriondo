@@ -1,0 +1,28 @@
+[5.167s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/asr': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/asr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/asr/build --no-deps symlink_data
+[6.429s] running develop
+[7.829s] running egg_info
+[7.830s] creating asr.egg-info
+[7.913s] writing asr.egg-info/PKG-INFO
+[7.914s] writing dependency_links to asr.egg-info/dependency_links.txt
+[7.916s] writing entry points to asr.egg-info/entry_points.txt
+[7.917s] writing requirements to asr.egg-info/requires.txt
+[7.920s] writing top-level names to asr.egg-info/top_level.txt
+[7.921s] writing manifest file 'asr.egg-info/SOURCES.txt'
+[8.113s] reading manifest file 'asr.egg-info/SOURCES.txt'
+[8.117s] writing manifest file 'asr.egg-info/SOURCES.txt'
+[8.232s] running build_ext
+[8.233s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages/asr.egg-link (link to .)
+[8.235s] Installing vosk_node script to /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/asr
+[8.241s] Installing whisper_medium_node script to /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/asr
+[8.242s] 
+[8.242s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/asr
+[8.242s] running symlink_data
+[8.243s] creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/ament_index
+[8.243s] creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/ament_index/resource_index
+[8.244s] creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/ament_index/resource_index/packages
+[8.244s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/asr/resource/asr -> /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/ament_index/resource_index/packages
+[8.245s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/asr/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/asr
+[8.245s] creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/asr/launch
+[8.246s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/asr/launch/vosk.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/asr/launch
+[8.249s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/asr/launch/whisper_medium.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/asr/share/asr/launch
+[8.756s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/asr' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/asr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/asr/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+Texto recibido: ¡Ve a la mesa!
+Intent detected: navigation
+Texto recibido: Vea la entrada.
+Intent detected: noise
+Texto recibido: a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 2.54 metros
+Distancia total estimada: 2.54 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 2.54 metros
+Llegado a entrada | Tiempo: 59.40 s | Distancia directa: 2.54 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 61.41 segundos
+Distancia total estimada: 2.54 metros
+Texto recibido: vea a la impresora pasando por el escritorio.
+Intent detected: navigation
+Waypoints recibidos: 2
+Distancia robot -> impresora: 4.46 metros
+Distancia impresora -> escritorio: 4.14 metros
+Distancia total estimada: 8.60 metros
+Yendo a: impresora (3.158940604366991, -4.464914700797434)
+Distancia directa al waypoint: 4.46 metros

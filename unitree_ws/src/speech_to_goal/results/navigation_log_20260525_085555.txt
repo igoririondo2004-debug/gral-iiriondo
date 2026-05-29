@@ -1,0 +1,50 @@
+Texto recibido: Vea la entrada.
+Intent detected: noise
+Texto recibido: a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 2.30 metros
+Distancia total estimada: 2.30 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 2.30 metros
+Llegado a entrada | Tiempo: 12.00 s | Distancia directa: 2.30 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 14.01 segundos
+Distancia total estimada: 2.30 metros
+Texto recibido: vea la impresora pasando por el escritorio.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> escritorio: 1.01 metros
+Distancia total estimada: 1.01 metros
+Yendo a: escritorio (1.581041100494357, -0.6351161648742517)
+Distancia directa al waypoint: 1.01 metros
+Llegado a escritorio | Tiempo: 10.80 s | Distancia directa: 1.01 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 12.81 segundos
+Distancia total estimada: 1.01 metros
+Texto recibido: a la entrada.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> entrada: 1.14 metros
+Distancia total estimada: 1.14 metros
+Yendo a: entrada (2.539299411979722, 6.6991546250657e-06)
+Distancia directa al waypoint: 1.14 metros
+Llegado a entrada | Tiempo: 22.20 s | Distancia directa: 1.14 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 24.21 segundos
+Distancia total estimada: 1.14 metros
+Texto recibido: ve a la impresora pasando por el escritorio.
+Intent detected: navigation
+Waypoints recibidos: 2
+Distancia robot -> escritorio: 0.93 metros
+Distancia escritorio -> impresora: 4.14 metros
+Distancia total estimada: 5.08 metros
+Yendo a: escritorio (1.581041100494357, -0.6351161648742517)
+Distancia directa al waypoint: 0.93 metros
+Llegado a escritorio | Tiempo: 21.00 s | Distancia directa: 0.93 m
+Esperando 2s...
+Yendo a: impresora (3.158940604366991, -4.464914700797434)
+Distancia directa al waypoint: 4.03 metros

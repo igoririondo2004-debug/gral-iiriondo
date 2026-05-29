@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake
+/home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

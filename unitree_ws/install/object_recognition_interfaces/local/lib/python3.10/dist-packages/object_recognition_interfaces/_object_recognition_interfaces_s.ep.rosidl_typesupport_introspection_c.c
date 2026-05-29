@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+/home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/_object_recognition_interfaces_s.ep.rosidl_typesupport_introspection_c.c

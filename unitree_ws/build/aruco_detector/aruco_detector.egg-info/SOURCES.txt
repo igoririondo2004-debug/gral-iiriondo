@@ -13,6 +13,7 @@ aruco_detector.egg-info/top_level.txt
 aruco_detector.egg-info/zip-safe
 config/aruco_detector.yaml
 config/proba.yaml
+config/tknika_proba_gela.yaml
 launch/aruco_detector.launch.py
 launch/aruco_full.launch.py
 resource/aruco_detector

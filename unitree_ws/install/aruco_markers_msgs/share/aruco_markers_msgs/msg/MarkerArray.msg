@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg
+/home/tknika/gral-iiriondo/unitree_ws/src/aruco_markers_msgs/msg/MarkerArray.msg

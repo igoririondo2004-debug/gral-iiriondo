@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/standing_mode/launch/standing_mode.launch.py
+/home/tknika/gral-iiriondo/unitree_ws/build/standing_mode/launch/standing_mode.launch.py

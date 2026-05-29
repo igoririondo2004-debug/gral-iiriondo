@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/src/standing_mode/script/unitree_stand.py
+/home/tknika/gral-iiriondo/unitree_ws/src/standing_mode/script/unitree_stand.py

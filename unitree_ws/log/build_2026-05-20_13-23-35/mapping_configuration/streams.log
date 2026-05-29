@@ -1,0 +1,24 @@
+[5.224s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/build --no-deps symlink_data
+[6.674s] running develop
+[7.732s] running egg_info
+[7.732s] creating mapping_configuration.egg-info
+[7.869s] writing mapping_configuration.egg-info/PKG-INFO
+[7.870s] writing dependency_links to mapping_configuration.egg-info/dependency_links.txt
+[7.873s] writing entry points to mapping_configuration.egg-info/entry_points.txt
+[7.876s] writing requirements to mapping_configuration.egg-info/requires.txt
+[7.876s] writing top-level names to mapping_configuration.egg-info/top_level.txt
+[7.882s] writing manifest file 'mapping_configuration.egg-info/SOURCES.txt'
+[8.081s] reading manifest file 'mapping_configuration.egg-info/SOURCES.txt'
+[8.083s] writing manifest file 'mapping_configuration.egg-info/SOURCES.txt'
+[8.139s] running build_ext
+[8.139s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/python3.10/site-packages/mapping-configuration.egg-link (link to .)
+[8.143s] Installing mapping_publishers script to /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/mapping_configuration
+[8.143s] 
+[8.143s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration
+[8.143s] running symlink_data
+[8.156s] creating /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/share/ament_index
+[8.157s] creating /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/share/ament_index/resource_index
+[8.157s] creating /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/share/ament_index/resource_index/packages
+[8.157s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/resource/mapping_configuration -> /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/share/ament_index/resource_index/packages
+[8.157s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/share/mapping_configuration
+[8.524s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/build --no-deps symlink_data

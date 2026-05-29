@@ -1,7 +1,7 @@
 CMakeFiles/speech_to_goal_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.c.o: \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.c \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.c \
  /usr/include/stdc-predef.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/include/stdlib.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
@@ -44,14 +44,14 @@ CMakeFiles/speech_to_goal_interfaces__rosidl_generator_c.dir/rosidl_generator_c/
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__struct.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__struct.h \
  /usr/include/assert.h /usr/include/string.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
@@ -71,4 +71,4 @@ CMakeFiles/speech_to_goal_interfaces__rosidl_generator_c.dir/rosidl_generator_c/
  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__functions.h
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__functions.h

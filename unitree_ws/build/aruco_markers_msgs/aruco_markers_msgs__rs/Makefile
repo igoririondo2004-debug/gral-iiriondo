@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo/unitree_ws/src/aruco_markers_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_progress_start /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/CMakeFiles /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__rs//CMakeFiles/progress.marks
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/CMakeFiles 0
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_progress_start /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/CMakeFiles /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__rs//CMakeFiles/progress.marks
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/clean
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/preinstall
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/preinstall
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/rule:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/rule
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/rule
 .PHONY : aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ aruco_markers_msgs__rs: aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs
 
 # fast build rule for target.
 aruco_markers_msgs__rs/fast:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/build.make aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/build
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(MAKE) $(MAKESILENT) -f aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/build.make aruco_markers_msgs__rs/CMakeFiles/aruco_markers_msgs__rs.dir/build
 .PHONY : aruco_markers_msgs__rs/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -18,7 +18,7 @@ DATASET_DIR = "imagenet_fisheye"
 # DEVICE
 # =========================
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = "cpu"  # force CPU for fair latency comparison
+device = "cuda"  # force CPU for fair latency comparison
 
 # =========================
 # MODEL

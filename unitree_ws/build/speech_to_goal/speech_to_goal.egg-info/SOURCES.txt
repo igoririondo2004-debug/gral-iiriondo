@@ -2,12 +2,14 @@ package.xml
 setup.cfg
 setup.py
 launch/speech_to_goal_full.launch.py
+launch/speech_to_goal_logs.launch.py
 resource/speech_to_goal
 speech_to_goal/__init__.py
 speech_to_goal/intent_detection_llm_service.py
 speech_to_goal/speech_to_goal_llm_service.py
 speech_to_goal/speech_to_goal_llm_service_dynamic.py
 speech_to_goal/speech_to_goal_main_planner.py
+speech_to_goal/speech_to_goal_main_planner_logs.py
 speech_to_goal/speech_to_goal_simple_node.py
 speech_to_goal.egg-info/PKG-INFO
 speech_to_goal.egg-info/SOURCES.txt

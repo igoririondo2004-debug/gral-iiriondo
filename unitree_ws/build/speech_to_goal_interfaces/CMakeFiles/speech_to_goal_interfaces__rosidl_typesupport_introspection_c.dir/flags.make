@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_speech_to_goal_interfaces -DROS_PACKAGE_NAME=\"speech_to_goal_interfaces\"
 
-C_INCLUDES = -I/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c -I/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c -I/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -fPIC -Wall -std=gnu11
 

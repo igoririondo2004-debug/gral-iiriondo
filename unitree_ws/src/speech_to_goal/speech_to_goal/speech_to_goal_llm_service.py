@@ -200,12 +200,27 @@ class SpeechToGoalLLM(Node):
     # -------------------------------------------------
     # VALIDATION (UNCHANGED)
     # -------------------------------------------------
+    def normalize_text(self, text):
+
+        if not isinstance(text, str):
+            return ""
+
+        text = text.lower().strip()
+
+        for article in ["el ", "la ", "los ", "las "]:
+            if text.startswith(article):
+                text = text[len(article):]
+                break
+
+        return text
+
+
     def validate(self, data):
 
         if not isinstance(data, dict):
             return None
 
-        goal = data.get("goal")
+        goal = self.normalize_text(data.get("goal", ""))
         via = data.get("via", [])
 
         allowed = set(self.markers.keys())
@@ -213,6 +228,7 @@ class SpeechToGoalLLM(Node):
         if goal not in allowed:
             goal = None
 
+        via = [self.normalize_text(v) for v in via if isinstance(v, str)]
         via = [v for v in via if v in allowed]
         via = [v for v in via if v != goal]
 
@@ -238,6 +254,8 @@ class SpeechToGoalLLM(Node):
             return res
 
         result = self.validate(data)
+        self.get_logger().info(f"\nVALIDATED:\n{result}")
+        
 
         if not result or result["goal"] is None:
             self.get_logger().warn("No se han encontrado esos puntos")

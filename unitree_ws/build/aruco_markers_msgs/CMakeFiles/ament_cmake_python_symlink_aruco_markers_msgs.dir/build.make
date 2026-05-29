@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo/unitree_ws/src/aruco_markers_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs
 
 # Utility rule file for ament_cmake_python_symlink_aruco_markers_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/compiler_de
 include CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs:
-	/usr/bin/cmake -E create_symlink /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_python/aruco_markers_msgs/aruco_markers_msgs
+	/usr/bin/cmake -E create_symlink /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_py/aruco_markers_msgs /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_python/aruco_markers_msgs/aruco_markers_msgs
 
 ament_cmake_python_symlink_aruco_markers_msgs: CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs
 ament_cmake_python_symlink_aruco_markers_msgs: CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/depend:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo/unitree_ws/src/aruco_markers_msgs /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_aruco_markers_msgs.dir/depend
 

@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs/rust/src/msg.rs
+/home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_rs/aruco_markers_msgs/rust/src/msg.rs

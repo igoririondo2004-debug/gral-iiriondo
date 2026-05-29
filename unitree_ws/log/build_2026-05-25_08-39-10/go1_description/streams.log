@@ -1,0 +1,15 @@
+[6.246s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/go1_description': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/go1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/build --no-deps symlink_data
+[7.052s] running develop
+[7.599s] running egg_info
+[7.628s] writing go1_description.egg-info/PKG-INFO
+[7.632s] writing dependency_links to go1_description.egg-info/dependency_links.txt
+[7.633s] writing requirements to go1_description.egg-info/requires.txt
+[7.633s] writing top-level names to go1_description.egg-info/top_level.txt
+[7.693s] reading manifest file 'go1_description.egg-info/SOURCES.txt'
+[7.695s] writing manifest file 'go1_description.egg-info/SOURCES.txt'
+[7.729s] running build_ext
+[7.729s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages/go1-description.egg-link (link to .)
+[7.732s] 
+[7.732s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/go1_description
+[7.732s] running symlink_data
+[7.941s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/go1_description' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/go1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/build --no-deps symlink_data

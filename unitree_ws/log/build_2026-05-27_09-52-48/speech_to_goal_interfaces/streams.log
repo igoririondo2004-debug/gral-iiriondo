@@ -1,0 +1,169 @@
+[0.086s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo/unitree_ws/install/asr:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector:/opt/ros/humble /usr/bin/cmake --build /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces -- -j8 -l8
+[1.711s] [  2%] Built target speech_to_goal_interfaces__rs
+[1.711s] [ 12%] Built target speech_to_goal_interfaces__rosidl_generator_c
+[1.711s] [ 14%] Built target speech_to_goal_interfaces__cpp
+[1.711s] [ 14%] Built target ament_cmake_python_symlink_speech_to_goal_interfaces
+[1.712s] [ 25%] Built target speech_to_goal_interfaces__rosidl_typesupport_introspection_c
+[1.712s] [ 35%] Built target speech_to_goal_interfaces__rosidl_typesupport_c
+[1.712s] [ 45%] Built target speech_to_goal_interfaces__rosidl_typesupport_fastrtps_c
+[1.712s] [ 56%] Built target speech_to_goal_interfaces__rosidl_typesupport_introspection_cpp
+[1.712s] [ 66%] Built target speech_to_goal_interfaces__rosidl_typesupport_cpp
+[1.712s] [ 77%] Built target speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.712s] [ 77%] Built target speech_to_goal_interfaces
+[1.713s] [ 79%] Built target speech_to_goal_interfaces__py
+[1.713s] [ 87%] Built target speech_to_goal_interfaces__rosidl_generator_py
+[1.713s] [ 91%] Built target speech_to_goal_interfaces__rosidl_typesupport_c__pyext
+[1.713s] [ 95%] Built target speech_to_goal_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.713s] [100%] Built target speech_to_goal_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.713s] running egg_info
+[1.713s] writing speech_to_goal_interfaces.egg-info/PKG-INFO
+[1.713s] writing dependency_links to speech_to_goal_interfaces.egg-info/dependency_links.txt
+[1.714s] writing top-level names to speech_to_goal_interfaces.egg-info/top_level.txt
+[1.714s] reading manifest file 'speech_to_goal_interfaces.egg-info/SOURCES.txt'
+[1.714s] writing manifest file 'speech_to_goal_interfaces.egg-info/SOURCES.txt'
+[1.714s] [100%] Built target ament_cmake_python_build_speech_to_goal_interfaces_egg
+[2.229s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo/unitree_ws/install/asr:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector:/opt/ros/humble /usr/bin/cmake --build /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces -- -j8 -l8
+[2.233s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo/unitree_ws/install/asr:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector:/opt/ros/humble /usr/bin/cmake --install /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces
+[2.255s] -- Install configuration: ""
+[2.258s] -- Execute custom install script
+[2.265s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/ament_index/resource_index/rosidl_interfaces/speech_to_goal_interfaces
+[2.268s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__functions.h
+[2.269s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__struct.h
+[2.269s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__type_support.h
+[2.274s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.274s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/waypoint.h
+[2.276s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__functions.h
+[2.278s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__struct.h
+[2.281s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__type_support.h
+[2.283s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__functions.h
+[2.287s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__struct.h
+[2.287s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__type_support.h
+[2.289s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detect_intent.h
+[2.289s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/llm_query.h
+[2.290s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/library_path.sh
+[2.290s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/library_path.dsv
+[2.295s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[2.296s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.298s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__rosidl_typesupport_fastrtps_c.h
+[2.298s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_fastrtps_c.h
+[2.301s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[2.303s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.304s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__rosidl_typesupport_introspection_c.h
+[2.304s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_introspection_c.h
+[2.305s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__builder.hpp
+[2.305s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__struct.hpp
+[2.306s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__traits.hpp
+[2.307s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__type_support.hpp
+[2.308s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.309s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/waypoint.hpp
+[2.310s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__builder.hpp
+[2.310s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__struct.hpp
+[2.311s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__traits.hpp
+[2.312s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__type_support.hpp
+[2.312s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__builder.hpp
+[2.313s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__struct.hpp
+[2.313s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__traits.hpp
+[2.314s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__type_support.hpp
+[2.315s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detect_intent.hpp
+[2.315s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/llm_query.hpp
+[2.317s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[2.318s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.319s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__rosidl_typesupport_fastrtps_cpp.hpp
+[2.320s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_fastrtps_cpp.hpp
+[2.321s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[2.322s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/detect_intent__rosidl_typesupport_introspection_cpp.hpp
+[2.322s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/include/speech_to_goal_interfaces/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_introspection_cpp.hpp
+[2.323s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/pythonpath.sh
+[2.324s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/pythonpath.dsv
+[2.325s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.326s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.327s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.328s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.330s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/__init__.py
+[2.331s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/_speech_to_goal_interfaces_s.ep.rosidl_typesupport_c.c
+[2.332s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/_speech_to_goal_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.333s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/_speech_to_goal_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.334s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/libspeech_to_goal_interfaces__rosidl_generator_py.so
+[2.335s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/msg/__init__.py
+[2.336s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/msg/_waypoint.py
+[2.337s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/msg/_waypoint_s.c
+[2.339s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/speech_to_goal_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.340s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/speech_to_goal_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.341s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/speech_to_goal_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.342s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/srv/__init__.py
+[2.343s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/srv/_detect_intent.py
+[2.344s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/srv/_detect_intent_s.c
+[2.345s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/srv/_llm_query.py
+[2.347s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/srv/_llm_query_s.c
+[2.348s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/speech_to_goal_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.350s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/speech_to_goal_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.352s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/speech_to_goal_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.353s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/ament_index/resource_index/rust_packages/speech_to_goal_interfaces
+[2.356s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/Cargo.toml
+[2.357s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/build.rs
+[2.358s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/src/lib.rs
+[2.359s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/src/msg.rs
+[2.360s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/src/msg/rmw.rs
+[2.361s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/src/srv.rs
+[2.362s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/rust/src/srv/rmw.rs
+[2.363s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/msg/Waypoint.idl
+[2.364s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/LLMQuery.idl
+[2.365s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/DetectIntent.idl
+[2.366s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/msg/Waypoint.msg
+[2.369s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/LLMQuery.srv
+[2.369s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/LLMQuery_Request.msg
+[2.369s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/LLMQuery_Response.msg
+[2.369s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/DetectIntent.srv
+[2.370s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/DetectIntent_Request.msg
+[2.371s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/srv/DetectIntent_Response.msg
+[2.372s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/ament_index/resource_index/package_run_dependencies/speech_to_goal_interfaces
+[2.373s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/ament_index/resource_index/parent_prefix_path/speech_to_goal_interfaces
+[2.373s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/ament_prefix_path.sh
+[2.374s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/ament_prefix_path.dsv
+[2.375s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/path.sh
+[2.375s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/environment/path.dsv
+[2.376s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/local_setup.bash
+[2.377s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/local_setup.sh
+[2.378s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/local_setup.zsh
+[2.378s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/local_setup.dsv
+[2.379s] -- Symlinking: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/package.dsv
+[2.400s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/ament_index/resource_index/packages/speech_to_goal_interfaces
+[2.401s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.401s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.402s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.403s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.404s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.404s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.405s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.406s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfacesConfig.cmake
+[2.406s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfacesConfig-version.cmake
+[2.407s] -- Up-to-date symlink: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/package.xml
+[2.409s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_generator_c.so
+[2.410s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.411s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_typesupport_introspection_c.so
+[2.415s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_typesupport_c.so
+[2.417s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.419s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.420s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_typesupport_cpp.so
+[2.509s] Listing '/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces'...
+[2.509s] Listing '/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/msg'...
+[2.510s] Listing '/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/local/lib/python3.10/dist-packages/speech_to_goal_interfaces/srv'...
+[2.524s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib/libspeech_to_goal_interfaces__rosidl_generator_py.so
+[2.526s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_generator_cExport.cmake
+[2.527s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.528s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.529s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.530s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.534s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.534s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_cExport.cmake
+[2.534s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.535s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_generator_cppExport.cmake
+[2.535s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.535s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.535s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.535s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.535s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_cppExport.cmake
+[2.536s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/speech_to_goal_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.537s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_generator_pyExport.cmake
+[2.537s] -- Up-to-date: /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/share/speech_to_goal_interfaces/cmake/export_speech_to_goal_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.646s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tknika/gral-iiriondo/unitree_ws/install/standing_mode:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal:/home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description:/home/tknika/gral-iiriondo/unitree_ws/install/asr:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector:/opt/ros/humble /usr/bin/cmake --install /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces

@@ -1,0 +1,23 @@
+[5.093s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis/build --no-deps symlink_data
+[6.026s] running develop
+[6.548s] running egg_info
+[6.583s] creating slam_analysis.egg-info
+[6.583s] writing slam_analysis.egg-info/PKG-INFO
+[6.586s] writing dependency_links to slam_analysis.egg-info/dependency_links.txt
+[6.587s] writing entry points to slam_analysis.egg-info/entry_points.txt
+[6.588s] writing requirements to slam_analysis.egg-info/requires.txt
+[6.588s] writing top-level names to slam_analysis.egg-info/top_level.txt
+[6.589s] writing manifest file 'slam_analysis.egg-info/SOURCES.txt'
+[6.705s] reading manifest file 'slam_analysis.egg-info/SOURCES.txt'
+[6.708s] writing manifest file 'slam_analysis.egg-info/SOURCES.txt'
+[6.753s] running build_ext
+[6.754s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/lib/python3.10/site-packages/slam-analysis.egg-link (link to .)
+[6.757s] Installing slam_benchmark script to /home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/lib/slam_analysis
+[6.758s] Installing slam_benchmark_hex script to /home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/lib/slam_analysis
+[6.759s] 
+[6.760s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis
+[6.761s] running symlink_data
+[6.762s] creating /home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/share/ament_index/resource_index/packages
+[6.763s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis/resource/slam_analysis -> /home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/share/ament_index/resource_index/packages
+[6.765s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/share/slam_analysis
+[7.023s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/slam_analysis/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/slam_analysis/build --no-deps symlink_data

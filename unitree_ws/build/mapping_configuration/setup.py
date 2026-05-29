@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/src/mapping_configuration/setup.py
+/home/tknika/gral-iiriondo/unitree_ws/src/mapping_configuration/setup.py

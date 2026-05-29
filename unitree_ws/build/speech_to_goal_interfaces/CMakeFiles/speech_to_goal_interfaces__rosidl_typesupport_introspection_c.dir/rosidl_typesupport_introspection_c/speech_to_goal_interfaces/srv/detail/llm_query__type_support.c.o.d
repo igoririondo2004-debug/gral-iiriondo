@@ -1,12 +1,12 @@
 CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/srv/detail/llm_query__type_support.c.o: \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/srv/detail/llm_query__type_support.c \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/srv/detail/llm_query__type_support.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_introspection_c.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_introspection_c.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -29,7 +29,7 @@ CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_introspection_c.dir/ros
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__functions.h \
  /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
@@ -56,14 +56,14 @@ CMakeFiles/speech_to_goal_interfaces__rosidl_typesupport_introspection_c.dir/ros
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/srv/detail/llm_query__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/waypoint.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__functions.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__type_support.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/waypoint.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__functions.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_c/speech_to_goal_interfaces/msg/detail/waypoint__type_support.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_introspection_c/speech_to_goal_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h \
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h

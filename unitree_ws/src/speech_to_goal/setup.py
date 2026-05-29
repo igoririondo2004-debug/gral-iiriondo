@@ -34,6 +34,7 @@ setup(
             'speech_to_goal_node = speech_to_goal.speech_to_goal_simple_node:main',
             'speech_to_goal_llm_node = speech_to_goal.speech_to_goal_llm_service:main',
             'speech_to_goal_main_planner_node = speech_to_goal.speech_to_goal_main_planner:main',
+            'speech_to_goal_main_planner_node_logs = speech_to_goal.speech_to_goal_main_planner_logs:main',
             'intent_classifier_node = speech_to_goal.intent_detection_llm_service:main',
         ],
     },

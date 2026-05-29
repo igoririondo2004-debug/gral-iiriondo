@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_fastrtps_c/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_fastrtps_c.h
+/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_typesupport_fastrtps_c/speech_to_goal_interfaces/srv/detail/llm_query__rosidl_typesupport_fastrtps_c.h

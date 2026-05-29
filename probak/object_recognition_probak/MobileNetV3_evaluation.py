@@ -18,7 +18,7 @@ DATASET_DIR = "imagenet_fisheye"
 # MODEL
 # =========================
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = "cpu"  # force CPU for fair latency comparison
+device = "cuda"  # force CPU for fair latency comparison
 
 weights = MobileNet_V3_Large_Weights.DEFAULT
 model = mobilenet_v3_large(weights=weights).to(device)

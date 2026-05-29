@@ -1,5 +1,5 @@
 CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c.o: \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_py/object_recognition_interfaces/srv/_detect_object_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/aarch64-linux-gnu/python3.10/pyconfig.h \
@@ -207,9 +207,9 @@ CMakeFiles/object_recognition_interfaces__rosidl_generator_py.dir/rosidl_generat
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__functions.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/srv/detail/detect_object__functions.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/object_recognition_interfaces/rosidl_generator_c/object_recognition_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

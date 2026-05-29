@@ -1,0 +1,7 @@
+Texto recibido: Muevete a Impresora.
+Intent detected: navigation
+Waypoints recibidos: 1
+Distancia robot -> impresora: 5.47 metros
+Distancia total estimada: 5.47 metros
+Yendo a: impresora (3.158940604366991, -4.464914700797434)
+Distancia directa al waypoint: 5.47 metros

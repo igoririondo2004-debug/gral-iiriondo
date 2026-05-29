@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/asr/launch/vosk.launch.py
+/home/tknika/gral-iiriondo/unitree_ws/build/asr/launch/vosk.launch.py

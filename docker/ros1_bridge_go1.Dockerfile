@@ -48,16 +48,16 @@ RUN git clone --depth 1 https://github.com/unitreerobotics/unitree_ros.git /tmp/
     && rm -rf /tmp/unitree_ros
 
 COPY bridge_entrypoint.sh /usr/local/bin/bridge_entrypoint.sh
-COPY ros1_start_go1_description.sh /usr/local/bin/ros1_start_go1_description.sh
-COPY ros2_start_go1_description.sh /usr/local/bin/ros2_start_go1_description.sh
+# COPY ros1_start_go1_description.sh /usr/local/bin/ros1_start_go1_description.sh
+# COPY ros2_start_go1_description.sh /usr/local/bin/ros2_start_go1_description.sh
 COPY ros2_initialpose_to_udp.py /usr/local/bin/ros2_initialpose_to_udp.py
 COPY udp_to_ros1_set_pose.py /usr/local/bin/udp_to_ros1_set_pose.py
 COPY fastdds_udp_only.xml /usr/local/share/fastdds_udp_only.xml
 COPY ros1_bridge_topics.yaml /usr/local/share/ros1_bridge_topics.yaml
 
 RUN chmod +x /usr/local/bin/bridge_entrypoint.sh \
-    /usr/local/bin/ros1_start_go1_description.sh \
-    /usr/local/bin/ros2_start_go1_description.sh \
+    # /usr/local/bin/ros1_start_go1_description.sh \
+    # /usr/local/bin/ros2_start_go1_description.sh \
     /usr/local/bin/ros2_initialpose_to_udp.py \
     /usr/local/bin/udp_to_ros1_set_pose.py
 

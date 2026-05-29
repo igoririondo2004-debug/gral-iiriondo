@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_core/speech_to_goal_interfacesConfig.cmake
+/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_core/speech_to_goal_interfacesConfig.cmake

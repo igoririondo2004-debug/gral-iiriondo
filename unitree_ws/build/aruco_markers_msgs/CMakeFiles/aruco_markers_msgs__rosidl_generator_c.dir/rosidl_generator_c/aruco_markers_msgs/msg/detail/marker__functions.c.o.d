@@ -1,7 +1,7 @@
 CMakeFiles/aruco_markers_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__functions.c.o: \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__functions.c \
+ /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__functions.c \
  /usr/include/stdc-predef.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__functions.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__functions.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/include/stdlib.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
@@ -44,8 +44,8 @@ CMakeFiles/aruco_markers_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_m
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/rosidl_generator_c__visibility_control.h \
- /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__struct.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/rosidl_generator_c/aruco_markers_msgs/msg/detail/marker__struct.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \

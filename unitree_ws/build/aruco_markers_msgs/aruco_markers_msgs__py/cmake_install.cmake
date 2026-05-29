@@ -1,8 +1,8 @@
-# Install script for directory: /home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py
+# Install script for directory: /home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tknika/gral-iiriondo-main/unitree_ws/install/aruco_markers_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

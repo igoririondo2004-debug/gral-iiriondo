@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating speech_to_goal.egg-info
+writing speech_to_goal.egg-info/PKG-INFO
+writing dependency_links to speech_to_goal.egg-info/dependency_links.txt
+writing entry points to speech_to_goal.egg-info/entry_points.txt
+writing requirements to speech_to_goal.egg-info/requires.txt
+writing top-level names to speech_to_goal.egg-info/top_level.txt
+writing manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+reading manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+writing manifest file 'speech_to_goal.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/python3.10/site-packages/speech-to-goal.egg-link (link to .)
+Installing intent_classifier_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+Installing speech_to_goal_llm_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+Installing speech_to_goal_main_planner_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+Installing speech_to_goal_main_planner_node_logs script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+Installing speech_to_goal_node script to /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/lib/speech_to_goal
+
+Installed /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal
+running symlink_data
+creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index
+creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index
+creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index/packages
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/resource/speech_to_goal -> /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/ament_index/resource_index/packages
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal
+creating /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal/launch
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal/launch/speech_to_goal_full.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal/share/speech_to_goal/launch

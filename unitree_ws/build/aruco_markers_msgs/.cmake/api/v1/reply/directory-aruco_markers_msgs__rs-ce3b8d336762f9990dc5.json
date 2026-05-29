@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aruco_markers_msgs__rs",
+		"source" : "/home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/aruco_markers_msgs__rs"
+	}
+}

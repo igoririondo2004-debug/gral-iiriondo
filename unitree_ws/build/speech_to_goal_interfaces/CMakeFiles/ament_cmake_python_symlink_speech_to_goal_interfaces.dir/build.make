@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces
+CMAKE_SOURCE_DIR = /home/tknika/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces
+CMAKE_BINARY_DIR = /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces
 
 # Utility rule file for ament_cmake_python_symlink_speech_to_goal_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/comp
 include CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces:
-	/usr/bin/cmake -E create_symlink /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_python/speech_to_goal_interfaces/speech_to_goal_interfaces
+	/usr/bin/cmake -E create_symlink /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_generator_py/speech_to_goal_interfaces /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_python/speech_to_goal_interfaces/speech_to_goal_interfaces
 
 ament_cmake_python_symlink_speech_to_goal_interfaces: CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces
 ament_cmake_python_symlink_speech_to_goal_interfaces: CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/depend:
-	cd /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tknika/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo/unitree_ws/src/speech_to_goal_interfaces /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces /home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_speech_to_goal_interfaces.dir/depend
 

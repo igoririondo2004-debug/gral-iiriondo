@@ -1,0 +1,43 @@
+[5.497s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/go1_description': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/go1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/build --no-deps symlink_data
+[6.914s] running develop
+[7.620s] running egg_info
+[7.621s] creating go1_description.egg-info
+[7.654s] writing go1_description.egg-info/PKG-INFO
+[7.655s] writing dependency_links to go1_description.egg-info/dependency_links.txt
+[7.655s] writing requirements to go1_description.egg-info/requires.txt
+[7.656s] writing top-level names to go1_description.egg-info/top_level.txt
+[7.656s] writing manifest file 'go1_description.egg-info/SOURCES.txt'
+[7.732s] reading manifest file 'go1_description.egg-info/SOURCES.txt'
+[7.732s] writing manifest file 'go1_description.egg-info/SOURCES.txt'
+[7.775s] running build_ext
+[7.775s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages/go1-description.egg-link (link to .)
+[7.778s] 
+[7.778s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/go1_description
+[7.779s] running symlink_data
+[7.779s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index
+[7.780s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index/resource_index
+[7.780s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index/resource_index/packages
+[7.781s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/resource/go1_description -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index/resource_index/packages
+[7.781s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description
+[7.781s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/launch
+[7.781s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/launch/go1_rviz.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/launch
+[7.782s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/urdf
+[7.782s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/urdf/go1.urdf -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/urdf
+[7.782s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.782s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/const.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.782s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/gazebo.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.782s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/depthCamera.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.782s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/materials.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.782s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/transmission.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/robot.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/leg.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/ultraSound.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+[7.783s] creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/calf.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/hip.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/ultraSound.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.783s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/depthCamera.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.784s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/thigh.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.784s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/thigh_mirror.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[7.784s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/trunk.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+[8.060s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/go1_description' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/go1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/build --no-deps symlink_data

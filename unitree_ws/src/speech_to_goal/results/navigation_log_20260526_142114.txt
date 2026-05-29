@@ -1,0 +1,17 @@
+Texto recibido: y muévete a la silla pasando por el escritorio.
+Intent detected: navigation
+Waypoints recibidos: 2
+Distancia robot -> escritorio: 1.70 metros
+Distancia escritorio -> silla: 5.15 metros
+Distancia total estimada: 6.85 metros
+Yendo a: escritorio (1.581041100494357, -0.6351161648742517)
+Distancia directa al waypoint: 1.70 metros
+Llegado a escritorio | Tiempo: 10.40 s | Distancia directa: 0.28 m
+Esperando 2s...
+Yendo a: silla (6.720977094468092, -0.8694767021892905)
+Distancia directa al waypoint: 5.30 metros
+Llegado a silla | Tiempo: 26.20 s | Distancia directa: 0.30 m
+Esperando 2s...
+Ruta completada
+Tiempo total navegación: 40.62 segundos
+Distancia total estimada: 6.85 metros

@@ -1,7 +1,7 @@
 aruco_detector_node:
   ros__parameters:
 
-    marker_size: 0.10
+    marker_size: 0.16
     use_undistort: false
 
-    marker_tags: '{"0":"entrada","1":"mesa azul","2":"mesa roja","3":"dock carga","4":"pasillo norte"}'
+    marker_tags: '{"0":"entrada","1":"escritorio","2":"impresora","3":"basura","4":"silla", "5":"ascensor"}'

@@ -1,0 +1,32 @@
+[3.207s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector': CMAKE_PREFIX_PATH=/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition_interfaces LD_LIBRARY_PATH=/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/lib:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition_interfaces/lib:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/build --no-deps symlink_data
+[4.005s] running develop
+[4.515s] running egg_info
+[4.515s] creating aruco_detector.egg-info
+[4.545s] writing aruco_detector.egg-info/PKG-INFO
+[4.545s] writing dependency_links to aruco_detector.egg-info/dependency_links.txt
+[4.546s] writing entry points to aruco_detector.egg-info/entry_points.txt
+[4.546s] writing requirements to aruco_detector.egg-info/requires.txt
+[4.546s] writing top-level names to aruco_detector.egg-info/top_level.txt
+[4.546s] writing manifest file 'aruco_detector.egg-info/SOURCES.txt'
+[4.609s] reading manifest file 'aruco_detector.egg-info/SOURCES.txt'
+[4.610s] writing manifest file 'aruco_detector.egg-info/SOURCES.txt'
+[4.645s] running build_ext
+[4.645s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/lib/python3.10/site-packages/aruco-detector.egg-link (link to .)
+[4.647s] Installing aruco_detector_node script to /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/lib/aruco_detector
+[4.647s] Installing aruco_mapper_node script to /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/lib/aruco_detector
+[4.648s] 
+[4.648s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector
+[4.648s] running symlink_data
+[4.649s] creating /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/ament_index
+[4.653s] creating /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/ament_index/resource_index
+[4.653s] creating /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/ament_index/resource_index/packages
+[4.653s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/resource/aruco_detector -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/ament_index/resource_index/packages
+[4.653s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector
+[4.654s] creating /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/launch
+[4.654s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/launch/aruco_detector.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/launch
+[4.654s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/launch/aruco_full.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/launch
+[4.654s] creating /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/config
+[4.654s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/config/aruco_detector.yaml -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/config
+[4.654s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/config/proba.yaml -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/config
+[4.654s] symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/config/tknika_proba_gela.yaml -> /home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/share/aruco_detector/config
+[4.834s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector' returned '0': CMAKE_PREFIX_PATH=/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition_interfaces LD_LIBRARY_PATH=/home/tknika/gral-iiriondo/unitree_ws/install/aruco_markers_msgs/lib:/home/tknika/gral-iiriondo/unitree_ws/install/speech_to_goal_interfaces/lib:/home/tknika/gral-iiriondo/unitree_ws/install/object_recognition_interfaces/lib:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64:/usr/lib/aarch64-linux-gnu/nvidia:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/aruco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/aruco_detector/build --no-deps symlink_data

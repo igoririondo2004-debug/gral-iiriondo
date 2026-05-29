@@ -1,0 +1,41 @@
+running develop
+running egg_info
+creating go1_description.egg-info
+writing go1_description.egg-info/PKG-INFO
+writing dependency_links to go1_description.egg-info/dependency_links.txt
+writing requirements to go1_description.egg-info/requires.txt
+writing top-level names to go1_description.egg-info/top_level.txt
+writing manifest file 'go1_description.egg-info/SOURCES.txt'
+reading manifest file 'go1_description.egg-info/SOURCES.txt'
+writing manifest file 'go1_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/lib/python3.10/site-packages/go1-description.egg-link (link to .)
+
+Installed /home/tknika/gral-iiriondo/unitree_ws/build/go1_description
+running symlink_data
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index/resource_index
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index/resource_index/packages
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/resource/go1_description -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/ament_index/resource_index/packages
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/package.xml -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/launch
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/launch/go1_rviz.launch.py -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/launch
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/urdf
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/urdf/go1.urdf -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/urdf
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/const.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/gazebo.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/depthCamera.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/materials.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/transmission.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/robot.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/leg.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/xacro/ultraSound.xacro -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/xacro
+creating /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/calf.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/hip.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/ultraSound.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/depthCamera.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/thigh.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/thigh_mirror.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes
+symbolically linking /home/tknika/gral-iiriondo/unitree_ws/build/go1_description/meshes/trunk.dae -> /home/tknika/gral-iiriondo/unitree_ws/install/go1_description/share/go1_description/meshes

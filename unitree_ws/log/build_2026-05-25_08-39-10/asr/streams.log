@@ -1,0 +1,18 @@
+[6.248s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/asr': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/asr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/asr/build --no-deps symlink_data
+[7.065s] running develop
+[7.611s] running egg_info
+[7.643s] writing asr.egg-info/PKG-INFO
+[7.644s] writing dependency_links to asr.egg-info/dependency_links.txt
+[7.645s] writing entry points to asr.egg-info/entry_points.txt
+[7.645s] writing requirements to asr.egg-info/requires.txt
+[7.645s] writing top-level names to asr.egg-info/top_level.txt
+[7.706s] reading manifest file 'asr.egg-info/SOURCES.txt'
+[7.707s] writing manifest file 'asr.egg-info/SOURCES.txt'
+[7.741s] running build_ext
+[7.741s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages/asr.egg-link (link to .)
+[7.743s] Installing vosk_node script to /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/asr
+[7.744s] Installing whisper_medium_node script to /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/asr
+[7.745s] 
+[7.745s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/asr
+[7.745s] running symlink_data
+[7.999s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/asr' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/asr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/asr/build --no-deps symlink_data

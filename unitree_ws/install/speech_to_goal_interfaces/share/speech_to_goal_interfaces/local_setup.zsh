@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_environment_hooks/local_setup.zsh
+/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/ament_cmake_environment_hooks/local_setup.zsh

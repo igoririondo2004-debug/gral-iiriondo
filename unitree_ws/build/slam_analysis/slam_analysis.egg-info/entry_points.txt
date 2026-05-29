@@ -1,0 +1,3 @@
+[console_scripts]
+slam_benchmark = slam_analysis.slam_benchmark:main
+slam_benchmark_hex = slam_analysis.slam_benchmark2:main

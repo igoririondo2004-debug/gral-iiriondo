@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing asr.egg-info/PKG-INFO
+writing dependency_links to asr.egg-info/dependency_links.txt
+writing entry points to asr.egg-info/entry_points.txt
+writing requirements to asr.egg-info/requires.txt
+writing top-level names to asr.egg-info/top_level.txt
+reading manifest file 'asr.egg-info/SOURCES.txt'
+writing manifest file 'asr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/python3.10/site-packages/asr.egg-link (link to .)
+Installing vosk_node script to /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/asr
+Installing whisper_medium_node script to /home/tknika/gral-iiriondo/unitree_ws/install/asr/lib/asr
+
+Installed /home/tknika/gral-iiriondo/unitree_ws/build/asr
+running symlink_data

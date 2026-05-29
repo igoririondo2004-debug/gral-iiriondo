@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig.cmake
+/home/tknika/gral-iiriondo/unitree_ws/build/aruco_markers_msgs/ament_cmake_core/aruco_markers_msgsConfig.cmake

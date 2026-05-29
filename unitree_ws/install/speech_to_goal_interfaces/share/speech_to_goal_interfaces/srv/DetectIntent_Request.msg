@@ -1,1 +1,1 @@
-/home/tknika/gral-iiriondo-main/unitree_ws/build/speech_to_goal_interfaces/rosidl_cmake/srv/DetectIntent_Request.msg
+/home/tknika/gral-iiriondo/unitree_ws/build/speech_to_goal_interfaces/rosidl_cmake/srv/DetectIntent_Request.msg
