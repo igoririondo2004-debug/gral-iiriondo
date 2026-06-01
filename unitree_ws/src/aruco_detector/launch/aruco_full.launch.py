@@ -34,6 +34,15 @@ def generate_launch_description():
             executable='aruco_mapper_node',
             name='aruco_mapper_node',
             output='screen'
-        )
+        ),
+
+    
+        # COMPLEMENTARY NODES
+        Node(
+            package='mapping_configuration',
+            executable='mapping_publishers',
+            name='mapping_publishers',
+            output='screen'
+        ),
 
     ])
