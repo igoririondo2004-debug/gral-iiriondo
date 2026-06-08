@@ -1,0 +1,19 @@
+[3.835s] Invoking command in '/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/build --no-deps symlink_data
+[4.174s] /home/tknika/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[4.175s]   warnings.warn(msg)
+[4.502s] running develop
+[4.894s] running egg_info
+[4.925s] writing mapping_configuration.egg-info/PKG-INFO
+[4.926s] writing dependency_links to mapping_configuration.egg-info/dependency_links.txt
+[4.927s] writing entry points to mapping_configuration.egg-info/entry_points.txt
+[4.928s] writing requirements to mapping_configuration.egg-info/requires.txt
+[4.928s] writing top-level names to mapping_configuration.egg-info/top_level.txt
+[4.995s] reading manifest file 'mapping_configuration.egg-info/SOURCES.txt'
+[4.998s] writing manifest file 'mapping_configuration.egg-info/SOURCES.txt'
+[5.032s] running build_ext
+[5.032s] Creating /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/python3.10/site-packages/mapping-configuration.egg-link (link to .)
+[5.034s] Installing mapping_publishers script to /home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/mapping_configuration
+[5.035s] 
+[5.035s] Installed /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration
+[5.035s] running symlink_data
+[5.182s] Invoked command in '/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration' returned '0': PYTHONPATH=/home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tknika/gral-iiriondo/unitree_ws/install/mapping_configuration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tknika/gral-iiriondo/unitree_ws/build/mapping_configuration/build --no-deps symlink_data

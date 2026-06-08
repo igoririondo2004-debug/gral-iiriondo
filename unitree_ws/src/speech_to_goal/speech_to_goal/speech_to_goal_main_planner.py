@@ -89,10 +89,10 @@ class SpeechToGoalClient(Node):
             '/speech_to_goal/detect_intent'
         )
 
-        self.object_cli = self.create_client(
-            DetectObject,
-            '/object_recognition/detect_object'
-        )
+        # self.object_cli = self.create_client(
+        #     DetectObject,
+        #     '/object_recognition/detect_object'
+        # )
 
         # wait for services
         while not self.cli.wait_for_service(timeout_sec=1.0):
@@ -101,8 +101,8 @@ class SpeechToGoalClient(Node):
         while not self.intent_cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Esperando intent service...')
 
-        while not self.object_cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Esperando object service...')
+        # while not self.object_cli.wait_for_service(timeout_sec=1.0):
+        #     self.get_logger().info('Esperando object service...')
 
 
         self.load_maps()
@@ -183,7 +183,9 @@ class SpeechToGoalClient(Node):
             return
 
         if intent == "recognition":
-            self.handle_recognition(original_text)
+            # self.handle_recognition(original_text)
+            self.busy = False # Recognition disabled
+
             return
 
         if intent == "navigation":
